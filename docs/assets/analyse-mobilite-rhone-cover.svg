@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-labelledby="title desc">
+  <title id="title">Analyse Mobilité Rhône</title>
+  <desc id="desc">Stylised map cover for a mobility analytics project around the Rhone and Lyon.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8fbfc"/>
+      <stop offset="1" stop-color="#eef6f7"/>
+    </linearGradient>
+    <linearGradient id="flow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#20256f"/>
+      <stop offset="1" stop-color="#35c7d3"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#10203a" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+  <rect width="1280" height="420" fill="url(#bg)"/>
+  <g opacity="0.5" stroke="#c8d7dc" stroke-width="2" fill="none">
+    <path d="M26 90 C190 40, 319 129, 469 82 S750 59, 888 111 S1136 96, 1244 54"/>
+    <path d="M42 311 C174 262, 293 321, 438 267 S706 246, 856 292 S1086 294, 1242 234"/>
+    <path d="M78 188 C218 151, 346 210, 510 176 S794 151, 960 197 S1150 174, 1242 145"/>
+    <path d="M174 24 L212 398"/>
+    <path d="M381 18 L348 409"/>
+    <path d="M618 10 L650 409"/>
+    <path d="M890 22 L846 408"/>
+    <path d="M1114 18 L1146 408"/>
+  </g>
+  <g transform="translate(724 34)" filter="url(#shadow)">
+    <rect x="0" y="0" width="480" height="332" rx="20" fill="#ffffff"/>
+    <path d="M42 230 C82 122, 121 104, 169 116 C207 126, 218 84, 260 79 C316 73, 334 142, 381 137 C422 133, 438 91, 454 61" fill="none" stroke="#35c7d3" stroke-width="20" stroke-linecap="round" opacity="0.24"/>
+    <path d="M42 230 C82 122, 121 104, 169 116 C207 126, 218 84, 260 79 C316 73, 334 142, 381 137 C422 133, 438 91, 454 61" fill="none" stroke="url(#flow)" stroke-width="8" stroke-linecap="round"/>
+    <g fill="#35c7d3" stroke="#ffffff" stroke-width="5">
+      <circle cx="42" cy="230" r="15"/>
+      <circle cx="169" cy="116" r="18"/>
+      <circle cx="260" cy="79" r="14"/>
+      <circle cx="381" cy="137" r="20"/>
+      <circle cx="454" cy="61" r="13"/>
+    </g>
+    <g fill="#20256f" font-family="Segoe UI, Arial, sans-serif" font-weight="700" font-size="18">
+      <text x="70" y="237">Lyon</text>
+      <text x="194" y="121">Villeurbanne</text>
+      <text x="281" y="84">Bron</text>
+      <text x="260" y="171">Saint-Priest</text>
+    </g>
+    <g transform="translate(42 266)">
+      <rect width="400" height="34" rx="17" fill="#eff8f9"/>
+      <rect width="246" height="34" rx="17" fill="#35c7d3"/>
+      <text x="18" y="23" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">zones fortes de demande</text>
+      <text x="270" y="23" fill="#20256f" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">janvier - mars 2026</text>
+    </g>
+  </g>
+  <g transform="translate(76 72)">
+    <text x="0" y="0" fill="#20256f" font-family="Segoe UI, Arial, sans-serif" font-size="50" font-weight="800">Analyse Mobilité</text>
+    <text x="430" y="0" fill="#35c7d3" font-family="Segoe UI, Arial, sans-serif" font-size="50" font-weight="800">Rhône</text>
+    <text x="0" y="48" fill="#4d5a62" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="600">Open data mobility analytics for territorial decisions</text>
+    <g transform="translate(0 92)" font-family="Segoe UI, Arial, sans-serif">
+      <rect x="0" y="0" width="166" height="40" rx="20" fill="#ffffff"/>
+      <text x="22" y="26" fill="#20256f" font-size="16" font-weight="700">Power BI</text>
+      <rect x="180" y="0" width="145" height="40" rx="20" fill="#ffffff"/>
+      <text x="202" y="26" fill="#20256f" font-size="16" font-weight="700">Python</text>
+      <rect x="340" y="0" width="170" height="40" rx="20" fill="#ffffff"/>
+      <text x="362" y="26" fill="#20256f" font-size="16" font-weight="700">Open Data</text>
+    </g>
+    <g transform="translate(0 184)">
+      <rect x="0" y="0" width="540" height="86" rx="18" fill="#ffffff" filter="url(#shadow)"/>
+      <rect x="0" y="0" width="10" height="86" rx="5" fill="#35c7d3"/>
+      <text x="32" y="33" fill="#20256f" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="800">Demande temporelle + analyse geographique</text>
+      <text x="32" y="62" fill="#5d6a73" font-family="Segoe UI, Arial, sans-serif" font-size="17">Covoiturage, comptages, meteo, chantiers et tarifs publics 2026</text>
+    </g>
+  </g>
+</svg>

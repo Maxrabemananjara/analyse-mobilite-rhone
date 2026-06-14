@@ -1,0 +1,5 @@
+tarif;periode;condition_retour;prix_km_eur;prise_en_charge_eur;course_minimum_eur;attente_marche_lente_eur_h
+A;Jour 7h-19h;Aller et retour avec un client;1.00;3.10;8.00;41.30
+B;Nuit 19h-7h / dimanches / jours feries / routes enneigees;Aller et retour avec un client;1.50;3.10;8.00;41.30
+C;Jour 7h-19h;Aller avec un client et retour a vide;2.00;3.10;8.00;41.30
+D;Nuit 19h-7h / dimanches / jours feries / routes enneigees;Aller avec un client et retour a vide;3.00;3.10;8.00;41.30

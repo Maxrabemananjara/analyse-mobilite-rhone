@@ -1,0 +1,431 @@
+{
+  "tables": {
+    "dim_date.csv": {
+      "rows": 90,
+      "columns": 15,
+      "fields": [
+        "date_id",
+        "date",
+        "annee",
+        "trimestre",
+        "mois_numero",
+        "mois_libelle",
+        "jour_mois",
+        "jour_semaine_id",
+        "jour_semaine_libelle",
+        "ordre_jour",
+        "weekend_flag",
+        "semaine_mois_numero",
+        "semaine_mois_libelle",
+        "mois_semaine_libelle",
+        "mois_semaine_ordre"
+      ]
+    },
+    "dim_date_depart.csv": {
+      "rows": 90,
+      "columns": 11,
+      "fields": [
+        "date_depart_id",
+        "date",
+        "annee",
+        "trimestre",
+        "mois_numero",
+        "mois_libelle",
+        "jour_mois",
+        "jour_semaine_id",
+        "jour_semaine_libelle",
+        "ordre_jour",
+        "weekend_flag"
+      ]
+    },
+    "dim_date_arrivee.csv": {
+      "rows": 91,
+      "columns": 11,
+      "fields": [
+        "date_arrivee_id",
+        "date",
+        "annee",
+        "trimestre",
+        "mois_numero",
+        "mois_libelle",
+        "jour_mois",
+        "jour_semaine_id",
+        "jour_semaine_libelle",
+        "ordre_jour",
+        "weekend_flag"
+      ]
+    },
+    "dim_jour_semaine.csv": {
+      "rows": 7,
+      "columns": 3,
+      "fields": [
+        "jour_semaine_id",
+        "jour_semaine_libelle",
+        "ordre_jour"
+      ]
+    },
+    "dim_jour_semaine_depart.csv": {
+      "rows": 7,
+      "columns": 3,
+      "fields": [
+        "jour_semaine_depart_id",
+        "jour_semaine_libelle",
+        "ordre_jour"
+      ]
+    },
+    "dim_jour_semaine_arrivee.csv": {
+      "rows": 7,
+      "columns": 3,
+      "fields": [
+        "jour_semaine_arrivee_id",
+        "jour_semaine_libelle",
+        "ordre_jour"
+      ]
+    },
+    "dim_tranche_horaire.csv": {
+      "rows": 6,
+      "columns": 5,
+      "fields": [
+        "tranche_horaire_id",
+        "tranche_horaire_libelle",
+        "heure_debut",
+        "heure_fin",
+        "ordre_tranche"
+      ]
+    },
+    "dim_tranche_depart.csv": {
+      "rows": 6,
+      "columns": 5,
+      "fields": [
+        "tranche_depart_id",
+        "tranche_horaire_libelle",
+        "heure_debut",
+        "heure_fin",
+        "ordre_tranche"
+      ]
+    },
+    "dim_tranche_arrivee.csv": {
+      "rows": 6,
+      "columns": 5,
+      "fields": [
+        "tranche_arrivee_id",
+        "tranche_horaire_libelle",
+        "heure_debut",
+        "heure_fin",
+        "ordre_tranche"
+      ]
+    },
+    "dim_commune.csv": {
+      "rows": 385,
+      "columns": 7,
+      "fields": [
+        "commune_id",
+        "code_insee",
+        "commune_nom",
+        "groupe_commune",
+        "departement",
+        "pays",
+        "sources"
+      ]
+    },
+    "dim_commune_depart.csv": {
+      "rows": 385,
+      "columns": 7,
+      "fields": [
+        "commune_depart_id",
+        "code_insee",
+        "commune_nom",
+        "groupe_commune",
+        "departement",
+        "pays",
+        "sources"
+      ]
+    },
+    "dim_commune_arrivee.csv": {
+      "rows": 385,
+      "columns": 7,
+      "fields": [
+        "commune_arrivee_id",
+        "code_insee",
+        "commune_nom",
+        "groupe_commune",
+        "departement",
+        "pays",
+        "sources"
+      ]
+    },
+    "dim_tarif_taxi.csv": {
+      "rows": 4,
+      "columns": 8,
+      "fields": [
+        "tarif_id",
+        "tarif_libelle",
+        "periode",
+        "condition_retour",
+        "prix_km_eur",
+        "prise_en_charge_eur",
+        "course_minimum_eur",
+        "attente_marche_lente_eur_h"
+      ]
+    },
+    "fact_stations_taxi.csv": {
+      "rows": 113,
+      "columns": 20,
+      "fields": [
+        "station_taxi_id",
+        "commune_id",
+        "fid",
+        "gid",
+        "nom",
+        "adresse",
+        "commune",
+        "code_insee",
+        "nb_emplacements",
+        "telephone_flag",
+        "separateur_taxi",
+        "abri_flag",
+        "panneau_flag",
+        "diodes_flag",
+        "totem_flag",
+        "observation",
+        "validite",
+        "longitude",
+        "latitude",
+        "geometrie_wkt"
+      ]
+    },
+    "dim_chantier.csv": {
+      "rows": 94,
+      "columns": 21,
+      "fields": [
+        "chantier_id",
+        "commune_id",
+        "fid",
+        "gid",
+        "nom_voie",
+        "nom_chantier",
+        "commune",
+        "code_insee",
+        "precision_localisation",
+        "debut_chantier",
+        "fin_chantier",
+        "description_internet",
+        "avancement",
+        "importance",
+        "type_perturbation",
+        "intervenant",
+        "validite",
+        "code_importance",
+        "document_joint",
+        "url_document",
+        "geometrie_wkt"
+      ]
+    },
+    "bridge_chantier_date_commune.csv": {
+      "rows": 4095,
+      "columns": 7,
+      "fields": [
+        "chantier_id",
+        "date_id",
+        "commune_id",
+        "chantier_actif_flag",
+        "code_importance",
+        "importance",
+        "type_perturbation"
+      ]
+    },
+    "dim_site_comptage.csv": {
+      "rows": 292,
+      "columns": 12,
+      "fields": [
+        "site_id",
+        "commune_id",
+        "fid",
+        "gid",
+        "parent_site_id",
+        "code_insee",
+        "longitude",
+        "latitude",
+        "external_ids",
+        "infrastructure_type",
+        "geometrie_wkt",
+        "site_name"
+      ]
+    },
+    "dim_channel_comptage.csv": {
+      "rows": 1471,
+      "columns": 19,
+      "fields": [
+        "channel_id",
+        "channel_provider_id",
+        "site_provider_id",
+        "site_id",
+        "mobility_type",
+        "commentaire",
+        "counter_transmission_type",
+        "publication_transmission_type",
+        "counter_type",
+        "direction",
+        "provider_direction_code",
+        "provider_direction_name",
+        "data_provider_name",
+        "temporality",
+        "started_at",
+        "ended_at",
+        "last_updated_at",
+        "time_step",
+        "provider_portal_url"
+      ]
+    },
+    "dim_station_meteo.csv": {
+      "rows": 18,
+      "columns": 6,
+      "fields": [
+        "station_meteo_id",
+        "num_poste",
+        "nom_station",
+        "latitude",
+        "longitude",
+        "altitude_m"
+      ]
+    },
+    "fact_trajets.csv": {
+      "rows": 74795,
+      "columns": 43,
+      "fields": [
+        "trajet_ligne_id",
+        "journey_id",
+        "journey_id_occurrence",
+        "trip_id",
+        "date_depart_id",
+        "date_arrivee_id",
+        "jour_semaine_depart_id",
+        "jour_semaine_arrivee_id",
+        "tranche_depart_id",
+        "tranche_arrivee_id",
+        "commune_depart_id",
+        "commune_arrivee_id",
+        "tarif_id_estime",
+        "date_heure_depart",
+        "date_heure_arrivee_estimee",
+        "date_depart_source",
+        "heure_depart_source",
+        "date_arrivee_source",
+        "heure_arrivee_source",
+        "date_heure_arrivee_source",
+        "longitude_depart",
+        "latitude_depart",
+        "code_insee_depart",
+        "departement_depart",
+        "commune_depart",
+        "groupe_commune_depart",
+        "pays_depart",
+        "longitude_arrivee",
+        "latitude_arrivee",
+        "code_insee_arrivee",
+        "departement_arrivee",
+        "commune_arrivee",
+        "groupe_commune_arrivee",
+        "pays_arrivee",
+        "places_passager",
+        "classe_operateur",
+        "distance_m",
+        "distance_km",
+        "duree_min",
+        "incitation_flag",
+        "incitation_libelle",
+        "revenu_estime_eur",
+        "revenu_estime_scenario"
+      ]
+    },
+    "fact_meteo_jour.csv": {
+      "rows": 1620,
+      "columns": 63,
+      "fields": [
+        "station_meteo_id",
+        "date_id",
+        "date_observation",
+        "num_poste_source",
+        "nom_station",
+        "latitude",
+        "longitude",
+        "altitude_m",
+        "date_source_aaaammjj",
+        "rr",
+        "qrr",
+        "tn",
+        "qtn",
+        "htn",
+        "qhtn",
+        "tx",
+        "qtx",
+        "htx",
+        "qhtx",
+        "tm",
+        "qtm",
+        "tntxm",
+        "qtntxm",
+        "tampli",
+        "qtampli",
+        "tnsol",
+        "qtnsol",
+        "tn50",
+        "qtn50",
+        "dg",
+        "qdg",
+        "ffm",
+        "qffm",
+        "ff2m",
+        "qff2m",
+        "fxy",
+        "qfxy",
+        "dxy",
+        "qdxy",
+        "hxy",
+        "qhxy",
+        "fxi",
+        "qfxi",
+        "dxi",
+        "qdxi",
+        "hxi",
+        "qhxi",
+        "fxi2",
+        "qfxi2",
+        "dxi2",
+        "qdxi2",
+        "hxi2",
+        "qhxi2",
+        "fxi3s",
+        "qfxi3s",
+        "dxi3s",
+        "qdxi3s",
+        "hxi3s",
+        "qhxi3s",
+        "drr",
+        "qdrr",
+        "status_fxi3s",
+        "status_dxi3s"
+      ]
+    },
+    "fact_comptages.csv": {
+      "rows": 1360146,
+      "columns": 9,
+      "fields": [
+        "comptage_ligne_id",
+        "channel_id",
+        "site_id",
+        "counter_id",
+        "date_id",
+        "tranche_horaire_id",
+        "start_datetime",
+        "end_datetime",
+        "count"
+      ]
+    }
+  },
+  "notes": [
+    "RPC: 36 lignes hors periode stricte Janvier-Mars 2026 exclues du modele Power BI, conservees dans le staging.",
+    "Arrivee trajet: journey_end_datetime source est identique au depart dans le RPC filtre; date_heure_arrivee_estimee = depart local + journey_duration."
+  ],
+  "generated_at": "2026-04-25T20:45:46"
+}

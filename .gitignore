@@ -1,0 +1,26 @@
+# Power BI Desktop files are kept locally and exported as visuals for publication.
+*.pbix
+*.pbit
+*.pbip/
+
+# Local Power BI caches / temporary files.
+*.tmp
+~$*
+
+# Python caches and virtual environments.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local secrets and environment files.
+.env
+*.key
+*.pem
+
+# OS / editor files.
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+

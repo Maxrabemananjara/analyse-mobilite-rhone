@@ -1,0 +1,6647 @@
+{
+  "profiles": [
+    {
+      "name": "rpc_trajets_covoiturage_lyon",
+      "rows": 74831,
+      "columns": 27,
+      "fields": [
+        "journey_id",
+        "trip_id",
+        "journey_start_datetime",
+        "journey_start_date",
+        "journey_start_time",
+        "journey_start_lon",
+        "journey_start_lat",
+        "journey_start_insee",
+        "journey_start_department",
+        "journey_start_town",
+        "journey_start_towngroup",
+        "journey_start_country",
+        "journey_end_datetime",
+        "journey_end_date",
+        "journey_end_time",
+        "journey_end_lon",
+        "journey_end_lat",
+        "journey_end_insee",
+        "journey_end_department",
+        "journey_end_town",
+        "journey_end_towngroup",
+        "journey_end_country",
+        "passenger_seats",
+        "operator_class",
+        "journey_distance",
+        "journey_duration",
+        "has_incentive"
+      ],
+      "duplicate_exact_rows": 0,
+      "duplicate_keys": {
+        "journey_spatio_temporal_without_ids": 6525,
+        "journey_id": 5
+      },
+      "invalid_counts": {},
+      "notes": [
+        "Filtre applique: depart ou arrivee dans 'Métropole de Lyon'.",
+        "Fichier filtre ecrit: C:/Users/Utilisateur/Documents/New project/data/processed/rpc_trajets_covoiturage_metropole_lyon_2026_01_03.csv."
+      ],
+      "columns_profile": [
+        {
+          "field": "journey_id",
+          "description": "Identifiant unique du trajet passager-conducteur dans le registre.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "62675893",
+            "62675894",
+            "62675896"
+          ],
+          "distinct_sample": [
+            "62675805",
+            "62675893",
+            "62675894",
+            "62675896",
+            "62675923",
+            "62675930",
+            "62675942",
+            "62676218",
+            "62676259",
+            "62676261",
+            "62676305",
+            "62677036",
+            "62677400",
+            "62677567",
+            "62677711",
+            "62678084",
+            "62678121",
+            "62678129",
+            "62682760",
+            "62682763"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "trip_id",
+          "description": "Identifiant operateur permettant de regrouper plusieurs passagers dans un meme vehicule.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "72bfd586539a5e08af93a1212da9adbef5a85a9880888dd6b1537377466a6ee9",
+            "65f8ac16e9aa9b5170b5b2da68d20c49c8ff09cab3445bd171cbd55fbb7100bc",
+            "be2eb7a8baccc6e6c0e209e78d8db3c6ce6f47d80a7c9dd3f2d95d3147b14127"
+          ],
+          "distinct_sample": [
+            "23889a4baed908afbe753669384edb5876ead600e3b5cb8e169b3a43ff17284a",
+            "29f4e41901866e7ab99ac8b3562348ecbec8ace62de61cca2933626b6bcce55b",
+            "2bb5f217ddd28b3bf9126d92117382d35461920df40a1963cf3866e4a489afd2",
+            "2ee46d236cb44abecb2188c2cc29587b70038719e7bde99359f60f9a1fb2346d",
+            "43482e3f0fcf82d0c75f75a5fe622230389cee02c1c711cda93b47d26b1a85d7",
+            "65f8ac16e9aa9b5170b5b2da68d20c49c8ff09cab3445bd171cbd55fbb7100bc",
+            "69e62ae673f2663cc5e10b468c6c97e9c14e14ade89888997a268c9f0684f84c",
+            "72bfd586539a5e08af93a1212da9adbef5a85a9880888dd6b1537377466a6ee9",
+            "9b92e7ed043081873fb8f292bb38ecd6dcb6354b118d3002fcfde3884c0251d4",
+            "9dacba532cfbd289dc462aacd8579f9c432a11b1c78cd97c50a1e1e23f25b139",
+            "9db681eeb39bcf38293fc1e5ece9be5bc87299b9647e2589879ebabebd178608",
+            "9df3857b864a86f7dba757bda4b51100ae8ecac2e5c6b00be2aa7686b116e59b",
+            "a7546f24ef7f75bd62fa9794bda8f87d273f19c080e9101076b53e1d462e4974",
+            "b54d4b3267cc70440cea266d8da1b8c811e976e051b538c6b26681056f2c3ca6",
+            "be2eb7a8baccc6e6c0e209e78d8db3c6ce6f47d80a7c9dd3f2d95d3147b14127",
+            "cccb5b6636ef9f69fc797cbc955618c1fa99aab79b6de32955b57e76f2516643",
+            "d02df6648108614a08a2bcd7eab32c4101abebca6c6866aa6137ed1465dbdfbb",
+            "d3afe0f0fb5b9e673ca76a02f0a5d7831a98572269a1f27d9b1d5fbb4e4a375d",
+            "ed8e859773c758ffe4d0fdd0a54c83550a231945f8ab1860413a29cd8e50d91d",
+            "f0cab00572b943135f3c60ce54c52155d7d4f9c28e7615621130146269a6dd8b"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "journey_start_datetime",
+          "description": "Date et heure de depart avec fuseau horaire Paris.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "2026-01-01T02:10:00+0100",
+            "2026-01-01T02:40:00+0100",
+            "2026-01-01T02:50:00+0100"
+          ],
+          "distinct_sample": [
+            "2026-01-01T02:10:00+0100",
+            "2026-01-01T02:40:00+0100",
+            "2026-01-01T02:50:00+0100",
+            "2026-01-01T03:00:00+0100",
+            "2026-01-01T03:20:00+0100",
+            "2026-01-01T04:50:00+0100",
+            "2026-01-01T06:10:00+0100",
+            "2026-01-01T06:50:00+0100",
+            "2026-01-01T09:30:00+0100",
+            "2026-01-01T09:50:00+0100",
+            "2026-01-01T10:00:00+0100",
+            "2026-01-01T11:20:00+0100",
+            "2026-01-01T12:00:00+0100",
+            "2026-01-01T12:30:00+0100",
+            "2026-01-01T12:40:00+0100",
+            "2026-01-01T12:50:00+0100",
+            "2026-01-01T13:00:00+0100",
+            "2026-01-01T13:30:00+0100",
+            "2026-01-01T13:50:00+0100",
+            "2026-01-01T14:10:00+0100"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "journey_start_date",
+          "description": "Date de depart au format AAAA-MM-JJ.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "2026-01-01",
+            "2026-01-02",
+            "2026-01-03"
+          ],
+          "distinct_sample": [
+            "2026-01-01",
+            "2026-01-02",
+            "2026-01-03",
+            "2026-01-04",
+            "2026-01-05",
+            "2026-01-06",
+            "2026-01-07",
+            "2026-01-08",
+            "2026-01-09",
+            "2026-01-10",
+            "2026-01-11",
+            "2026-01-12",
+            "2026-01-13",
+            "2026-01-14",
+            "2026-01-15",
+            "2026-01-16",
+            "2026-01-17",
+            "2026-01-18",
+            "2026-01-19",
+            "2026-01-20"
+          ],
+          "min_max": {
+            "min": "2026-01-01",
+            "max": "2026-04-01"
+          }
+        },
+        {
+          "field": "journey_start_time",
+          "description": "Heure de depart arrondie, au format HH:MM:SS.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "01:10:00",
+            "01:40:00",
+            "01:50:00"
+          ],
+          "distinct_sample": [
+            "01:10:00",
+            "01:40:00",
+            "01:50:00",
+            "02:00:00",
+            "02:20:00",
+            "03:50:00",
+            "05:10:00",
+            "05:50:00",
+            "08:30:00",
+            "08:50:00",
+            "09:00:00",
+            "10:20:00",
+            "11:00:00",
+            "11:30:00",
+            "11:40:00",
+            "11:50:00",
+            "12:00:00",
+            "12:30:00",
+            "12:50:00",
+            "13:10:00"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "journey_start_lon",
+          "description": "Longitude WGS84 du point de prise en charge, arrondie au niveau source.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "4.935",
+            "4.966",
+            "4.928"
+          ],
+          "distinct_sample": [
+            "4.700",
+            "4.706",
+            "4.774",
+            "4.794",
+            "4.820",
+            "4.871",
+            "4.873",
+            "4.879",
+            "4.900",
+            "4.913",
+            "4.920",
+            "4.923",
+            "4.928",
+            "4.934",
+            "4.935",
+            "4.951",
+            "4.966",
+            "4.990",
+            "5.010",
+            "5.120"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "journey_start_lat",
+          "description": "Latitude WGS84 du point de prise en charge, arrondie au niveau source.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "45.688",
+            "45.775",
+            "45.785"
+          ],
+          "distinct_sample": [
+            "45.524",
+            "45.571",
+            "45.688",
+            "45.689",
+            "45.696",
+            "45.709",
+            "45.715",
+            "45.720",
+            "45.736",
+            "45.738",
+            "45.751",
+            "45.754",
+            "45.755",
+            "45.763",
+            "45.766",
+            "45.768",
+            "45.775",
+            "45.785",
+            "45.834",
+            "45.908"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "journey_start_insee",
+          "description": "Code INSEE de la commune ou arrondissement de depart.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "69290",
+            "69275",
+            "69256"
+          ],
+          "distinct_sample": [
+            "01043",
+            "38190",
+            "38197",
+            "38276",
+            "38544",
+            "69029",
+            "69092",
+            "69100",
+            "69122",
+            "69149",
+            "69202",
+            "69244",
+            "69256",
+            "69259",
+            "69266",
+            "69271",
+            "69275",
+            "69282",
+            "69290",
+            "69383"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "journey_start_department",
+          "description": "Departement du point de depart.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "69",
+            "38",
+            "01"
+          ],
+          "distinct_sample": [
+            "01",
+            "07",
+            "24",
+            "26",
+            "38",
+            "39",
+            "42",
+            "69",
+            "71",
+            "73",
+            "74"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "journey_start_town",
+          "description": "Commune ou arrondissement de depart.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "Saint-Priest",
+            "Décines-Charpieu",
+            "Vaulx-en-Velin"
+          ],
+          "distinct_sample": [
+            "Beynost",
+            "Bron",
+            "Chassieu",
+            "Décines-Charpieu",
+            "Gleizé",
+            "Hières-sur-Amby",
+            "Irigny",
+            "Janneyrias",
+            "Lucenay",
+            "Lyon 3e Arrondissement",
+            "Lyon 7e Arrondissement",
+            "Meyzieu",
+            "Nivolas-Vermelle",
+            "Oullins-Pierre-Bénite",
+            "Saint-Priest",
+            "Sainte-Foy-lès-Lyon",
+            "Tassin-la-Demi-Lune",
+            "Vaulx-en-Velin",
+            "Vienne",
+            "Villeurbanne"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "journey_start_towngroup",
+          "description": "EPCI/AOM du point de depart.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "Métropole de Lyon",
+            "Communauté de communes Beaujolais Pierres Dorées",
+            "Communauté d'agglomération Vienne Condrieu"
+          ],
+          "distinct_sample": [
+            "Communauté d'agglomération Porte de l'Isère (CAPI)",
+            "Communauté d'agglomération Vienne Condrieu",
+            "Communauté d'agglomération Villefranche Beaujolais Saône",
+            "Communauté d'agglomération de l'Ouest Rhodanien",
+            "Communauté de communes Beaujolais Pierres Dorées",
+            "Communauté de communes Collines Isère Nord Communauté",
+            "Communauté de communes Dombes Saône Vallée",
+            "Communauté de communes Les Balcons du Dauphiné",
+            "Communauté de communes Lyon Saint Exupéry en Dauphiné",
+            "Communauté de communes Porte de DrômArdèche",
+            "Communauté de communes de Miribel et du Plateau",
+            "Communauté de communes de l'Est Lyonnais (CCEL)",
+            "Communauté de communes de la Côtière à Montluel",
+            "Communauté de communes de la Plaine de l'Ain",
+            "Communauté de communes de la Vallée du Garon (CCVG)",
+            "Communauté de communes des Vallons du Lyonnais (CCVL)",
+            "Communauté de communes du Pays de l'Arbresle (CCPA)",
+            "Communauté de communes du Pays de l'Ozon",
+            "Grenoble-Alpes-Métropole",
+            "Métropole de Lyon"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "journey_start_country",
+          "description": "Pays du point de depart.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "France"
+          ],
+          "distinct_sample": [
+            "France"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "journey_end_datetime",
+          "description": "Date et heure d'arrivee avec fuseau horaire Paris.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "2026-01-01T02:10:00+0100",
+            "2026-01-01T02:40:00+0100",
+            "2026-01-01T02:50:00+0100"
+          ],
+          "distinct_sample": [
+            "2026-01-01T02:10:00+0100",
+            "2026-01-01T02:40:00+0100",
+            "2026-01-01T02:50:00+0100",
+            "2026-01-01T03:00:00+0100",
+            "2026-01-01T03:20:00+0100",
+            "2026-01-01T04:50:00+0100",
+            "2026-01-01T06:10:00+0100",
+            "2026-01-01T06:50:00+0100",
+            "2026-01-01T09:30:00+0100",
+            "2026-01-01T09:50:00+0100",
+            "2026-01-01T10:00:00+0100",
+            "2026-01-01T11:20:00+0100",
+            "2026-01-01T12:00:00+0100",
+            "2026-01-01T12:30:00+0100",
+            "2026-01-01T12:40:00+0100",
+            "2026-01-01T12:50:00+0100",
+            "2026-01-01T13:00:00+0100",
+            "2026-01-01T13:30:00+0100",
+            "2026-01-01T13:50:00+0100",
+            "2026-01-01T14:10:00+0100"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "journey_end_date",
+          "description": "Date d'arrivee au format AAAA-MM-JJ.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "2026-01-01",
+            "2026-01-02",
+            "2026-01-03"
+          ],
+          "distinct_sample": [
+            "2026-01-01",
+            "2026-01-02",
+            "2026-01-03",
+            "2026-01-04",
+            "2026-01-05",
+            "2026-01-06",
+            "2026-01-07",
+            "2026-01-08",
+            "2026-01-09",
+            "2026-01-10",
+            "2026-01-11",
+            "2026-01-12",
+            "2026-01-13",
+            "2026-01-14",
+            "2026-01-15",
+            "2026-01-16",
+            "2026-01-17",
+            "2026-01-18",
+            "2026-01-19",
+            "2026-01-20"
+          ],
+          "min_max": {
+            "min": "2026-01-01",
+            "max": "2026-04-01"
+          }
+        },
+        {
+          "field": "journey_end_time",
+          "description": "Heure d'arrivee arrondie, au format HH:MM:SS.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "01:30:00",
+            "02:00:00",
+            "02:20:00"
+          ],
+          "distinct_sample": [
+            "01:30:00",
+            "02:00:00",
+            "02:20:00",
+            "03:00:00",
+            "04:00:00",
+            "05:40:00",
+            "06:30:00",
+            "09:00:00",
+            "09:10:00",
+            "09:20:00",
+            "10:40:00",
+            "11:20:00",
+            "11:50:00",
+            "12:10:00",
+            "12:20:00",
+            "12:50:00",
+            "13:10:00",
+            "13:40:00",
+            "14:00:00",
+            "14:20:00"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "journey_end_lon",
+          "description": "Longitude WGS84 du point de depose, arrondie au niveau source.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "4.970",
+            "4.900",
+            "4.677"
+          ],
+          "distinct_sample": [
+            "4.677",
+            "4.706",
+            "4.731",
+            "4.771",
+            "4.775",
+            "4.805",
+            "4.831",
+            "4.843",
+            "4.861",
+            "4.862",
+            "4.872",
+            "4.879",
+            "4.900",
+            "4.934",
+            "4.935",
+            "4.957",
+            "4.970",
+            "4.977",
+            "4.979",
+            "4.991"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "journey_end_lat",
+          "description": "Latitude WGS84 du point de depose, arrondie au niveau source.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "45.775",
+            "45.702",
+            "45.699"
+          ],
+          "distinct_sample": [
+            "45.541",
+            "45.587",
+            "45.666",
+            "45.693",
+            "45.696",
+            "45.697",
+            "45.698",
+            "45.699",
+            "45.702",
+            "45.726",
+            "45.732",
+            "45.743",
+            "45.750",
+            "45.756",
+            "45.759",
+            "45.763",
+            "45.775",
+            "45.777",
+            "45.835",
+            "45.841"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "journey_end_insee",
+          "description": "Code INSEE de la commune ou arrondissement d'arrivee.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "69275",
+            "69290",
+            "69131"
+          ],
+          "distinct_sample": [
+            "01047",
+            "38110",
+            "38160",
+            "38557",
+            "69034",
+            "69080",
+            "69116",
+            "69127",
+            "69131",
+            "69163",
+            "69256",
+            "69259",
+            "69266",
+            "69275",
+            "69276",
+            "69277",
+            "69290",
+            "69382",
+            "69383",
+            "69388"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "journey_end_department",
+          "description": "Departement du point d'arrivee.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "69",
+            "38",
+            "01"
+          ],
+          "distinct_sample": [
+            "01",
+            "07",
+            "26",
+            "38",
+            "42",
+            "43",
+            "69",
+            "71",
+            "73",
+            "74"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "journey_end_town",
+          "description": "Commune ou arrondissement d'arrivee.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "Décines-Charpieu",
+            "Saint-Priest",
+            "Messimy"
+          ],
+          "distinct_sample": [
+            "Blyes",
+            "Caluire-et-Cuire",
+            "Chuzelles",
+            "Décines-Charpieu",
+            "Eyzin-Pinet",
+            "Feyzin",
+            "Genas",
+            "Limonest",
+            "Lyon 2e Arrondissement",
+            "Lyon 3e Arrondissement",
+            "Lyon 8e Arrondissement",
+            "Lyon 9e Arrondissement",
+            "Marcy-l'Étoile",
+            "Messimy",
+            "Quincieux",
+            "Saint-Priest",
+            "Vaulx-en-Velin",
+            "Villette-d'Anthon",
+            "Villeurbanne",
+            "Vénissieux"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "journey_end_towngroup",
+          "description": "EPCI/AOM du point d'arrivee.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "Métropole de Lyon",
+            "Communauté de communes des Vallons du Lyonnais (CCVL)",
+            "Communauté d'agglomération Vienne Condrieu"
+          ],
+          "distinct_sample": [
+            "Communauté d'agglomération Arche Agglo",
+            "Communauté d'agglomération Porte de l'Isère (CAPI)",
+            "Communauté d'agglomération Vienne Condrieu",
+            "Communauté d'agglomération Villefranche Beaujolais Saône",
+            "Communauté d'agglomération de l'Ouest Rhodanien",
+            "Communauté de communes Beaujolais Pierres Dorées",
+            "Communauté de communes Collines Isère Nord Communauté",
+            "Communauté de communes Dombes Saône Vallée",
+            "Communauté de communes Les Balcons du Dauphiné",
+            "Communauté de communes Lyon Saint Exupéry en Dauphiné",
+            "Communauté de communes Porte de DrômArdèche",
+            "Communauté de communes de Miribel et du Plateau",
+            "Communauté de communes de l'Est Lyonnais (CCEL)",
+            "Communauté de communes de la Côtière à Montluel",
+            "Communauté de communes de la Plaine de l'Ain",
+            "Communauté de communes de la Vallée du Garon (CCVG)",
+            "Communauté de communes des Vallons du Lyonnais (CCVL)",
+            "Communauté de communes du Pays de l'Arbresle (CCPA)",
+            "Communauté de communes du Pays de l'Ozon",
+            "Métropole de Lyon"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "journey_end_country",
+          "description": "Pays du point d'arrivee.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "France"
+          ],
+          "distinct_sample": [
+            "France"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "passenger_seats",
+          "description": "Nombre de places reservees par le passager.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "1"
+          ],
+          "distinct_sample": [
+            "1"
+          ],
+          "min_max": {
+            "min": 1,
+            "max": 1
+          }
+        },
+        {
+          "field": "operator_class",
+          "description": "Classe de preuve de covoiturage.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "C",
+            "A",
+            "B"
+          ],
+          "distinct_sample": [
+            "A",
+            "B",
+            "C"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "journey_distance",
+          "description": "Distance declaree par l'operateur, en metres.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "14657",
+            "14659",
+            "16976"
+          ],
+          "distinct_sample": [
+            "10503",
+            "10509",
+            "11180",
+            "11425",
+            "14657",
+            "14659",
+            "14946",
+            "15120",
+            "16976",
+            "23881",
+            "27462",
+            "27976",
+            "29901",
+            "30904",
+            "31512",
+            "36998",
+            "43384",
+            "5888",
+            "7415",
+            "8309"
+          ],
+          "min_max": {
+            "min": 1730,
+            "max": 398823
+          }
+        },
+        {
+          "field": "journey_duration",
+          "description": "Duree declaree par l'operateur, arrondie en minutes.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "14",
+            "19",
+            "30"
+          ],
+          "distinct_sample": [
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "16",
+            "17",
+            "18",
+            "19",
+            "21",
+            "22",
+            "23",
+            "26",
+            "28",
+            "30",
+            "32",
+            "33",
+            "36",
+            "40",
+            "7"
+          ],
+          "min_max": {
+            "min": 2,
+            "max": 276
+          }
+        },
+        {
+          "field": "has_incentive",
+          "description": "Indique si le trajet est incite par une campagne ou un operateur.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "NON"
+          ],
+          "distinct_sample": [
+            "NON"
+          ],
+          "min_max": null
+        }
+      ]
+    },
+    {
+      "name": "stations_taxi",
+      "rows": 113,
+      "columns": 16,
+      "fields": [
+        "FID",
+        "nom",
+        "adresse",
+        "commune",
+        "insee",
+        "nbemplacement",
+        "telephone",
+        "separateurtaxi",
+        "abri",
+        "panneau",
+        "diodes",
+        "totem",
+        "observation",
+        "validite",
+        "gid",
+        "the_geom"
+      ],
+      "duplicate_exact_rows": 0,
+      "duplicate_keys": {},
+      "invalid_counts": {},
+      "notes": [],
+      "columns_profile": [
+        {
+          "field": "FID",
+          "description": "Identifiant technique WFS.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "pvo_patrimoine_voirie.pvostationtaxi.4028",
+            "pvo_patrimoine_voirie.pvostationtaxi.4045",
+            "pvo_patrimoine_voirie.pvostationtaxi.4009"
+          ],
+          "distinct_sample": [
+            "pvo_patrimoine_voirie.pvostationtaxi.1283",
+            "pvo_patrimoine_voirie.pvostationtaxi.1292",
+            "pvo_patrimoine_voirie.pvostationtaxi.1617",
+            "pvo_patrimoine_voirie.pvostationtaxi.326",
+            "pvo_patrimoine_voirie.pvostationtaxi.333",
+            "pvo_patrimoine_voirie.pvostationtaxi.334",
+            "pvo_patrimoine_voirie.pvostationtaxi.356",
+            "pvo_patrimoine_voirie.pvostationtaxi.4008",
+            "pvo_patrimoine_voirie.pvostationtaxi.4009",
+            "pvo_patrimoine_voirie.pvostationtaxi.4017",
+            "pvo_patrimoine_voirie.pvostationtaxi.4018",
+            "pvo_patrimoine_voirie.pvostationtaxi.4019",
+            "pvo_patrimoine_voirie.pvostationtaxi.4028",
+            "pvo_patrimoine_voirie.pvostationtaxi.4034",
+            "pvo_patrimoine_voirie.pvostationtaxi.4035",
+            "pvo_patrimoine_voirie.pvostationtaxi.4037",
+            "pvo_patrimoine_voirie.pvostationtaxi.4045",
+            "pvo_patrimoine_voirie.pvostationtaxi.961",
+            "pvo_patrimoine_voirie.pvostationtaxi.966",
+            "pvo_patrimoine_voirie.pvostationtaxi.972"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "nom",
+          "description": "Code ou nom court de la station taxi.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "TAXGIV01",
+            "TAXFL01",
+            "TAXCHR01"
+          ],
+          "distinct_sample": [
+            "TAX201",
+            "TAX205",
+            "TAX305",
+            "TAX401",
+            "TAX600",
+            "TAX601",
+            "TAX704",
+            "TAX708",
+            "TAXBRO06",
+            "TAXCAL01",
+            "TAXCHA01",
+            "TAXCHP01",
+            "TAXCHP02",
+            "TAXCHR01",
+            "TAXDAR01",
+            "TAXFL01",
+            "TAXFSS01",
+            "TAXGIV01",
+            "TAXOUL02",
+            "TAXVAU01"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "adresse",
+          "description": "Adresse de la station.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "14, Quai Robichon-Malgontier",
+            "7, Avenue Maréchal Foch",
+            "Promenade de la Gare"
+          ],
+          "distinct_sample": [
+            "1, Avenue Général Leclerc",
+            "1, Rue Pierre Cardon",
+            "14, Quai Robichon-Malgontier",
+            "159, Boulevard de la Croix-Rousse",
+            "20, Quai Docteur Gailleton",
+            "256, Rue Marcel Mérieux",
+            "26, Place Bellecour",
+            "260, Avenue Jean Monnet",
+            "50, Quai Charles de Gaulle",
+            "7, Avenue Maréchal Foch",
+            "99 Av lanessan",
+            "Eurexpo",
+            "Face 33, Rue Emile Zola",
+            "Face 35b, Chemin du Coulouvrier",
+            "Gare de la Part-Dieu",
+            "Place Emir Abd El Kader",
+            "Place Jules Ferry",
+            "Place de L'église",
+            "Place de la Porte de Lyon",
+            "Promenade de la Gare"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "commune",
+          "description": "Commune de localisation.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "Givors",
+            "Sainte-Foy-lès-Lyon",
+            "Charbonnières-les-Bains"
+          ],
+          "distinct_sample": [
+            "Bron",
+            "Caluire-et-Cuire",
+            "Champagne-au-Mont-d'Or",
+            "Charbonnières-les-Bains",
+            "Chassieu",
+            "Corbas",
+            "Dardilly",
+            "Fontaines-sur-Saône",
+            "Givors",
+            "Lyon 2e Arrondissement",
+            "Lyon 3e Arrondissement",
+            "Lyon 4e Arrondissement",
+            "Lyon 6e Arrondissement",
+            "Lyon 7e Arrondissement",
+            "Lyon 8e Arrondissement",
+            "Lyon 9e Arrondissement",
+            "Oullins",
+            "Saint-Germain-au-Mont-d'Or",
+            "Sainte-Foy-lès-Lyon",
+            "Vaulx-en-Velin"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "insee",
+          "description": "Code INSEE de la commune.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "69091",
+            "69202",
+            "69044"
+          ],
+          "distinct_sample": [
+            "69029",
+            "69034",
+            "69040",
+            "69044",
+            "69072",
+            "69088",
+            "69091",
+            "69149",
+            "69202",
+            "69207",
+            "69256",
+            "69266",
+            "69271",
+            "69273",
+            "69382",
+            "69383",
+            "69384",
+            "69386",
+            "69387",
+            "69388"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "nbemplacement",
+          "description": "Nombre d'emplacements taxi declares.",
+          "empty": 2,
+          "na_literal": 0,
+          "missing_total": 2,
+          "completeness_pct": 98.23,
+          "examples": [
+            "1",
+            "2",
+            "3"
+          ],
+          "distinct_sample": [
+            "1",
+            "10",
+            "12",
+            "13",
+            "2",
+            "3",
+            "30",
+            "4",
+            "46",
+            "5",
+            "6",
+            "61",
+            "7",
+            "8",
+            "9"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "telephone",
+          "description": "Presence d'un telephone ou information assimilee.",
+          "empty": 3,
+          "na_literal": 0,
+          "missing_total": 3,
+          "completeness_pct": 97.35,
+          "examples": [
+            "false",
+            "true"
+          ],
+          "distinct_sample": [
+            "false",
+            "true"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "separateurtaxi",
+          "description": "Type de separateur ou marquage de l'emplacement.",
+          "empty": 4,
+          "na_literal": 0,
+          "missing_total": 4,
+          "completeness_pct": 96.46,
+          "examples": [
+            "Peinture",
+            "Autre",
+            "Bordure granit"
+          ],
+          "distinct_sample": [
+            "Autre",
+            "Bordure granit",
+            "Peinture"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "abri",
+          "description": "Presence d'un abri.",
+          "empty": 2,
+          "na_literal": 0,
+          "missing_total": 2,
+          "completeness_pct": 98.23,
+          "examples": [
+            "false",
+            "true"
+          ],
+          "distinct_sample": [
+            "false",
+            "true"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "panneau",
+          "description": "Presence d'un panneau.",
+          "empty": 3,
+          "na_literal": 0,
+          "missing_total": 3,
+          "completeness_pct": 97.35,
+          "examples": [
+            "true",
+            "false"
+          ],
+          "distinct_sample": [
+            "false",
+            "true"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "diodes",
+          "description": "Presence de diodes lumineuses.",
+          "empty": 3,
+          "na_literal": 0,
+          "missing_total": 3,
+          "completeness_pct": 97.35,
+          "examples": [
+            "false",
+            "true"
+          ],
+          "distinct_sample": [
+            "false",
+            "true"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "totem",
+          "description": "Presence d'un totem.",
+          "empty": 3,
+          "na_literal": 0,
+          "missing_total": 3,
+          "completeness_pct": 97.35,
+          "examples": [
+            "false",
+            "true"
+          ],
+          "distinct_sample": [
+            "false",
+            "true"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "observation",
+          "description": "Commentaire libre.",
+          "empty": 36,
+          "na_literal": 0,
+          "missing_total": 36,
+          "completeness_pct": 68.14,
+          "examples": [
+            "Emplacement réservé ambulance et taxi",
+            "Arrêté n°830 le 25/06/19",
+            "Station Place Bellecour"
+          ],
+          "distinct_sample": [
+            "Arrêté N°2019-39 du 05/03/2019",
+            "Arrêté N°2019RP35576 du 20/05/2019 - Station Place Rouget de L'Isle",
+            "Arrêté n°830 le 25/06/19",
+            "Berges du Rhône",
+            "Dépose minute Part-Dieu souterraine (en travaux en juin 2018)",
+            "Emplacement réservé ambulance et taxi",
+            "Mairie",
+            "Novotel",
+            "Parking des Sportifs",
+            "Station Ambroise Courtois",
+            "Station Beauvisage 1",
+            "Station Centre Commercial Part-Dieu",
+            "Station Gare de Vaise",
+            "Station Jean Jaurès",
+            "Station Jean Macé",
+            "Station Jules Ferry",
+            "Station Palais des Congrès",
+            "Station Place Bellecour",
+            "Station Quai Gailleton",
+            "Station Stade de Gerland"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "validite",
+          "description": "Statut de validation de l'objet.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "Validé",
+            "En projet ou en cours de validation"
+          ],
+          "distinct_sample": [
+            "En projet ou en cours de validation",
+            "Validé"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "gid",
+          "description": "Identifiant numerique Grand Lyon.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "4028",
+            "4045",
+            "4009"
+          ],
+          "distinct_sample": [
+            "1283",
+            "1292",
+            "1617",
+            "326",
+            "333",
+            "334",
+            "356",
+            "4008",
+            "4009",
+            "4017",
+            "4018",
+            "4019",
+            "4028",
+            "4034",
+            "4035",
+            "4037",
+            "4045",
+            "961",
+            "966",
+            "972"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "the_geom",
+          "description": "Geometrie WKT en WGS84.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "POINT (4.777287412600262 45.58246772528973)",
+            "POINT (4.796192762937808 45.74917361266503)",
+            "POINT (4.736168906657862 45.78192076915378)"
+          ],
+          "distinct_sample": [
+            "POINT (4.736168906657862 45.78192076915378)",
+            "POINT (4.761104113965392 45.82047017084143)",
+            "POINT (4.777287412600262 45.58246772528973)",
+            "POINT (4.780951105422838 45.79509534753639)",
+            "POINT (4.790113281091947 45.79716726247658)",
+            "POINT (4.796192762937808 45.74917361266503)",
+            "POINT (4.81404328776591 45.71712994176517)",
+            "POINT (4.830401193390305 45.727003784438274)",
+            "POINT (4.831098671054798 45.77445538442347)",
+            "POINT (4.8313882776808175 45.756797916842054)",
+            "POINT (4.834373237562323 45.75437065214612)",
+            "POINT (4.8463552884389225 45.752275163243006)",
+            "POINT (4.847668855562932 45.834640742174244)",
+            "POINT (4.847984860326429 45.79989003772338)",
+            "POINT (4.854360343158045 45.78568192924303)",
+            "POINT (4.859367603337556 45.76645148833377)",
+            "POINT (4.859440383411286 45.76039287335211)",
+            "POINT (4.890790770644053 45.75923568159811)",
+            "POINT (4.919936219019174 45.777322927958316)",
+            "POINT (4.928804400259431 45.72514348378085)"
+          ],
+          "min_max": null
+        }
+      ]
+    },
+    {
+      "name": "chantiers_perturbants",
+      "rows": 94,
+      "columns": 19,
+      "fields": [
+        "FID",
+        "nom",
+        "nomchantier",
+        "commune1",
+        "insee",
+        "precisionlocalisation",
+        "debutchantier",
+        "finchantier",
+        "descripchantierinternet",
+        "avancement",
+        "importance",
+        "typeperturbation",
+        "intervenant",
+        "validite",
+        "codeimportance",
+        "document_joint",
+        "url_document",
+        "gid",
+        "the_geom"
+      ],
+      "duplicate_exact_rows": 0,
+      "duplicate_keys": {},
+      "invalid_counts": {},
+      "notes": [
+        "Filtre applique: chantier chevauchant janvier-mars 2026."
+      ],
+      "columns_profile": [
+        {
+          "field": "FID",
+          "description": "Identifiant technique WFS.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "pvo_patrimoine_voirie.pvochantierperturbant.412954",
+            "pvo_patrimoine_voirie.pvochantierperturbant.413894",
+            "pvo_patrimoine_voirie.pvochantierperturbant.412902"
+          ],
+          "distinct_sample": [
+            "pvo_patrimoine_voirie.pvochantierperturbant.409974",
+            "pvo_patrimoine_voirie.pvochantierperturbant.412902",
+            "pvo_patrimoine_voirie.pvochantierperturbant.412907",
+            "pvo_patrimoine_voirie.pvochantierperturbant.412908",
+            "pvo_patrimoine_voirie.pvochantierperturbant.412954",
+            "pvo_patrimoine_voirie.pvochantierperturbant.413665",
+            "pvo_patrimoine_voirie.pvochantierperturbant.413666",
+            "pvo_patrimoine_voirie.pvochantierperturbant.413667",
+            "pvo_patrimoine_voirie.pvochantierperturbant.413668",
+            "pvo_patrimoine_voirie.pvochantierperturbant.413675",
+            "pvo_patrimoine_voirie.pvochantierperturbant.413676",
+            "pvo_patrimoine_voirie.pvochantierperturbant.413894",
+            "pvo_patrimoine_voirie.pvochantierperturbant.413911",
+            "pvo_patrimoine_voirie.pvochantierperturbant.414026",
+            "pvo_patrimoine_voirie.pvochantierperturbant.414027",
+            "pvo_patrimoine_voirie.pvochantierperturbant.414029",
+            "pvo_patrimoine_voirie.pvochantierperturbant.414041",
+            "pvo_patrimoine_voirie.pvochantierperturbant.414050",
+            "pvo_patrimoine_voirie.pvochantierperturbant.414123",
+            "pvo_patrimoine_voirie.pvochantierperturbant.414124"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "nom",
+          "description": "Voie ou axe concerne.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "Rue Carnot",
+            "Avenue de l'Europe",
+            "Rue du Pérou"
+          ],
+          "distinct_sample": [
+            "Avenue Georges Dimitrov",
+            "Avenue Grandclément",
+            "Avenue Leclerc",
+            "Avenue Maurice Thorez",
+            "Avenue Paul Marcellin",
+            "Avenue de l'Europe",
+            "Chemin Claude Debussy",
+            "Impasse des Coquelicots",
+            "Place des Pavillons",
+            "Quai Romain Rolland",
+            "Route de Genas",
+            "Rue Carnot",
+            "Rue Francis Chirat",
+            "Rue Léon Blum",
+            "Rue Marc Bloch",
+            "Rue Pierre Bouvier",
+            "Rue Saint Jean de Dieu",
+            "Rue de l'Université",
+            "Rue de la Corderie",
+            "Rue de la Poste"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "nomchantier",
+          "description": "Nom du chantier.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "Travaux T10",
+            "Assainissement d'eau potable",
+            "Travaux piste cyclable"
+          ],
+          "distinct_sample": [
+            "Assainissement d'eau potable",
+            "TRAVAUX EP",
+            "Travaux T10",
+            "Travaux Tramway T9",
+            "Travaux d'aménagement",
+            "Travaux d'aménagement de voirie",
+            "Travaux d'assainissement",
+            "Travaux d'eau",
+            "Travaux de canalisations",
+            "Travaux de chauffage urbain",
+            "Travaux de réseau",
+            "Travaux de tramway T9",
+            "Travaux de voie lyonnaise n°8",
+            "Travaux de voirie",
+            "Travaux piste cyclable",
+            "Travaux tramway T9",
+            "Travaux voirie",
+            "pose de canalisations",
+            "travaux de pose d'une grue",
+            "travaux de voirie"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "commune1",
+          "description": "Commune principale concernee.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "Saint-Fons",
+            "Rillieux-la-Pape",
+            "Villeurbanne"
+          ],
+          "distinct_sample": [
+            "Bron",
+            "Caluire-et-Cuire",
+            "Chassieu",
+            "Dardilly",
+            "Fontaines-sur-Saône",
+            "Lissieu",
+            "Lyon 1er Arrondissement",
+            "Lyon 2e Arrondissement",
+            "Lyon 3e Arrondissement",
+            "Lyon 5e Arrondissement",
+            "Lyon 6e Arrondissement",
+            "Lyon 7e Arrondissement",
+            "Lyon 8e Arrondissement",
+            "Lyon 9e Arrondissement",
+            "Rillieux-la-Pape",
+            "Saint-Didier-au-Mont-d'Or",
+            "Saint-Fons",
+            "Tassin-la-Demi-Lune",
+            "Vaulx-en-Velin",
+            "Villeurbanne"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "insee",
+          "description": "Code INSEE de la commune.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "69199",
+            "69286",
+            "69266"
+          ],
+          "distinct_sample": [
+            "69029",
+            "69034",
+            "69072",
+            "69088",
+            "69117",
+            "69194",
+            "69199",
+            "69244",
+            "69256",
+            "69259",
+            "69266",
+            "69271",
+            "69286",
+            "69381",
+            "69382",
+            "69383",
+            "69385",
+            "69386",
+            "69387",
+            "69388"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "precisionlocalisation",
+          "description": "Precision textuelle sur la localisation.",
+          "empty": 14,
+          "na_literal": 0,
+          "missing_total": 14,
+          "completeness_pct": 85.11,
+          "examples": [
+            "Ensemble de l'axe",
+            "de la Rue Edouard Vaillant jusqu'à l'Avenue Roger Salengro",
+            "au Sud de la Rue Pierre Gilles de Gennes"
+          ],
+          "distinct_sample": [
+            "A hauteur de l'avenue Maurice Thorez",
+            "A l'intersection avec l'avenue Paul Marcellin",
+            "Au Nord de la rue Victor Lagrange",
+            "Au Sud de l'allée d'Italie",
+            "Au Sud de la place Jules Grandclément",
+            "Au droit du chemin de la Petite Cadagne",
+            "Ensemble de l'axe",
+            "Entre l'avenue Général Leclerc et la rue Antonin Perrin",
+            "Entre l'avenue Général Leclerc et la rue de la Fraternité",
+            "Entre l'avenue Jean Jaurès et le quai Claude Bernard",
+            "Entre l'avenue Karl Marx et l'avenue Eugène Hénaff",
+            "Entre l'avenue Paul Marcellin et l'avenue Eugénie Cotton",
+            "Entre la place Jules Grandclément et la rue Burais",
+            "Entre la rue Duquesne et la rue Crillon",
+            "Entre la rue Garibaldi et l'avenue Jean Jaurès",
+            "Entre la rue Jean Perret et l'avenue Gabriel Péri",
+            "Entre la rue des Onchères et l'avenue Georges Dimitrov",
+            "au Nord de la rue Toulouse Lautrec",
+            "au Sud de la Rue Pierre Gilles de Gennes",
+            "de la Rue Edouard Vaillant jusqu'à l'Avenue Roger Salengro"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "debutchantier",
+          "description": "Date de debut du chantier.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "2026-01-05",
+            "2026-02-28",
+            "2025-11-25"
+          ],
+          "distinct_sample": [
+            "2025-08-01",
+            "2025-11-25",
+            "2025-12-01",
+            "2025-12-08",
+            "2025-12-10",
+            "2026-01-05",
+            "2026-02-09",
+            "2026-02-13",
+            "2026-02-16",
+            "2026-02-17",
+            "2026-02-23",
+            "2026-02-28",
+            "2026-03-01",
+            "2026-03-09",
+            "2026-03-10",
+            "2026-03-16",
+            "2026-03-19",
+            "2026-03-20",
+            "2026-03-23",
+            "2026-03-30"
+          ],
+          "min_max": {
+            "min": "2024-01-10",
+            "max": "2026-03-31"
+          }
+        },
+        {
+          "field": "finchantier",
+          "description": "Date de fin prevue du chantier.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "2026-07-31",
+            "2026-04-30",
+            "2026-11-20"
+          ],
+          "distinct_sample": [
+            "2026-04-25",
+            "2026-04-30",
+            "2026-05-01",
+            "2026-05-02",
+            "2026-05-04",
+            "2026-05-07",
+            "2026-05-11",
+            "2026-05-15",
+            "2026-05-17",
+            "2026-05-20",
+            "2026-05-22",
+            "2026-05-29",
+            "2026-05-31",
+            "2026-07-01",
+            "2026-07-03",
+            "2026-07-31",
+            "2026-08-31",
+            "2026-09-18",
+            "2026-11-20",
+            "2026-12-31"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "descripchantierinternet",
+          "description": "Description publiee sur internet.",
+          "empty": 68,
+          "na_literal": 0,
+          "missing_total": 68,
+          "completeness_pct": 27.66,
+          "examples": [
+            "Dans le sens Est-Ouest",
+            "De 7h à 17h, du lundi au vendredi",
+            "Sens Sud/Nord"
+          ],
+          "distinct_sample": [
+            "7h-17h",
+            "9h-16h",
+            "Dans le sens Est-Ouest",
+            "De 00h30 à 5h30",
+            "De 7h à 17h",
+            "De 7h à 17h, du lundi au vendredi",
+            "De 7h30 à 17h30",
+            "De 8h à 16h30",
+            "Nord/Sud",
+            "Sens Nord/Sud",
+            "Sens Ouest-Est",
+            "Sens Ouest/Est",
+            "Sens Sud/Nord",
+            "de 08h00 à 18h00",
+            "sens Sud / Nord"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "avancement",
+          "description": "Etat d'avancement.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "Chantier en cours"
+          ],
+          "distinct_sample": [
+            "Chantier en cours"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "importance",
+          "description": "Niveau d'importance ou de perturbation.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "Chantier très perturbant",
+            "Chantier perturbant"
+          ],
+          "distinct_sample": [
+            "Chantier perturbant",
+            "Chantier très perturbant"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "typeperturbation",
+          "description": "Nature de la perturbation.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "Circulation interdite",
+            "Circulation réduite",
+            "Circulation réduite de jour"
+          ],
+          "distinct_sample": [
+            "Circulation alternée",
+            "Circulation interdite",
+            "Circulation interdite de jour",
+            "Circulation interdite de nuit",
+            "Circulation réduite",
+            "Circulation réduite de jour",
+            "Circulation sens unique"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "intervenant",
+          "description": "Intervenant ou maitre d'ouvrage.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "Autre",
+            "Concessionnaire"
+          ],
+          "distinct_sample": [
+            "Autre",
+            "Concessionnaire"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "validite",
+          "description": "Statut de validation.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "A vérifier"
+          ],
+          "distinct_sample": [
+            "A vérifier"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "codeimportance",
+          "description": "Code numerique d'importance.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "1",
+            "2"
+          ],
+          "distinct_sample": [
+            "1",
+            "2"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "document_joint",
+          "description": "Reference eventuelle d'un document joint.",
+          "empty": 94,
+          "na_literal": 0,
+          "missing_total": 94,
+          "completeness_pct": 0.0,
+          "examples": [],
+          "distinct_sample": [],
+          "min_max": null
+        },
+        {
+          "field": "url_document",
+          "description": "URL du document joint.",
+          "empty": 94,
+          "na_literal": 0,
+          "missing_total": 94,
+          "completeness_pct": 0.0,
+          "examples": [],
+          "distinct_sample": [],
+          "min_max": null
+        },
+        {
+          "field": "gid",
+          "description": "Identifiant numerique Grand Lyon.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "412954",
+            "413894",
+            "412902"
+          ],
+          "distinct_sample": [
+            "409974",
+            "412902",
+            "412907",
+            "412908",
+            "412954",
+            "413665",
+            "413666",
+            "413667",
+            "413668",
+            "413675",
+            "413676",
+            "413894",
+            "413911",
+            "414026",
+            "414027",
+            "414029",
+            "414041",
+            "414050",
+            "414123",
+            "414124"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "the_geom",
+          "description": "Geometrie WKT en WGS84.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "MULTIPOLYGON (((4.8553494290019374 45.708493659832534, 4.855949311766088 45.70831009484694, 4.856343225700489 45.7082292",
+            "MULTIPOLYGON (((4.88989985856637 45.812119208202766, 4.88987560948356 45.812169086157404, 4.891382202236321 45.812643773",
+            "MULTIPOLYGON (((4.876756843652495 45.77687882846536, 4.876820129730958 45.77687423327408, 4.877218235260076 45.776940470"
+          ],
+          "distinct_sample": [
+            "MULTIPOLYGON (((4.747491040366013 45.76577892297414, 4.747380879199469 45.76577656028127, 4.747376811408865 45.766940437",
+            "MULTIPOLYGON (((4.807087252133585 45.77678658466883, 4.807082442590186 45.776834046633496, 4.807332604331999 45.77684784",
+            "MULTIPOLYGON (((4.829363338752541 45.763554989328426, 4.829462752264938 45.76354962250091, 4.829459537303505 45.76345167",
+            "MULTIPOLYGON (((4.829408200954598 45.72963197233491, 4.829514739251906 45.729626961454336, 4.829507024803685 45.72958312",
+            "MULTIPOLYGON (((4.832196158416117 45.74573855775095, 4.832057345666715 45.745569058085884, 4.831795212011389 45.74570155",
+            "MULTIPOLYGON (((4.836907640474165 45.75181019374898, 4.837061967815385 45.7519236630035, 4.838741161763807 45.7512429276",
+            "MULTIPOLYGON (((4.843700764465315 45.74811301406641, 4.843768669059057 45.74823278743698, 4.845800560248426 45.747026912",
+            "MULTIPOLYGON (((4.845112965760048 45.72528161208768, 4.8451737595688105 45.725275599763, 4.845059023394714 45.7245185860",
+            "MULTIPOLYGON (((4.85046828865305 45.83316469373182, 4.850506137656345 45.833226111675266, 4.850968133758827 45.833073863",
+            "MULTIPOLYGON (((4.8553494290019374 45.708493659832534, 4.855949311766088 45.70831009484694, 4.856343225700489 45.7082292",
+            "MULTIPOLYGON (((4.876756843652495 45.77687882846536, 4.876820129730958 45.77687423327408, 4.877218235260076 45.776940470",
+            "MULTIPOLYGON (((4.8864159943376615 45.75428522446159, 4.887536614921634 45.75430432849225, 4.891095310009029 45.75413214",
+            "MULTIPOLYGON (((4.887657242007961 45.757989078311596, 4.887568156025663 45.75798207542032, 4.887435898511058 45.75872776",
+            "MULTIPOLYGON (((4.889000444908851 45.75907212637139, 4.8890940493563875 45.759093187285615, 4.8892346748140545 45.758118",
+            "MULTIPOLYGON (((4.88989985856637 45.812119208202766, 4.88987560948356 45.812169086157404, 4.891382202236321 45.812643773",
+            "MULTIPOLYGON (((4.891103868717324 45.759526246156014, 4.891757869727814 45.759577566524605, 4.891756818886457 45.7594871",
+            "MULTIPOLYGON (((4.912554022522793 45.782745383988086, 4.9126957686937684 45.782792029800845, 4.914021295633626 45.780581",
+            "MULTIPOLYGON (((4.924367244368226 45.77115610716151, 4.925241323140525 45.771504229226856, 4.92641016301863 45.771611701",
+            "MULTIPOLYGON (((4.928430896984147 45.78030485780367, 4.9285328223580995 45.780349947349706, 4.92920814265501 45.77845914",
+            "MULTIPOLYGON (((4.930193811978546 45.77865219311448, 4.930273090969699 45.77871021538053, 4.9303134775673625 45.77878267"
+          ],
+          "min_max": null
+        }
+      ]
+    },
+    {
+      "name": "comptage_sites",
+      "rows": 292,
+      "columns": 11,
+      "fields": [
+        "FID",
+        "gid",
+        "site_id",
+        "parent_site_id",
+        "fr_insee_code",
+        "xlong",
+        "ylat",
+        "external_ids",
+        "infrastructure_type",
+        "the_geom",
+        "site_name"
+      ],
+      "duplicate_exact_rows": 0,
+      "duplicate_keys": {},
+      "invalid_counts": {},
+      "notes": [],
+      "columns_profile": [
+        {
+          "field": "FID",
+          "description": "Identifiant technique WFS.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "pvo_patrimoine_voirie.pvocomptagesite.100017792",
+            "pvo_patrimoine_voirie.pvocomptagesite.100017793",
+            "pvo_patrimoine_voirie.pvocomptagesite.100024515"
+          ],
+          "distinct_sample": [
+            "pvo_patrimoine_voirie.pvocomptagesite.100017792",
+            "pvo_patrimoine_voirie.pvocomptagesite.100017793",
+            "pvo_patrimoine_voirie.pvocomptagesite.100024515",
+            "pvo_patrimoine_voirie.pvocomptagesite.100026724",
+            "pvo_patrimoine_voirie.pvocomptagesite.100026725",
+            "pvo_patrimoine_voirie.pvocomptagesite.100026957",
+            "pvo_patrimoine_voirie.pvocomptagesite.100026959",
+            "pvo_patrimoine_voirie.pvocomptagesite.100026960",
+            "pvo_patrimoine_voirie.pvocomptagesite.69149.00072.12",
+            "pvo_patrimoine_voirie.pvocomptagesite.69194.00013.02",
+            "pvo_patrimoine_voirie.pvocomptagesite.69256.00190.02",
+            "pvo_patrimoine_voirie.pvocomptagesite.69381.01593.03",
+            "pvo_patrimoine_voirie.pvocomptagesite.69383.02028.03",
+            "pvo_patrimoine_voirie.pvocomptagesite.69384.00008.03",
+            "pvo_patrimoine_voirie.pvocomptagesite.69384.00009.03",
+            "pvo_patrimoine_voirie.pvocomptagesite.69385.00698.03",
+            "pvo_patrimoine_voirie.pvocomptagesite.69386.00131.02",
+            "pvo_patrimoine_voirie.pvocomptagesite.69386.01392.03",
+            "pvo_patrimoine_voirie.pvocomptagesite.69386.02029.02",
+            "pvo_patrimoine_voirie.pvocomptagesite.69386.02038.04"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "gid",
+          "description": "",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "100017792",
+            "100017793",
+            "100024515"
+          ],
+          "distinct_sample": [
+            "100017792",
+            "100017793",
+            "100024515",
+            "100026724",
+            "100026725",
+            "100026957",
+            "100026959",
+            "100026960",
+            "69149.00072.12",
+            "69194.00013.02",
+            "69256.00190.02",
+            "69381.01593.03",
+            "69383.02028.03",
+            "69384.00008.03",
+            "69384.00009.03",
+            "69385.00698.03",
+            "69386.00131.02",
+            "69386.01392.03",
+            "69386.02029.02",
+            "69386.02038.04"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "site_id",
+          "description": "Identifiant du site de comptage.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "100017792",
+            "100017793",
+            "100024515"
+          ],
+          "distinct_sample": [
+            "100017792",
+            "100017793",
+            "100024515",
+            "100026724",
+            "100026725",
+            "100026957",
+            "100026959",
+            "100026960",
+            "69149.00072.12",
+            "69194.00013.02",
+            "69256.00190.02",
+            "69381.01593.03",
+            "69383.02028.03",
+            "69384.00008.03",
+            "69384.00009.03",
+            "69385.00698.03",
+            "69386.00131.02",
+            "69386.01392.03",
+            "69386.02029.02",
+            "69386.02038.04"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "parent_site_id",
+          "description": "",
+          "empty": 267,
+          "na_literal": 0,
+          "missing_total": 267,
+          "completeness_pct": 8.56,
+          "examples": [
+            "69149.00072.12",
+            "69194.00013.02",
+            "69256.00190.02"
+          ],
+          "distinct_sample": [
+            "69149.00072.12",
+            "69194.00013.02",
+            "69256.00190.02",
+            "69266.00541.02",
+            "69266.00611.02",
+            "69381.01593.03",
+            "69382.00647.02",
+            "69382.00652.02",
+            "69382.02085.03",
+            "69383.01336.03",
+            "69383.01432.04",
+            "69383.02028.03",
+            "69384.00008.03",
+            "69384.00009.03",
+            "69385.00698.03",
+            "69386.00131.02",
+            "69386.01392.03",
+            "69386.02029.02",
+            "69386.02038.04",
+            "69387.00040.02"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "fr_insee_code",
+          "description": "",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "69256",
+            "69275",
+            "69266"
+          ],
+          "distinct_sample": [
+            "69029",
+            "69034",
+            "69100",
+            "69120",
+            "69123",
+            "69127",
+            "69256",
+            "69259",
+            "69266",
+            "69275",
+            "69282",
+            "69370",
+            "69381",
+            "69382",
+            "69383",
+            "69384",
+            "69385",
+            "69386",
+            "69387",
+            "69389"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "xlong",
+          "description": "",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "4.93579835",
+            "4.9543418",
+            "4.89186913"
+          ],
+          "distinct_sample": [
+            "4.7143373",
+            "4.79834119",
+            "4.81512527",
+            "4.826921",
+            "4.827504",
+            "4.828177",
+            "4.836083",
+            "4.843853",
+            "4.84395",
+            "4.8449405",
+            "4.8449712",
+            "4.846709",
+            "4.856753",
+            "4.8603934",
+            "4.88743544",
+            "4.89186913",
+            "4.8999634",
+            "4.913577",
+            "4.92249899",
+            "4.93579835"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "ylat",
+          "description": "",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "45.77052963",
+            "45.77486441",
+            "45.78391267"
+          ],
+          "distinct_sample": [
+            "45.7168309",
+            "45.72224",
+            "45.72246529",
+            "45.72252",
+            "45.74932982",
+            "45.753462",
+            "45.760099",
+            "45.7631526",
+            "45.763712",
+            "45.7640248",
+            "45.767219",
+            "45.768284",
+            "45.769124",
+            "45.77052963",
+            "45.774059",
+            "45.774064",
+            "45.77486441",
+            "45.77940946",
+            "45.78391267",
+            "45.78857"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "external_ids",
+          "description": "",
+          "empty": 292,
+          "na_literal": 0,
+          "missing_total": 292,
+          "completeness_pct": 0.0,
+          "examples": [],
+          "distinct_sample": [],
+          "min_max": null
+        },
+        {
+          "field": "infrastructure_type",
+          "description": "",
+          "empty": 267,
+          "na_literal": 0,
+          "missing_total": 267,
+          "completeness_pct": 8.56,
+          "examples": [
+            "OTHER SPECIFIC SITE"
+          ],
+          "distinct_sample": [
+            "OTHER SPECIFIC SITE"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "the_geom",
+          "description": "Geometrie WKT en WGS84.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "POINT (4.935798346996308 45.770529629835806)",
+            "POINT (4.954341799020768 45.77486440927123)",
+            "POINT (4.8918691277503985 45.78391266659732)"
+          ],
+          "distinct_sample": [
+            "POINT (4.7143373 45.78857)",
+            "POINT (4.798341188 45.81053311)",
+            "POINT (4.81512527 45.7168309)",
+            "POINT (4.826921 45.760099)",
+            "POINT (4.827504 45.774064)",
+            "POINT (4.828177 45.774059)",
+            "POINT (4.836083 45.767219)",
+            "POINT (4.843853 45.769124)",
+            "POINT (4.84395 45.768284)",
+            "POINT (4.8449405 45.7640248)",
+            "POINT (4.8449712 45.7631526)",
+            "POINT (4.846709 45.753462)",
+            "POINT (4.856753 45.763712)",
+            "POINT (4.860393404960633 45.74932982131679)",
+            "POINT (4.88743543624878 45.72246529189946)",
+            "POINT (4.8918691277503985 45.78391266659732)",
+            "POINT (4.8999634 45.72252)",
+            "POINT (4.913577 45.72224)",
+            "POINT (4.92249899 45.77940946)",
+            "POINT (4.935798346996308 45.770529629835806)"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "site_name",
+          "description": "",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "Vaulx en Velin_Pont de la Sucrerie",
+            "Décines_Passerelle Nelson Mandela",
+            "Villeurbanne_Pont de Croix-Luizet"
+          ],
+          "distinct_sample": [
+            "Décines_Passerelle Nelson Mandela",
+            "LxL_Varennes",
+            "Lyon 1_1 Rue République",
+            "Lyon 3/8_Cours Albert Thomas",
+            "Lyon 3_ 60 Av. Maréchal Saxe",
+            "Lyon 4_DEV N° 125 BOULEVARD DE LA CROIX ROUSSE",
+            "Lyon 4_FACE N° 125 BOULEVARD DE LA CROIX ROUSSE",
+            "Lyon 5_6 AVENUE ADOLPHE MAX",
+            "Lyon 6_ 4 Av. Maréchal Saxe",
+            "Lyon 6_ 45 Av. Maréchal Saxe",
+            "Lyon 6_60 Av. Maréchal Foch",
+            "Lyon 7_4 Av. J.Jaurès",
+            "Lyon 8/Vénissieux_Boulevard Pinel",
+            "Lyon6_ 177 COURS LAFAYETTE",
+            "OULLINS_Gare routière",
+            "PdP_Portique Hippodrome",
+            "PdP_Pépinière",
+            "SAINT DIDIER_59 Avenue de la République",
+            "VAULX EN VELIN_AVENUE DES CANUTS",
+            "Vaulx en Velin_Pont de la Sucrerie"
+          ],
+          "min_max": null
+        }
+      ]
+    },
+    {
+      "name": "comptage_channels",
+      "rows": 1471,
+      "columns": 19,
+      "fields": [
+        "channel_id",
+        "channel_provider_id",
+        "site_provider_id",
+        "site_id",
+        "mobility_type",
+        "comment",
+        "counter_transmission_type",
+        "publication_transmission_type",
+        "counter_type",
+        "direction",
+        "provider_direction_code",
+        "provider_direction_name",
+        "data_provider_name",
+        "temporality",
+        "started_at",
+        "ended_at",
+        "last_updated_at",
+        "time_step",
+        "provider_portal_url"
+      ],
+      "duplicate_exact_rows": 0,
+      "duplicate_keys": {},
+      "invalid_counts": {},
+      "notes": [],
+      "columns_profile": [
+        {
+          "field": "channel_id",
+          "description": "Identifiant du canal de mesure.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "69091.00052.02.00",
+            "69091.00052.02.01",
+            "69266.00611.02.00"
+          ],
+          "distinct_sample": [
+            "101030470",
+            "102030470",
+            "353302063",
+            "353479605",
+            "353479606",
+            "353480095",
+            "353480097",
+            "353480099",
+            "353480103",
+            "353670740",
+            "69091.00052.02.00",
+            "69091.00052.02.01",
+            "69194.00013.02.01",
+            "69256.00190.02.00",
+            "69256.00190.02.01",
+            "69266.00541.02.00",
+            "69266.00541.02.01",
+            "69266.00611.02.00",
+            "69382.00652.02.01",
+            "69382.02085.03.00"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "channel_provider_id",
+          "description": "Identifiant du canal chez le fournisseur.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "69091.00052.02.00",
+            "69091.00052.02.01",
+            "69266.00611.02.00"
+          ],
+          "distinct_sample": [
+            "101030470",
+            "102030470",
+            "353302063",
+            "353479605",
+            "353479606",
+            "353480095",
+            "353480097",
+            "353480099",
+            "353480103",
+            "353670740",
+            "69091.00052.02.00",
+            "69091.00052.02.01",
+            "69194.00013.02.01",
+            "69256.00190.02.00",
+            "69256.00190.02.01",
+            "69266.00541.02.00",
+            "69266.00541.02.01",
+            "69266.00611.02.00",
+            "69382.00652.02.01",
+            "69382.02085.03.00"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "site_provider_id",
+          "description": "Identifiant fournisseur du site rattache.",
+          "empty": 48,
+          "na_literal": 0,
+          "missing_total": 48,
+          "completeness_pct": 96.74,
+          "examples": [
+            "100013842",
+            "100030470",
+            "300022560"
+          ],
+          "distinct_sample": [
+            "100013842",
+            "100017787",
+            "100017788",
+            "100017789",
+            "100017791",
+            "100017792",
+            "100017793",
+            "100024515",
+            "100026959",
+            "100030106",
+            "100030107",
+            "100030274",
+            "100030470",
+            "100030584",
+            "100030585",
+            "100030586",
+            "100030630",
+            "100030638",
+            "100042249",
+            "100043681"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "site_id",
+          "description": "Identifiant du site rattache.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "69091.00052.02",
+            "69266.00611.02",
+            "69194.00013.02"
+          ],
+          "distinct_sample": [
+            "100013842",
+            "100017787",
+            "100017788",
+            "100026959",
+            "100030470",
+            "100030584",
+            "300022560",
+            "69091.00052.02",
+            "69194.00013.02",
+            "69256.00190.02",
+            "69266.00541.02",
+            "69266.00611.02",
+            "69382.00647.02",
+            "69382.00652.02",
+            "69382.02085.03",
+            "69383.01336.03",
+            "69383.01432.04",
+            "69383.02028.03",
+            "69384.00008.03",
+            "69386.00131.02"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "mobility_type",
+          "description": "Type de mobilite mesuree.",
+          "empty": 4,
+          "na_literal": 0,
+          "missing_total": 4,
+          "completeness_pct": 99.73,
+          "examples": [
+            "PEDESTRIAN",
+            "E-SCOOTER",
+            "BIKE"
+          ],
+          "distinct_sample": [
+            "BIKE",
+            "BUS",
+            "CAR",
+            "E-SCOOTER",
+            "PEDESTRIAN",
+            "TRUCK",
+            "TWO WHEELS MOTORIZED",
+            "UNDEFINED"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "comment",
+          "description": "Commentaire libre.",
+          "empty": 17,
+          "na_literal": 0,
+          "missing_total": 17,
+          "completeness_pct": 98.84,
+          "examples": [
+            "Lyon 7_Pont Raymond Barre",
+            "Sentier de la marinade",
+            "PEDESTRIAN_FLOW_SENSOR"
+          ],
+          "distinct_sample": [
+            "Décines_Contre halage passerelle Nelson Mandela",
+            "Décines_Passerelle Nelson Mandela",
+            "Lyon 2_Pont de la Guillotière_Citix-AI",
+            "Lyon 3_Saxe_Rabelais_EVO_ID653-654_",
+            "Lyon 7_Pont Raymond Barre",
+            "Lyon 8_Etats-Unis",
+            "Lyon 9_Passerelle Masaryk",
+            "Meyzieu_Pont d'Herbens",
+            "PEDDESTRIAN_FLOW_SENSOR",
+            "PEDESTRIAN_FLOW_SENSOR",
+            "PdP_Portique Hippodrome",
+            "Sentier de Sacuny",
+            "Sentier de Sermenaz",
+            "Sentier de la marinade",
+            "Sentier du Biézin nature",
+            "Sentiers des Grandes Terres",
+            "Vaulx en Velin_Chemin contre-halage Pont de la Sucrerie",
+            "Vaulx en Velin_Chemin contre-halage rue Victor Jara",
+            "Vaulx en Velin_Pont de la Sucrerie",
+            "Villeurbanne_Pont de Croix-Luizet"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "counter_transmission_type",
+          "description": "Mode de transmission du compteur.",
+          "empty": 1423,
+          "na_literal": 0,
+          "missing_total": 1423,
+          "completeness_pct": 3.26,
+          "examples": [
+            "REMOTE TRANSMISSION"
+          ],
+          "distinct_sample": [
+            "REMOTE TRANSMISSION"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "publication_transmission_type",
+          "description": "Mode de transmission pour publication.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "API"
+          ],
+          "distinct_sample": [
+            "API"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "counter_type",
+          "description": "Type de compteur.",
+          "empty": 1423,
+          "na_literal": 0,
+          "missing_total": 1423,
+          "completeness_pct": 3.26,
+          "examples": [
+            "ACTIVE INFRARED",
+            "ACTIVE INFRARED,PIEZOELECTRIC SENSOR"
+          ],
+          "distinct_sample": [
+            "ACTIVE INFRARED",
+            "ACTIVE INFRARED,PIEZOELECTRIC SENSOR"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "direction",
+          "description": "Direction mesuree.",
+          "empty": 1423,
+          "na_literal": 0,
+          "missing_total": 1423,
+          "completeness_pct": 3.26,
+          "examples": [
+            "N",
+            "W",
+            "S"
+          ],
+          "distinct_sample": [
+            "N",
+            "S",
+            "W"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "provider_direction_code",
+          "description": "Code direction chez le fournisseur.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "IN",
+            "OUT",
+            "NO DISTINCTION"
+          ],
+          "distinct_sample": [
+            "IN",
+            "NO DISTINCTION",
+            "OUT"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "provider_direction_name",
+          "description": "Nom direction chez le fournisseur.",
+          "empty": 1423,
+          "na_literal": 0,
+          "missing_total": 1423,
+          "completeness_pct": 3.26,
+          "examples": [
+            "JCDecaux"
+          ],
+          "distinct_sample": [
+            "JCDecaux"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "data_provider_name",
+          "description": "Nom du fournisseur de donnees.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "JCDecaux",
+            "EcoCounter"
+          ],
+          "distinct_sample": [
+            "EcoCounter",
+            "JCDecaux"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "temporality",
+          "description": "Temporalite de la mesure.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "PERMANENT"
+          ],
+          "distinct_sample": [
+            "PERMANENT"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "started_at",
+          "description": "Date de debut de validite du canal.",
+          "empty": 18,
+          "na_literal": 0,
+          "missing_total": 18,
+          "completeness_pct": 98.78,
+          "examples": [
+            "2025-12-15 14:00:00+01:00",
+            "2024-04-03 22:00:00+02:00",
+            "2024-04-04 21:00:00+02:00"
+          ],
+          "distinct_sample": [
+            "2013-01-01 00:00:00+01:00",
+            "2016-04-06 00:00:00+02:00",
+            "2016-04-08 00:00:00+02:00",
+            "2016-04-18 00:00:00+02:00",
+            "2021-08-31 00:00:00+02:00",
+            "2022-02-09 11:00:00+01:00",
+            "2023-02-22 12:00:00+01:00",
+            "2023-02-22 13:00:00+01:00",
+            "2023-02-23 06:00:00+01:00",
+            "2024-04-03 22:00:00+02:00",
+            "2024-04-04 09:00:00+02:00",
+            "2024-04-04 21:00:00+02:00",
+            "2024-04-30 22:00:00+02:00",
+            "2024-06-11 08:00:00+02:00",
+            "2024-06-26 13:00:00+02:00",
+            "2024-07-01 00:00:00+02:00",
+            "2024-09-02 00:00:00+02:00",
+            "2025-11-28 01:00:00+01:00",
+            "2025-12-15 14:00:00+01:00",
+            "2026-01-10 01:00:00+01:00"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "ended_at",
+          "description": "Date de fin de validite du canal.",
+          "empty": 1471,
+          "na_literal": 0,
+          "missing_total": 1471,
+          "completeness_pct": 0.0,
+          "examples": [],
+          "distinct_sample": [],
+          "min_max": null
+        },
+        {
+          "field": "last_updated_at",
+          "description": "Date de derniere mise a jour.",
+          "empty": 214,
+          "na_literal": 0,
+          "missing_total": 214,
+          "completeness_pct": 85.45,
+          "examples": [
+            "2025-12-17 09:00:00+01:00",
+            "2026-04-16 17:00:00+02:00",
+            "2026-04-25 12:00:00+02:00"
+          ],
+          "distinct_sample": [
+            "2022-06-16 15:00:00+02:00",
+            "2023-04-07 19:13:00+02:00",
+            "2023-08-03 10:55:00+02:00",
+            "2024-09-01 07:00:00+02:00",
+            "2024-09-18 15:15:00+02:00",
+            "2024-09-19 11:00:00+02:00",
+            "2024-09-23 00:00:00+02:00",
+            "2024-10-07 00:00:00+02:00",
+            "2024-10-18 18:00:00+02:00",
+            "2025-12-16 18:00:00+01:00",
+            "2025-12-17 09:00:00+01:00",
+            "2026-01-10 01:00:00+01:00",
+            "2026-01-11 00:00:00+01:00",
+            "2026-03-11 12:00:00+01:00",
+            "2026-04-16 17:00:00+02:00",
+            "2026-04-24 01:15:00+02:00",
+            "2026-04-24 21:00:00+02:00",
+            "2026-04-25 00:00:00+02:00",
+            "2026-04-25 11:00:00+02:00",
+            "2026-04-25 12:00:00+02:00"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "time_step",
+          "description": "Pas temporel de mesure, en minutes.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "3600",
+            "900",
+            "780"
+          ],
+          "distinct_sample": [
+            "0",
+            "1800",
+            "300",
+            "3600",
+            "780",
+            "900"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "provider_portal_url",
+          "description": "URL source du fournisseur.",
+          "empty": 1471,
+          "na_literal": 0,
+          "missing_total": 1471,
+          "completeness_pct": 0.0,
+          "examples": [],
+          "distinct_sample": [],
+          "min_max": null
+        }
+      ]
+    },
+    {
+      "name": "comptage_mesures_jan_mar_2026",
+      "rows": 1360146,
+      "columns": 5,
+      "fields": [
+        "channel_id",
+        "counter_id",
+        "start_datetime",
+        "end_datetime",
+        "count"
+      ],
+      "duplicate_exact_rows": 0,
+      "duplicate_keys": {},
+      "invalid_counts": {},
+      "notes": [
+        "Fenetre interrogee: start_datetime >= 2026-01-01 et < 2026-04-01."
+      ],
+      "columns_profile": [
+        {
+          "field": "channel_id",
+          "description": "Identifiant du canal de mesure.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "101017787",
+            "101017788",
+            "101017789"
+          ],
+          "distinct_sample": [
+            "101017787",
+            "101017788",
+            "101017789",
+            "101017791",
+            "101017792",
+            "101017793",
+            "101026724",
+            "101026955",
+            "101026957",
+            "101026959",
+            "101027497",
+            "101030143",
+            "101030635",
+            "101030637",
+            "101031125",
+            "101041017",
+            "101041018",
+            "101042249",
+            "101042251",
+            "101042252"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "counter_id",
+          "description": "Identifiant du compteur physique.",
+          "empty": 488,
+          "na_literal": 0,
+          "missing_total": 488,
+          "completeness_pct": 99.96,
+          "examples": [
+            "X2H17041932",
+            "ZLT24111466",
+            "X2H22104625"
+          ],
+          "distinct_sample": [
+            "COM17110130",
+            "COM19040186",
+            "COM19070197",
+            "COM19110234",
+            "COM22010578",
+            "COM22010587",
+            "COM25080425",
+            "X2H15108751",
+            "X2H17041932",
+            "X2H17113782",
+            "X2H17123943",
+            "X2H18034682",
+            "X2H18065620",
+            "X2H18065710",
+            "X2H18127332",
+            "X2H22104625",
+            "X2H23101390",
+            "X2H23101391",
+            "ZLT24071078",
+            "ZLT24111466"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "start_datetime",
+          "description": "Debut de la fenetre de comptage.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "2026-01-01 00:00:00+01:00",
+            "2026-01-01 00:45:00+01:00",
+            "2026-01-01 00:30:00+01:00"
+          ],
+          "distinct_sample": [
+            "2026-01-01 00:00:00+01:00",
+            "2026-01-01 00:15:00+01:00",
+            "2026-01-01 00:30:00+01:00",
+            "2026-01-01 00:45:00+01:00",
+            "2026-01-07 08:00:00+01:00",
+            "2026-01-07 09:00:00+01:00",
+            "2026-01-07 10:00:00+01:00",
+            "2026-01-07 11:00:00+01:00",
+            "2026-01-07 12:00:00+01:00",
+            "2026-01-07 13:00:00+01:00",
+            "2026-01-07 14:00:00+01:00",
+            "2026-01-07 15:00:00+01:00",
+            "2026-01-07 16:00:00+01:00",
+            "2026-01-07 17:00:00+01:00",
+            "2026-01-07 18:00:00+01:00",
+            "2026-01-07 19:00:00+01:00",
+            "2026-01-07 20:00:00+01:00",
+            "2026-01-07 21:00:00+01:00",
+            "2026-01-07 22:00:00+01:00",
+            "2026-01-07 23:00:00+01:00"
+          ],
+          "min_max": {
+            "min": "2026-01-01 00:00:00+01:00",
+            "max": "2026-03-31 23:55:00+02:00"
+          }
+        },
+        {
+          "field": "end_datetime",
+          "description": "Fin de la fenetre de comptage.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "2026-01-01 01:00:00+01:00",
+            "2026-01-01 00:30:00+01:00",
+            "2026-01-01 00:45:00+01:00"
+          ],
+          "distinct_sample": [
+            "2026-01-01 00:15:00+01:00",
+            "2026-01-01 00:30:00+01:00",
+            "2026-01-01 00:45:00+01:00",
+            "2026-01-01 01:00:00+01:00",
+            "2026-01-07 08:15:00+01:00",
+            "2026-01-07 09:15:00+01:00",
+            "2026-01-07 10:15:00+01:00",
+            "2026-01-07 11:15:00+01:00",
+            "2026-01-07 12:15:00+01:00",
+            "2026-01-07 13:15:00+01:00",
+            "2026-01-07 14:15:00+01:00",
+            "2026-01-07 15:15:00+01:00",
+            "2026-01-07 16:15:00+01:00",
+            "2026-01-07 17:15:00+01:00",
+            "2026-01-07 18:15:00+01:00",
+            "2026-01-07 19:15:00+01:00",
+            "2026-01-07 20:15:00+01:00",
+            "2026-01-07 21:15:00+01:00",
+            "2026-01-07 22:15:00+01:00",
+            "2026-01-07 23:15:00+01:00"
+          ],
+          "min_max": {
+            "min": "2026-01-01 00:15:00+01:00",
+            "max": "2026-04-01 00:00:00+02:00"
+          }
+        },
+        {
+          "field": "count",
+          "description": "Nombre de passages comptes sur la fenetre.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "0",
+            "2",
+            "6"
+          ],
+          "distinct_sample": [
+            "0",
+            "1",
+            "10",
+            "13",
+            "15",
+            "17",
+            "2",
+            "21",
+            "220",
+            "28",
+            "3",
+            "32",
+            "38",
+            "4",
+            "47",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "min_max": {
+            "min": 0,
+            "max": 4887
+          }
+        }
+      ]
+    },
+    {
+      "name": "meteo_rr_t_vent_jan_mar_2026",
+      "rows": 1620,
+      "columns": 60,
+      "fields": [
+        "NUM_POSTE",
+        "NOM_USUEL",
+        "LAT",
+        "LON",
+        "ALTI",
+        "AAAAMMJJ",
+        "RR",
+        "QRR",
+        "TN",
+        "QTN",
+        "HTN",
+        "QHTN",
+        "TX",
+        "QTX",
+        "HTX",
+        "QHTX",
+        "TM",
+        "QTM",
+        "TNTXM",
+        "QTNTXM",
+        "TAMPLI",
+        "QTAMPLI",
+        "TNSOL",
+        "QTNSOL",
+        "TN50",
+        "QTN50",
+        "DG",
+        "QDG",
+        "FFM",
+        "QFFM",
+        "FF2M",
+        "QFF2M",
+        "FXY",
+        "QFXY",
+        "DXY",
+        "QDXY",
+        "HXY",
+        "QHXY",
+        "FXI",
+        "QFXI",
+        "DXI",
+        "QDXI",
+        "HXI",
+        "QHXI",
+        "FXI2",
+        "QFXI2",
+        "DXI2",
+        "QDXI2",
+        "HXI2",
+        "QHXI2",
+        "FXI3S",
+        "QFXI3S",
+        "DXI3S",
+        "QDXI3S",
+        "HXI3S",
+        "QHXI3S",
+        "DRR",
+        "QDRR",
+        "STATUS_FXI3S",
+        "STATUS_DXI3S"
+      ],
+      "duplicate_exact_rows": 0,
+      "duplicate_keys": {},
+      "invalid_counts": {},
+      "notes": [
+        "Filtre applique: observations quotidiennes du departement 69 entre 2026-01-01 et 2026-03-31."
+      ],
+      "columns_profile": [
+        {
+          "field": "NUM_POSTE",
+          "description": "Identifiant de la station meteorologique.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "69008001",
+            "69028001",
+            "69029001"
+          ],
+          "distinct_sample": [
+            "69008001",
+            "69028001",
+            "69029001",
+            "69066003",
+            "69114001",
+            "69123002",
+            "69135001",
+            "69141001",
+            "69174002",
+            "69196001",
+            "69203001",
+            "69204002",
+            "69206001",
+            "69238001",
+            "69239002",
+            "69258001",
+            "69264001",
+            "69299001"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "NOM_USUEL",
+          "description": "Nom usuel de la station.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "ANCY_SAPC",
+            "BRINDAS",
+            "LYON-BRON"
+          ],
+          "distinct_sample": [
+            "ANCY_SAPC",
+            "BRINDAS",
+            "COURS LA VILLE_SAPC",
+            "LES SAUVAGES",
+            "LIERGUES_SAPC",
+            "LYON TETE D'OR",
+            "LYON-BRON",
+            "LYON-ST EXUPERY",
+            "MONSOLS",
+            "MORNANT",
+            "SAINT-VERAND",
+            "ST-DIDIER-BEAUJ",
+            "ST-GENIS-L'ARGENTIERE",
+            "ST-GENIS-LAVAL",
+            "ST-GEORGES-REN",
+            "ST-SYMPHORIEN-C",
+            "VAUXRENARD",
+            "VILLEFRANCHE"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "LAT",
+          "description": "Latitude de la station.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "45.843333",
+            "45.713333",
+            "45.721333"
+          ],
+          "distinct_sample": [
+            "45.614500",
+            "45.638667",
+            "45.694667",
+            "45.700000",
+            "45.713333",
+            "45.721333",
+            "45.726500",
+            "45.772833",
+            "45.843333",
+            "45.916333",
+            "45.935333",
+            "45.976500",
+            "45.987167",
+            "46.058167",
+            "46.098667",
+            "46.164167",
+            "46.217000",
+            "46.219167"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "LON",
+          "description": "Longitude de la station.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "4.508167",
+            "4.693167",
+            "4.949167"
+          ],
+          "distinct_sample": [
+            "4.325833",
+            "4.384167",
+            "4.471333",
+            "4.484500",
+            "4.508167",
+            "4.521167",
+            "4.523167",
+            "4.566333",
+            "4.628500",
+            "4.650333",
+            "4.673833",
+            "4.693167",
+            "4.710833",
+            "4.737667",
+            "4.782333",
+            "4.855167",
+            "4.949167",
+            "5.077833"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "ALTI",
+          "description": "Altitude de la station.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "626",
+            "317",
+            "202"
+          ],
+          "distinct_sample": [
+            "170",
+            "174",
+            "190",
+            "202",
+            "235",
+            "290",
+            "317",
+            "343",
+            "345",
+            "390",
+            "512",
+            "525",
+            "578",
+            "610",
+            "626",
+            "740",
+            "831"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "AAAAMMJJ",
+          "description": "Date d'observation au format AAAAMMJJ.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "20260101",
+            "20260102",
+            "20260103"
+          ],
+          "distinct_sample": [
+            "20260101",
+            "20260102",
+            "20260103",
+            "20260104",
+            "20260105",
+            "20260106",
+            "20260107",
+            "20260108",
+            "20260109",
+            "20260110",
+            "20260111",
+            "20260112",
+            "20260113",
+            "20260114",
+            "20260115",
+            "20260116",
+            "20260117",
+            "20260118",
+            "20260119",
+            "20260120"
+          ],
+          "min_max": {
+            "min": "2026-01-01",
+            "max": "2026-03-31"
+          }
+        },
+        {
+          "field": "RR",
+          "description": "Cumul quotidien de precipitations.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "0.0",
+            "0.8",
+            "4.2"
+          ],
+          "distinct_sample": [
+            "0.0",
+            "0.2",
+            "0.4",
+            "0.6",
+            "0.8",
+            "1.0",
+            "1.6",
+            "11.2",
+            "15.0",
+            "2.2",
+            "2.4",
+            "2.6",
+            "24.2",
+            "3.2",
+            "3.4",
+            "4.2",
+            "7.2",
+            "7.4",
+            "7.6",
+            "8.0"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "QRR",
+          "description": "",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "1"
+          ],
+          "distinct_sample": [
+            "1"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "TN",
+          "description": "Temperature minimale quotidienne.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "-5.7",
+            "-3.6",
+            "-4.7"
+          ],
+          "distinct_sample": [
+            "-0.4",
+            "-0.8",
+            "-1.5",
+            "-3.1",
+            "-3.6",
+            "-3.7",
+            "-4.7",
+            "-5.7",
+            "-6.9",
+            "-7.5",
+            "0.0",
+            "0.3",
+            "1.6",
+            "1.7",
+            "2.0",
+            "3.9",
+            "4.3",
+            "5.2",
+            "5.5",
+            "5.7"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "QTN",
+          "description": "",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "1"
+          ],
+          "distinct_sample": [
+            "1"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "HTN",
+          "description": "",
+          "empty": 1,
+          "na_literal": 0,
+          "missing_total": 1,
+          "completeness_pct": 99.94,
+          "examples": [
+            "651",
+            "549",
+            "746"
+          ],
+          "distinct_sample": [
+            "107",
+            "1605",
+            "1716",
+            "1749",
+            "1759",
+            "1841",
+            "1842",
+            "1855",
+            "1928",
+            "2126",
+            "349",
+            "412",
+            "549",
+            "559",
+            "624",
+            "634",
+            "644",
+            "651",
+            "726",
+            "733"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "QHTN",
+          "description": "",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "9",
+            "1"
+          ],
+          "distinct_sample": [
+            "1",
+            "9"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "TX",
+          "description": "Temperature maximale quotidienne.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "4.2",
+            "4.5",
+            "1.6"
+          ],
+          "distinct_sample": [
+            "-0.5",
+            "-1.1",
+            "-2.6",
+            "0.4",
+            "1.6",
+            "10.5",
+            "12.1",
+            "12.8",
+            "13.4",
+            "3.0",
+            "4.2",
+            "4.5",
+            "6.0",
+            "6.7",
+            "6.9",
+            "8.0",
+            "8.3",
+            "8.7",
+            "9.3",
+            "9.8"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "QTX",
+          "description": "",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "1"
+          ],
+          "distinct_sample": [
+            "1"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "HTX",
+          "description": "",
+          "empty": 2,
+          "na_literal": 0,
+          "missing_total": 2,
+          "completeness_pct": 99.88,
+          "examples": [
+            "1339",
+            "1317",
+            "1302"
+          ],
+          "distinct_sample": [
+            "1011",
+            "1105",
+            "1109",
+            "1126",
+            "1148",
+            "1210",
+            "1233",
+            "1301",
+            "1302",
+            "1308",
+            "1314",
+            "1317",
+            "1339",
+            "1345",
+            "1353",
+            "1548",
+            "2212",
+            "2301",
+            "516",
+            "553"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "QHTX",
+          "description": "",
+          "empty": 2,
+          "na_literal": 0,
+          "missing_total": 2,
+          "completeness_pct": 99.88,
+          "examples": [
+            "9",
+            "1"
+          ],
+          "distinct_sample": [
+            "1",
+            "9"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "TM",
+          "description": "Temperature moyenne quotidienne, si disponible.",
+          "empty": 1,
+          "na_literal": 0,
+          "missing_total": 1,
+          "completeness_pct": 99.94,
+          "examples": [
+            "-1.5",
+            "0.2",
+            "-2.1"
+          ],
+          "distinct_sample": [
+            "-0.6",
+            "-1.5",
+            "-2.1",
+            "-3.4",
+            "-4.5",
+            "-5.0",
+            "-5.1",
+            "0.2",
+            "0.8",
+            "3.1",
+            "3.5",
+            "4.2",
+            "4.5",
+            "4.8",
+            "5.3",
+            "5.6",
+            "6.3",
+            "6.6",
+            "8.5",
+            "8.8"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "QTM",
+          "description": "",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "1"
+          ],
+          "distinct_sample": [
+            "1"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "TNTXM",
+          "description": "",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "-0.8",
+            "0.5",
+            "-1.6"
+          ],
+          "distinct_sample": [
+            "-0.8",
+            "-1.6",
+            "-3.3",
+            "-4.0",
+            "-5.1",
+            "0.4",
+            "0.5",
+            "1.1",
+            "2.6",
+            "3.6",
+            "4.0",
+            "4.3",
+            "4.5",
+            "5.5",
+            "5.6",
+            "6.6",
+            "7.2",
+            "8.5",
+            "8.9",
+            "9.5"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "QTNTXM",
+          "description": "",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "1"
+          ],
+          "distinct_sample": [
+            "1"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "TAMPLI",
+          "description": "",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "9.9",
+            "8.1",
+            "6.3"
+          ],
+          "distinct_sample": [
+            "10.2",
+            "10.6",
+            "11.4",
+            "2.6",
+            "2.8",
+            "2.9",
+            "3.8",
+            "4.0",
+            "4.9",
+            "5.8",
+            "6.3",
+            "6.4",
+            "6.6",
+            "7.0",
+            "7.3",
+            "7.6",
+            "7.9",
+            "8.0",
+            "8.1",
+            "8.2"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "QTAMPLI",
+          "description": "",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "1"
+          ],
+          "distinct_sample": [
+            "1"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "TNSOL",
+          "description": "",
+          "empty": 1170,
+          "na_literal": 0,
+          "missing_total": 1170,
+          "completeness_pct": 27.78,
+          "examples": [
+            "-9.5",
+            "-8.3",
+            "-4.4"
+          ],
+          "distinct_sample": [
+            "-0.3",
+            "-0.4",
+            "-11.1",
+            "-2.0",
+            "-3.9",
+            "-4.4",
+            "-4.8",
+            "-6.1",
+            "-6.6",
+            "-7.5",
+            "-7.8",
+            "-8.3",
+            "-9.5",
+            "0.7",
+            "1.6",
+            "2.2",
+            "2.4",
+            "3.9",
+            "4.2",
+            "4.4"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "QTNSOL",
+          "description": "",
+          "empty": 1170,
+          "na_literal": 0,
+          "missing_total": 1170,
+          "completeness_pct": 27.78,
+          "examples": [
+            "9",
+            "1"
+          ],
+          "distinct_sample": [
+            "1",
+            "9"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "TN50",
+          "description": "",
+          "empty": 1269,
+          "na_literal": 0,
+          "missing_total": 1269,
+          "completeness_pct": 21.67,
+          "examples": [
+            "-10.2",
+            "-10.0",
+            "-3.9"
+          ],
+          "distinct_sample": [
+            "-1.2",
+            "-1.6",
+            "-1.8",
+            "-10.0",
+            "-10.2",
+            "-3.4",
+            "-3.9",
+            "-6.0",
+            "-6.9",
+            "-7.0",
+            "-9.8",
+            "0.9",
+            "2.1",
+            "2.2",
+            "3.4",
+            "4.7",
+            "5.0",
+            "5.6",
+            "8.5",
+            "8.6"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "QTN50",
+          "description": "",
+          "empty": 1269,
+          "na_literal": 0,
+          "missing_total": 1269,
+          "completeness_pct": 21.67,
+          "examples": [
+            "9",
+            "1"
+          ],
+          "distinct_sample": [
+            "1",
+            "9"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "DG",
+          "description": "",
+          "empty": 38,
+          "na_literal": 0,
+          "missing_total": 38,
+          "completeness_pct": 97.65,
+          "examples": [
+            "896",
+            "566",
+            "1195"
+          ],
+          "distinct_sample": [
+            "0",
+            "1059",
+            "1195",
+            "143",
+            "1440",
+            "24",
+            "289",
+            "3",
+            "309",
+            "323",
+            "325",
+            "38",
+            "444",
+            "469",
+            "519",
+            "566",
+            "606",
+            "64",
+            "7",
+            "896"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "QDG",
+          "description": "",
+          "empty": 36,
+          "na_literal": 0,
+          "missing_total": 36,
+          "completeness_pct": 97.78,
+          "examples": [
+            "9",
+            "1"
+          ],
+          "distinct_sample": [
+            "1",
+            "9"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "FFM",
+          "description": "Vitesse moyenne quotidienne du vent, si disponible.",
+          "empty": 1080,
+          "na_literal": 0,
+          "missing_total": 1080,
+          "completeness_pct": 33.33,
+          "examples": [
+            "1.1",
+            "1.3",
+            "1.6"
+          ],
+          "distinct_sample": [
+            "0.8",
+            "0.9",
+            "1.0",
+            "1.1",
+            "1.3",
+            "1.4",
+            "1.6",
+            "1.7",
+            "1.8",
+            "1.9",
+            "2.5",
+            "2.7",
+            "2.8",
+            "2.9",
+            "3.3",
+            "3.4",
+            "4.0",
+            "4.2",
+            "5.1",
+            "5.3"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "QFFM",
+          "description": "",
+          "empty": 1080,
+          "na_literal": 0,
+          "missing_total": 1080,
+          "completeness_pct": 33.33,
+          "examples": [
+            "1"
+          ],
+          "distinct_sample": [
+            "1"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "FF2M",
+          "description": "",
+          "empty": 1620,
+          "na_literal": 0,
+          "missing_total": 1620,
+          "completeness_pct": 0.0,
+          "examples": [],
+          "distinct_sample": [],
+          "min_max": null
+        },
+        {
+          "field": "QFF2M",
+          "description": "",
+          "empty": 1620,
+          "na_literal": 0,
+          "missing_total": 1620,
+          "completeness_pct": 0.0,
+          "examples": [],
+          "distinct_sample": [],
+          "min_max": null
+        },
+        {
+          "field": "FXY",
+          "description": "Rafale maximale quotidienne, si disponible.",
+          "empty": 1081,
+          "na_literal": 0,
+          "missing_total": 1081,
+          "completeness_pct": 33.27,
+          "examples": [
+            "2.6",
+            "2.8",
+            "4.3"
+          ],
+          "distinct_sample": [
+            "10.1",
+            "10.6",
+            "10.7",
+            "2.3",
+            "2.5",
+            "2.6",
+            "2.7",
+            "2.8",
+            "3.7",
+            "3.9",
+            "4.3",
+            "4.4",
+            "5.0",
+            "5.7",
+            "5.8",
+            "6.2",
+            "6.5",
+            "7.4",
+            "7.8",
+            "9.7"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "QFXY",
+          "description": "",
+          "empty": 1081,
+          "na_literal": 0,
+          "missing_total": 1081,
+          "completeness_pct": 33.27,
+          "examples": [
+            "1"
+          ],
+          "distinct_sample": [
+            "1"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "DXY",
+          "description": "",
+          "empty": 1081,
+          "na_literal": 0,
+          "missing_total": 1081,
+          "completeness_pct": 33.27,
+          "examples": [
+            "150",
+            "330",
+            "50"
+          ],
+          "distinct_sample": [
+            "10",
+            "140",
+            "150",
+            "180",
+            "190",
+            "200",
+            "220",
+            "230",
+            "240",
+            "250",
+            "270",
+            "280",
+            "290",
+            "300",
+            "310",
+            "320",
+            "330",
+            "340",
+            "40",
+            "50"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "QDXY",
+          "description": "",
+          "empty": 1081,
+          "na_literal": 0,
+          "missing_total": 1081,
+          "completeness_pct": 33.27,
+          "examples": [
+            "1",
+            "9"
+          ],
+          "distinct_sample": [
+            "1",
+            "9"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "HXY",
+          "description": "",
+          "empty": 1081,
+          "na_literal": 0,
+          "missing_total": 1081,
+          "completeness_pct": 33.27,
+          "examples": [
+            "1028",
+            "240",
+            "1233"
+          ],
+          "distinct_sample": [
+            "1028",
+            "1041",
+            "1215",
+            "1230",
+            "1233",
+            "1325",
+            "1333",
+            "1349",
+            "1400",
+            "1457",
+            "1619",
+            "1837",
+            "1925",
+            "2232",
+            "2356",
+            "237",
+            "240",
+            "402",
+            "439",
+            "633"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "QHXY",
+          "description": "",
+          "empty": 1081,
+          "na_literal": 0,
+          "missing_total": 1081,
+          "completeness_pct": 33.27,
+          "examples": [
+            "9",
+            "1"
+          ],
+          "distinct_sample": [
+            "1",
+            "9"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "FXI",
+          "description": "",
+          "empty": 1080,
+          "na_literal": 0,
+          "missing_total": 1080,
+          "completeness_pct": 33.33,
+          "examples": [
+            "4.2",
+            "5.1",
+            "6.9"
+          ],
+          "distinct_sample": [
+            "10.1",
+            "10.2",
+            "11.3",
+            "11.5",
+            "13.4",
+            "13.9",
+            "16.4",
+            "17.3",
+            "20.2",
+            "20.4",
+            "3.7",
+            "4.1",
+            "4.2",
+            "5.0",
+            "5.1",
+            "6.2",
+            "6.9",
+            "7.3",
+            "8.0",
+            "8.3"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "QFXI",
+          "description": "",
+          "empty": 1080,
+          "na_literal": 0,
+          "missing_total": 1080,
+          "completeness_pct": 33.33,
+          "examples": [
+            "1"
+          ],
+          "distinct_sample": [
+            "1"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "DXI",
+          "description": "",
+          "empty": 1081,
+          "na_literal": 0,
+          "missing_total": 1081,
+          "completeness_pct": 33.27,
+          "examples": [
+            "180",
+            "340",
+            "350"
+          ],
+          "distinct_sample": [
+            "140",
+            "160",
+            "170",
+            "180",
+            "190",
+            "200",
+            "210",
+            "220",
+            "230",
+            "250",
+            "260",
+            "280",
+            "300",
+            "310",
+            "320",
+            "330",
+            "340",
+            "350",
+            "360",
+            "40"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "QDXI",
+          "description": "",
+          "empty": 1081,
+          "na_literal": 0,
+          "missing_total": 1081,
+          "completeness_pct": 33.27,
+          "examples": [
+            "1",
+            "9"
+          ],
+          "distinct_sample": [
+            "1",
+            "9"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "HXI",
+          "description": "",
+          "empty": 1081,
+          "na_literal": 0,
+          "missing_total": 1081,
+          "completeness_pct": 33.27,
+          "examples": [
+            "1140",
+            "1802",
+            "1615"
+          ],
+          "distinct_sample": [
+            "1059",
+            "1136",
+            "1140",
+            "1203",
+            "1327",
+            "1342",
+            "1343",
+            "1356",
+            "1614",
+            "1615",
+            "1802",
+            "1828",
+            "1925",
+            "2001",
+            "2347",
+            "2352",
+            "34",
+            "358",
+            "42",
+            "743"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "QHXI",
+          "description": "",
+          "empty": 1081,
+          "na_literal": 0,
+          "missing_total": 1081,
+          "completeness_pct": 33.27,
+          "examples": [
+            "9",
+            "1"
+          ],
+          "distinct_sample": [
+            "1",
+            "9"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "FXI2",
+          "description": "",
+          "empty": 1620,
+          "na_literal": 0,
+          "missing_total": 1620,
+          "completeness_pct": 0.0,
+          "examples": [],
+          "distinct_sample": [],
+          "min_max": null
+        },
+        {
+          "field": "QFXI2",
+          "description": "",
+          "empty": 1620,
+          "na_literal": 0,
+          "missing_total": 1620,
+          "completeness_pct": 0.0,
+          "examples": [],
+          "distinct_sample": [],
+          "min_max": null
+        },
+        {
+          "field": "DXI2",
+          "description": "",
+          "empty": 1620,
+          "na_literal": 0,
+          "missing_total": 1620,
+          "completeness_pct": 0.0,
+          "examples": [],
+          "distinct_sample": [],
+          "min_max": null
+        },
+        {
+          "field": "QDXI2",
+          "description": "",
+          "empty": 1620,
+          "na_literal": 0,
+          "missing_total": 1620,
+          "completeness_pct": 0.0,
+          "examples": [],
+          "distinct_sample": [],
+          "min_max": null
+        },
+        {
+          "field": "HXI2",
+          "description": "",
+          "empty": 1620,
+          "na_literal": 0,
+          "missing_total": 1620,
+          "completeness_pct": 0.0,
+          "examples": [],
+          "distinct_sample": [],
+          "min_max": null
+        },
+        {
+          "field": "QHXI2",
+          "description": "",
+          "empty": 1620,
+          "na_literal": 0,
+          "missing_total": 1620,
+          "completeness_pct": 0.0,
+          "examples": [],
+          "distinct_sample": [],
+          "min_max": null
+        },
+        {
+          "field": "FXI3S",
+          "description": "",
+          "empty": 1081,
+          "na_literal": 0,
+          "missing_total": 1081,
+          "completeness_pct": 33.27,
+          "examples": [
+            "3.7",
+            "4.7",
+            "6.3"
+          ],
+          "distinct_sample": [
+            "10.0",
+            "11.3",
+            "12.8",
+            "13.4",
+            "15.4",
+            "15.5",
+            "16.1",
+            "18.4",
+            "18.9",
+            "3.5",
+            "3.7",
+            "4.4",
+            "4.7",
+            "5.7",
+            "6.3",
+            "6.8",
+            "7.2",
+            "7.4",
+            "8.2",
+            "9.0"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "QFXI3S",
+          "description": "",
+          "empty": 1081,
+          "na_literal": 0,
+          "missing_total": 1081,
+          "completeness_pct": 33.27,
+          "examples": [
+            "1"
+          ],
+          "distinct_sample": [
+            "1"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "DXI3S",
+          "description": "",
+          "empty": 1081,
+          "na_literal": 0,
+          "missing_total": 1081,
+          "completeness_pct": 33.27,
+          "examples": [
+            "180",
+            "340",
+            "350"
+          ],
+          "distinct_sample": [
+            "140",
+            "150",
+            "160",
+            "170",
+            "180",
+            "190",
+            "200",
+            "210",
+            "230",
+            "240",
+            "260",
+            "300",
+            "310",
+            "320",
+            "330",
+            "340",
+            "350",
+            "360",
+            "40",
+            "50"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "QDXI3S",
+          "description": "",
+          "empty": 1081,
+          "na_literal": 0,
+          "missing_total": 1081,
+          "completeness_pct": 33.27,
+          "examples": [
+            "1"
+          ],
+          "distinct_sample": [
+            "1"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "HXI3S",
+          "description": "",
+          "empty": 1081,
+          "na_literal": 0,
+          "missing_total": 1081,
+          "completeness_pct": 33.27,
+          "examples": [
+            "1140",
+            "1802",
+            "1606"
+          ],
+          "distinct_sample": [
+            "1136",
+            "1140",
+            "1220",
+            "1230",
+            "1301",
+            "1342",
+            "1356",
+            "1606",
+            "1614",
+            "1802",
+            "1828",
+            "1925",
+            "2228",
+            "2347",
+            "2352",
+            "244",
+            "34",
+            "358",
+            "36",
+            "743"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "QHXI3S",
+          "description": "",
+          "empty": 1081,
+          "na_literal": 0,
+          "missing_total": 1081,
+          "completeness_pct": 33.27,
+          "examples": [
+            "9",
+            "1"
+          ],
+          "distinct_sample": [
+            "1",
+            "9"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "DRR",
+          "description": "",
+          "empty": 1448,
+          "na_literal": 0,
+          "missing_total": 1448,
+          "completeness_pct": 10.62,
+          "examples": [
+            "0",
+            "579",
+            "24"
+          ],
+          "distinct_sample": [
+            "0",
+            "1052",
+            "112",
+            "1167",
+            "127",
+            "135",
+            "15",
+            "153",
+            "184",
+            "19",
+            "196",
+            "198",
+            "2",
+            "205",
+            "24",
+            "379",
+            "389",
+            "4",
+            "579",
+            "83"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "QDRR",
+          "description": "",
+          "empty": 1442,
+          "na_literal": 0,
+          "missing_total": 1442,
+          "completeness_pct": 10.99,
+          "examples": [
+            "9",
+            "1"
+          ],
+          "distinct_sample": [
+            "1",
+            "9"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "STATUS_FXI3S",
+          "description": "",
+          "empty": 1081,
+          "na_literal": 0,
+          "missing_total": 1081,
+          "completeness_pct": 33.27,
+          "examples": [
+            "0"
+          ],
+          "distinct_sample": [
+            "0"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "STATUS_DXI3S",
+          "description": "",
+          "empty": 1081,
+          "na_literal": 0,
+          "missing_total": 1081,
+          "completeness_pct": 33.27,
+          "examples": [
+            "1",
+            "0"
+          ],
+          "distinct_sample": [
+            "0",
+            "1"
+          ],
+          "min_max": null
+        }
+      ]
+    },
+    {
+      "name": "meteo_autres_jan_mar_2026",
+      "rows": 1620,
+      "columns": 88,
+      "fields": [
+        "NUM_POSTE",
+        "NOM_USUEL",
+        "LAT",
+        "LON",
+        "ALTI",
+        "AAAAMMJJ",
+        "DHUMEC",
+        "QDHUMEC",
+        "PMERM",
+        "QPMERM",
+        "PMERMIN",
+        "QPMERMIN",
+        "INST",
+        "QINST",
+        "GLOT",
+        "QGLOT",
+        "DIFT",
+        "QDIFT",
+        "DIRT",
+        "QDIRT",
+        "INFRART",
+        "QINFRART",
+        "UV",
+        "QUV",
+        "UV_INDICEX",
+        "QUV_INDICEX",
+        "SIGMA",
+        "QSIGMA",
+        "UN",
+        "QUN",
+        "HUN",
+        "QHUN",
+        "UX",
+        "QUX",
+        "HUX",
+        "QHUX",
+        "UM",
+        "QUM",
+        "DHUMI40",
+        "QDHUMI40",
+        "DHUMI80",
+        "QDHUMI80",
+        "TSVM",
+        "QTSVM",
+        "ETPMON",
+        "QETPMON",
+        "ETPGRILLE",
+        "QETPGRILLE",
+        "ECOULEMENTM",
+        "QECOULEMENTM",
+        "HNEIGEF",
+        "QHNEIGEF",
+        "NEIGETOTX",
+        "QNEIGETOTX",
+        "NEIGETOT06",
+        "QNEIGETOT06",
+        "NEIG",
+        "QNEIG",
+        "BROU",
+        "QBROU",
+        "ORAG",
+        "QORAG",
+        "GRESIL",
+        "QGRESIL",
+        "GRELE",
+        "QGRELE",
+        "ROSEE",
+        "QROSEE",
+        "VERGLAS",
+        "QVERGLAS",
+        "SOLNEIGE",
+        "QSOLNEIGE",
+        "GELEE",
+        "QGELEE",
+        "FUMEE",
+        "QFUMEE",
+        "BRUME",
+        "QBRUME",
+        "ECLAIR",
+        "QECLAIR",
+        "NB300",
+        "QNB300",
+        "BA300",
+        "QBA300",
+        "TMERMIN",
+        "QTMERMIN",
+        "TMERMAX",
+        "QTMERMAX"
+      ],
+      "duplicate_exact_rows": 0,
+      "duplicate_keys": {},
+      "invalid_counts": {},
+      "notes": [
+        "Filtre applique: observations quotidiennes du departement 69 entre 2026-01-01 et 2026-03-31."
+      ],
+      "columns_profile": [
+        {
+          "field": "NUM_POSTE",
+          "description": "Identifiant de la station meteorologique.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "69008001",
+            "69028001",
+            "69029001"
+          ],
+          "distinct_sample": [
+            "69008001",
+            "69028001",
+            "69029001",
+            "69066003",
+            "69114001",
+            "69123002",
+            "69135001",
+            "69141001",
+            "69174002",
+            "69196001",
+            "69203001",
+            "69204002",
+            "69206001",
+            "69238001",
+            "69239002",
+            "69258001",
+            "69264001",
+            "69299001"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "NOM_USUEL",
+          "description": "Nom usuel de la station.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "ANCY_SAPC",
+            "BRINDAS",
+            "LYON-BRON"
+          ],
+          "distinct_sample": [
+            "ANCY_SAPC",
+            "BRINDAS",
+            "COURS LA VILLE_SAPC",
+            "LES SAUVAGES",
+            "LIERGUES_SAPC",
+            "LYON TETE D'OR",
+            "LYON-BRON",
+            "LYON-ST EXUPERY",
+            "MONSOLS",
+            "MORNANT",
+            "SAINT-VERAND",
+            "ST-DIDIER-BEAUJ",
+            "ST-GENIS-L'ARGENTIERE",
+            "ST-GENIS-LAVAL",
+            "ST-GEORGES-REN",
+            "ST-SYMPHORIEN-C",
+            "VAUXRENARD",
+            "VILLEFRANCHE"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "LAT",
+          "description": "Latitude de la station.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "45.843333",
+            "45.713333",
+            "45.721333"
+          ],
+          "distinct_sample": [
+            "45.614500",
+            "45.638667",
+            "45.694667",
+            "45.700000",
+            "45.713333",
+            "45.721333",
+            "45.726500",
+            "45.772833",
+            "45.843333",
+            "45.916333",
+            "45.935333",
+            "45.976500",
+            "45.987167",
+            "46.058167",
+            "46.098667",
+            "46.164167",
+            "46.217000",
+            "46.219167"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "LON",
+          "description": "Longitude de la station.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "4.508167",
+            "4.693167",
+            "4.949167"
+          ],
+          "distinct_sample": [
+            "4.325833",
+            "4.384167",
+            "4.471333",
+            "4.484500",
+            "4.508167",
+            "4.521167",
+            "4.523167",
+            "4.566333",
+            "4.628500",
+            "4.650333",
+            "4.673833",
+            "4.693167",
+            "4.710833",
+            "4.737667",
+            "4.782333",
+            "4.855167",
+            "4.949167",
+            "5.077833"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "ALTI",
+          "description": "Altitude de la station.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "626",
+            "317",
+            "202"
+          ],
+          "distinct_sample": [
+            "170",
+            "174",
+            "190",
+            "202",
+            "235",
+            "290",
+            "317",
+            "343",
+            "345",
+            "390",
+            "512",
+            "525",
+            "578",
+            "610",
+            "626",
+            "740",
+            "831"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "AAAAMMJJ",
+          "description": "Date d'observation au format AAAAMMJJ.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "20260101",
+            "20260102",
+            "20260103"
+          ],
+          "distinct_sample": [
+            "20260101",
+            "20260102",
+            "20260103",
+            "20260104",
+            "20260105",
+            "20260106",
+            "20260107",
+            "20260108",
+            "20260109",
+            "20260110",
+            "20260111",
+            "20260112",
+            "20260113",
+            "20260114",
+            "20260115",
+            "20260116",
+            "20260117",
+            "20260118",
+            "20260119",
+            "20260120"
+          ],
+          "min_max": {
+            "min": "2026-01-01",
+            "max": "2026-03-31"
+          }
+        },
+        {
+          "field": "DHUMEC",
+          "description": "",
+          "empty": 1534,
+          "na_literal": 0,
+          "missing_total": 1534,
+          "completeness_pct": 5.31,
+          "examples": [
+            "0",
+            "84",
+            "876"
+          ],
+          "distinct_sample": [
+            "0",
+            "123",
+            "1257",
+            "1440",
+            "251",
+            "3",
+            "32",
+            "424",
+            "432",
+            "50",
+            "58",
+            "651",
+            "687",
+            "690",
+            "704",
+            "742",
+            "772",
+            "803",
+            "84",
+            "87"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "QDHUMEC",
+          "description": "",
+          "empty": 1534,
+          "na_literal": 0,
+          "missing_total": 1534,
+          "completeness_pct": 5.31,
+          "examples": [
+            "9"
+          ],
+          "distinct_sample": [
+            "9"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "PMERM",
+          "description": "",
+          "empty": 1440,
+          "na_literal": 0,
+          "missing_total": 1440,
+          "completeness_pct": 11.11,
+          "examples": [
+            "1017.8",
+            "1012.1",
+            "1012.5"
+          ],
+          "distinct_sample": [
+            "1004.7",
+            "1007.0",
+            "1012.1",
+            "1012.5",
+            "1014.4",
+            "1014.5",
+            "1014.9",
+            "1015.5",
+            "1015.8",
+            "1016.3",
+            "1016.5",
+            "1017.8",
+            "1018.2",
+            "1018.4",
+            "1018.5",
+            "1018.6",
+            "1019.1",
+            "1020.0",
+            "1020.1",
+            "1025.1"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "QPMERM",
+          "description": "",
+          "empty": 1440,
+          "na_literal": 0,
+          "missing_total": 1440,
+          "completeness_pct": 11.11,
+          "examples": [
+            "1"
+          ],
+          "distinct_sample": [
+            "1"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "PMERMIN",
+          "description": "",
+          "empty": 1443,
+          "na_literal": 0,
+          "missing_total": 1443,
+          "completeness_pct": 10.93,
+          "examples": [
+            "1014.1",
+            "1009.4",
+            "1011.1"
+          ],
+          "distinct_sample": [
+            "1004.4",
+            "1007.5",
+            "1009.4",
+            "1010.1",
+            "1011.1",
+            "1012.2",
+            "1012.8",
+            "1013.2",
+            "1014.1",
+            "1014.4",
+            "1014.5",
+            "1015.1",
+            "1015.2",
+            "1015.4",
+            "1016.8",
+            "1016.9",
+            "1017.0",
+            "1017.2",
+            "1019.0",
+            "1023.4"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "QPMERMIN",
+          "description": "",
+          "empty": 1443,
+          "na_literal": 0,
+          "missing_total": 1443,
+          "completeness_pct": 10.93,
+          "examples": [
+            "1",
+            "9"
+          ],
+          "distinct_sample": [
+            "1",
+            "9"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "INST",
+          "description": "",
+          "empty": 1440,
+          "na_literal": 0,
+          "missing_total": 1440,
+          "completeness_pct": 11.11,
+          "examples": [
+            "471",
+            "472",
+            "430"
+          ],
+          "distinct_sample": [
+            "0",
+            "100",
+            "103",
+            "104",
+            "163",
+            "231",
+            "238",
+            "272",
+            "304",
+            "311",
+            "353",
+            "429",
+            "430",
+            "434",
+            "455",
+            "471",
+            "472",
+            "482",
+            "65",
+            "82"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "QINST",
+          "description": "",
+          "empty": 1440,
+          "na_literal": 0,
+          "missing_total": 1440,
+          "completeness_pct": 11.11,
+          "examples": [
+            "9",
+            "1"
+          ],
+          "distinct_sample": [
+            "1",
+            "9"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "GLOT",
+          "description": "",
+          "empty": 1440,
+          "na_literal": 0,
+          "missing_total": 1440,
+          "completeness_pct": 11.11,
+          "examples": [
+            "710",
+            "739",
+            "675"
+          ],
+          "distinct_sample": [
+            "115",
+            "128",
+            "155",
+            "159",
+            "179",
+            "216",
+            "320",
+            "342",
+            "388",
+            "457",
+            "506",
+            "557",
+            "571",
+            "594",
+            "639",
+            "675",
+            "680",
+            "691",
+            "710",
+            "739"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "QGLOT",
+          "description": "",
+          "empty": 1440,
+          "na_literal": 0,
+          "missing_total": 1440,
+          "completeness_pct": 11.11,
+          "examples": [
+            "9",
+            "1"
+          ],
+          "distinct_sample": [
+            "1",
+            "9"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "DIFT",
+          "description": "",
+          "empty": 1620,
+          "na_literal": 0,
+          "missing_total": 1620,
+          "completeness_pct": 0.0,
+          "examples": [],
+          "distinct_sample": [],
+          "min_max": null
+        },
+        {
+          "field": "QDIFT",
+          "description": "",
+          "empty": 1620,
+          "na_literal": 0,
+          "missing_total": 1620,
+          "completeness_pct": 0.0,
+          "examples": [],
+          "distinct_sample": [],
+          "min_max": null
+        },
+        {
+          "field": "DIRT",
+          "description": "",
+          "empty": 1620,
+          "na_literal": 0,
+          "missing_total": 1620,
+          "completeness_pct": 0.0,
+          "examples": [],
+          "distinct_sample": [],
+          "min_max": null
+        },
+        {
+          "field": "QDIRT",
+          "description": "",
+          "empty": 1620,
+          "na_literal": 0,
+          "missing_total": 1620,
+          "completeness_pct": 0.0,
+          "examples": [],
+          "distinct_sample": [],
+          "min_max": null
+        },
+        {
+          "field": "INFRART",
+          "description": "",
+          "empty": 1620,
+          "na_literal": 0,
+          "missing_total": 1620,
+          "completeness_pct": 0.0,
+          "examples": [],
+          "distinct_sample": [],
+          "min_max": null
+        },
+        {
+          "field": "QINFRART",
+          "description": "",
+          "empty": 1620,
+          "na_literal": 0,
+          "missing_total": 1620,
+          "completeness_pct": 0.0,
+          "examples": [],
+          "distinct_sample": [],
+          "min_max": null
+        },
+        {
+          "field": "UV",
+          "description": "",
+          "empty": 1620,
+          "na_literal": 0,
+          "missing_total": 1620,
+          "completeness_pct": 0.0,
+          "examples": [],
+          "distinct_sample": [],
+          "min_max": null
+        },
+        {
+          "field": "QUV",
+          "description": "",
+          "empty": 1620,
+          "na_literal": 0,
+          "missing_total": 1620,
+          "completeness_pct": 0.0,
+          "examples": [],
+          "distinct_sample": [],
+          "min_max": null
+        },
+        {
+          "field": "UV_INDICEX",
+          "description": "",
+          "empty": 1620,
+          "na_literal": 0,
+          "missing_total": 1620,
+          "completeness_pct": 0.0,
+          "examples": [],
+          "distinct_sample": [],
+          "min_max": null
+        },
+        {
+          "field": "QUV_INDICEX",
+          "description": "",
+          "empty": 1620,
+          "na_literal": 0,
+          "missing_total": 1620,
+          "completeness_pct": 0.0,
+          "examples": [],
+          "distinct_sample": [],
+          "min_max": null
+        },
+        {
+          "field": "SIGMA",
+          "description": "",
+          "empty": 1440,
+          "na_literal": 0,
+          "missing_total": 1440,
+          "completeness_pct": 11.11,
+          "examples": [
+            "92",
+            "84",
+            "53"
+          ],
+          "distinct_sample": [
+            "0",
+            "12",
+            "16",
+            "17",
+            "18",
+            "19",
+            "29",
+            "36",
+            "40",
+            "44",
+            "46",
+            "53",
+            "58",
+            "59",
+            "66",
+            "76",
+            "8",
+            "84",
+            "87",
+            "89"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "QSIGMA",
+          "description": "",
+          "empty": 1440,
+          "na_literal": 0,
+          "missing_total": 1440,
+          "completeness_pct": 11.11,
+          "examples": [
+            "9",
+            "1"
+          ],
+          "distinct_sample": [
+            "1",
+            "9"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "UN",
+          "description": "",
+          "empty": 990,
+          "na_literal": 0,
+          "missing_total": 990,
+          "completeness_pct": 38.89,
+          "examples": [
+            "58",
+            "51",
+            "37"
+          ],
+          "distinct_sample": [
+            "100",
+            "37",
+            "47",
+            "48",
+            "51",
+            "52",
+            "53",
+            "55",
+            "56",
+            "58",
+            "59",
+            "61",
+            "62",
+            "63",
+            "67",
+            "73",
+            "74",
+            "77",
+            "87",
+            "89"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "QUN",
+          "description": "",
+          "empty": 990,
+          "na_literal": 0,
+          "missing_total": 990,
+          "completeness_pct": 38.89,
+          "examples": [
+            "1"
+          ],
+          "distinct_sample": [
+            "1"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "HUN",
+          "description": "",
+          "empty": 992,
+          "na_literal": 0,
+          "missing_total": 992,
+          "completeness_pct": 38.77,
+          "examples": [
+            "1407",
+            "1354",
+            "1404"
+          ],
+          "distinct_sample": [
+            "1",
+            "1025",
+            "1118",
+            "1128",
+            "1135",
+            "1200",
+            "1214",
+            "1221",
+            "1222",
+            "1227",
+            "1350",
+            "1354",
+            "1356",
+            "1404",
+            "1407",
+            "1430",
+            "1442",
+            "1637",
+            "2319",
+            "2345"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "QHUN",
+          "description": "",
+          "empty": 992,
+          "na_literal": 0,
+          "missing_total": 992,
+          "completeness_pct": 38.77,
+          "examples": [
+            "9",
+            "1"
+          ],
+          "distinct_sample": [
+            "1",
+            "9"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "UX",
+          "description": "",
+          "empty": 990,
+          "na_literal": 0,
+          "missing_total": 990,
+          "completeness_pct": 38.89,
+          "examples": [
+            "95",
+            "92",
+            "82"
+          ],
+          "distinct_sample": [
+            "100",
+            "78",
+            "79",
+            "80",
+            "82",
+            "83",
+            "84",
+            "85",
+            "86",
+            "87",
+            "89",
+            "90",
+            "91",
+            "92",
+            "93",
+            "94",
+            "95",
+            "96",
+            "97",
+            "98"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "QUX",
+          "description": "",
+          "empty": 990,
+          "na_literal": 0,
+          "missing_total": 990,
+          "completeness_pct": 38.89,
+          "examples": [
+            "1"
+          ],
+          "distinct_sample": [
+            "1"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "HUX",
+          "description": "",
+          "empty": 992,
+          "na_literal": 0,
+          "missing_total": 992,
+          "completeness_pct": 38.77,
+          "examples": [
+            "2325",
+            "15",
+            "231"
+          ],
+          "distinct_sample": [
+            "1",
+            "1020",
+            "14",
+            "15",
+            "150",
+            "1517",
+            "1931",
+            "2055",
+            "2228",
+            "231",
+            "2325",
+            "2330",
+            "2339",
+            "2342",
+            "2354",
+            "407",
+            "427",
+            "432",
+            "547",
+            "551"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "QHUX",
+          "description": "",
+          "empty": 992,
+          "na_literal": 0,
+          "missing_total": 992,
+          "completeness_pct": 38.77,
+          "examples": [
+            "9",
+            "1"
+          ],
+          "distinct_sample": [
+            "1",
+            "9"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "UM",
+          "description": "",
+          "empty": 991,
+          "na_literal": 0,
+          "missing_total": 991,
+          "completeness_pct": 38.83,
+          "examples": [
+            "82",
+            "77",
+            "73"
+          ],
+          "distinct_sample": [
+            "100",
+            "66",
+            "69",
+            "70",
+            "72",
+            "73",
+            "75",
+            "76",
+            "77",
+            "80",
+            "82",
+            "83",
+            "84",
+            "87",
+            "89",
+            "91",
+            "95",
+            "96",
+            "97",
+            "98"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "QUM",
+          "description": "",
+          "empty": 990,
+          "na_literal": 0,
+          "missing_total": 990,
+          "completeness_pct": 38.89,
+          "examples": [
+            "1"
+          ],
+          "distinct_sample": [
+            "1"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "DHUMI40",
+          "description": "",
+          "empty": 997,
+          "na_literal": 0,
+          "missing_total": 997,
+          "completeness_pct": 38.46,
+          "examples": [
+            "0",
+            "34",
+            "74"
+          ],
+          "distinct_sample": [
+            "0",
+            "1",
+            "10",
+            "136",
+            "140",
+            "156",
+            "198",
+            "219",
+            "224",
+            "23",
+            "24",
+            "266",
+            "34",
+            "4",
+            "50",
+            "59",
+            "7",
+            "74",
+            "8",
+            "90"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "QDHUMI40",
+          "description": "",
+          "empty": 997,
+          "na_literal": 0,
+          "missing_total": 997,
+          "completeness_pct": 38.46,
+          "examples": [
+            "9",
+            "1"
+          ],
+          "distinct_sample": [
+            "1",
+            "9"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "DHUMI80",
+          "description": "",
+          "empty": 998,
+          "na_literal": 0,
+          "missing_total": 998,
+          "completeness_pct": 38.4,
+          "examples": [
+            "1003",
+            "783",
+            "689"
+          ],
+          "distinct_sample": [
+            "1003",
+            "1200",
+            "1343",
+            "1432",
+            "1440",
+            "207",
+            "233",
+            "236",
+            "418",
+            "429",
+            "47",
+            "527",
+            "549",
+            "564",
+            "689",
+            "70",
+            "714",
+            "764",
+            "783",
+            "805"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "QDHUMI80",
+          "description": "",
+          "empty": 998,
+          "na_literal": 0,
+          "missing_total": 998,
+          "completeness_pct": 38.4,
+          "examples": [
+            "9",
+            "1"
+          ],
+          "distinct_sample": [
+            "1",
+            "9"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "TSVM",
+          "description": "",
+          "empty": 990,
+          "na_literal": 0,
+          "missing_total": 990,
+          "completeness_pct": 38.89,
+          "examples": [
+            "3.9",
+            "4.4",
+            "4.1"
+          ],
+          "distinct_sample": [
+            "3.1",
+            "3.7",
+            "3.8",
+            "3.9",
+            "4.1",
+            "4.4",
+            "4.8",
+            "5.4",
+            "5.8",
+            "5.9",
+            "6.3",
+            "6.6",
+            "7.1",
+            "7.5",
+            "7.6",
+            "7.9",
+            "8.0",
+            "8.3",
+            "8.4",
+            "8.8"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "QTSVM",
+          "description": "",
+          "empty": 990,
+          "na_literal": 0,
+          "missing_total": 990,
+          "completeness_pct": 38.89,
+          "examples": [
+            "1"
+          ],
+          "distinct_sample": [
+            "1"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "ETPMON",
+          "description": "",
+          "empty": 1440,
+          "na_literal": 0,
+          "missing_total": 1440,
+          "completeness_pct": 11.11,
+          "examples": [
+            "0.2",
+            "0.4",
+            "0.6"
+          ],
+          "distinct_sample": [
+            "0.2",
+            "0.3",
+            "0.4",
+            "0.5",
+            "0.6",
+            "0.7",
+            "0.8",
+            "0.9",
+            "1.0",
+            "1.1",
+            "1.2",
+            "1.3",
+            "1.4",
+            "1.5",
+            "1.6",
+            "1.7",
+            "1.8",
+            "1.9",
+            "2.1",
+            "2.2"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "QETPMON",
+          "description": "",
+          "empty": 990,
+          "na_literal": 0,
+          "missing_total": 990,
+          "completeness_pct": 38.89,
+          "examples": [
+            "1",
+            "9"
+          ],
+          "distinct_sample": [
+            "1",
+            "9"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "ETPGRILLE",
+          "description": "",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "0.8",
+            "0.6",
+            "0.3"
+          ],
+          "distinct_sample": [
+            "0.3",
+            "0.4",
+            "0.5",
+            "0.6",
+            "0.7",
+            "0.8",
+            "0.9",
+            "1.0",
+            "1.1",
+            "1.2",
+            "1.3",
+            "1.4",
+            "1.5",
+            "1.6",
+            "1.7",
+            "1.8",
+            "2.0",
+            "2.1",
+            "2.2",
+            "2.3"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "QETPGRILLE",
+          "description": "",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "9"
+          ],
+          "distinct_sample": [
+            "9"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "ECOULEMENTM",
+          "description": "",
+          "empty": 1620,
+          "na_literal": 0,
+          "missing_total": 1620,
+          "completeness_pct": 0.0,
+          "examples": [],
+          "distinct_sample": [],
+          "min_max": null
+        },
+        {
+          "field": "QECOULEMENTM",
+          "description": "",
+          "empty": 1620,
+          "na_literal": 0,
+          "missing_total": 1620,
+          "completeness_pct": 0.0,
+          "examples": [],
+          "distinct_sample": [],
+          "min_max": null
+        },
+        {
+          "field": "HNEIGEF",
+          "description": "",
+          "empty": 1530,
+          "na_literal": 0,
+          "missing_total": 1530,
+          "completeness_pct": 5.56,
+          "examples": [
+            "0",
+            "1"
+          ],
+          "distinct_sample": [
+            "0",
+            "1"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "QHNEIGEF",
+          "description": "",
+          "empty": 1530,
+          "na_literal": 0,
+          "missing_total": 1530,
+          "completeness_pct": 5.56,
+          "examples": [
+            "9",
+            "1"
+          ],
+          "distinct_sample": [
+            "1",
+            "9"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "NEIGETOTX",
+          "description": "",
+          "empty": 1440,
+          "na_literal": 0,
+          "missing_total": 1440,
+          "completeness_pct": 11.11,
+          "examples": [
+            "0",
+            "1"
+          ],
+          "distinct_sample": [
+            "0",
+            "1"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "QNEIGETOTX",
+          "description": "",
+          "empty": 1440,
+          "na_literal": 0,
+          "missing_total": 1440,
+          "completeness_pct": 11.11,
+          "examples": [
+            "9"
+          ],
+          "distinct_sample": [
+            "9"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "NEIGETOT06",
+          "description": "",
+          "empty": 1440,
+          "na_literal": 0,
+          "missing_total": 1440,
+          "completeness_pct": 11.11,
+          "examples": [
+            "0",
+            "1"
+          ],
+          "distinct_sample": [
+            "0",
+            "1"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "QNEIGETOT06",
+          "description": "",
+          "empty": 1440,
+          "na_literal": 0,
+          "missing_total": 1440,
+          "completeness_pct": 11.11,
+          "examples": [
+            "9",
+            "1"
+          ],
+          "distinct_sample": [
+            "1",
+            "9"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "NEIG",
+          "description": "",
+          "empty": 1443,
+          "na_literal": 0,
+          "missing_total": 1443,
+          "completeness_pct": 10.93,
+          "examples": [
+            "0",
+            "1"
+          ],
+          "distinct_sample": [
+            "0",
+            "1"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "QNEIG",
+          "description": "",
+          "empty": 1443,
+          "na_literal": 0,
+          "missing_total": 1443,
+          "completeness_pct": 10.93,
+          "examples": [
+            "9"
+          ],
+          "distinct_sample": [
+            "9"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "BROU",
+          "description": "",
+          "empty": 1441,
+          "na_literal": 0,
+          "missing_total": 1441,
+          "completeness_pct": 11.05,
+          "examples": [
+            "0",
+            "1"
+          ],
+          "distinct_sample": [
+            "0",
+            "1"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "QBROU",
+          "description": "",
+          "empty": 1441,
+          "na_literal": 0,
+          "missing_total": 1441,
+          "completeness_pct": 11.05,
+          "examples": [
+            "9"
+          ],
+          "distinct_sample": [
+            "9"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "ORAG",
+          "description": "",
+          "empty": 1444,
+          "na_literal": 0,
+          "missing_total": 1444,
+          "completeness_pct": 10.86,
+          "examples": [
+            "0"
+          ],
+          "distinct_sample": [
+            "0"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "QORAG",
+          "description": "",
+          "empty": 1444,
+          "na_literal": 0,
+          "missing_total": 1444,
+          "completeness_pct": 10.86,
+          "examples": [
+            "9"
+          ],
+          "distinct_sample": [
+            "9"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "GRESIL",
+          "description": "",
+          "empty": 1530,
+          "na_literal": 0,
+          "missing_total": 1530,
+          "completeness_pct": 5.56,
+          "examples": [
+            "0"
+          ],
+          "distinct_sample": [
+            "0"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "QGRESIL",
+          "description": "",
+          "empty": 1530,
+          "na_literal": 0,
+          "missing_total": 1530,
+          "completeness_pct": 5.56,
+          "examples": [
+            "9"
+          ],
+          "distinct_sample": [
+            "9"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "GRELE",
+          "description": "",
+          "empty": 1530,
+          "na_literal": 0,
+          "missing_total": 1530,
+          "completeness_pct": 5.56,
+          "examples": [
+            "0"
+          ],
+          "distinct_sample": [
+            "0"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "QGRELE",
+          "description": "",
+          "empty": 1530,
+          "na_literal": 0,
+          "missing_total": 1530,
+          "completeness_pct": 5.56,
+          "examples": [
+            "9"
+          ],
+          "distinct_sample": [
+            "9"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "ROSEE",
+          "description": "",
+          "empty": 1530,
+          "na_literal": 0,
+          "missing_total": 1530,
+          "completeness_pct": 5.56,
+          "examples": [
+            "0",
+            "1"
+          ],
+          "distinct_sample": [
+            "0",
+            "1"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "QROSEE",
+          "description": "",
+          "empty": 1530,
+          "na_literal": 0,
+          "missing_total": 1530,
+          "completeness_pct": 5.56,
+          "examples": [
+            "9"
+          ],
+          "distinct_sample": [
+            "9"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "VERGLAS",
+          "description": "",
+          "empty": 1491,
+          "na_literal": 0,
+          "missing_total": 1491,
+          "completeness_pct": 7.96,
+          "examples": [
+            "1",
+            "0"
+          ],
+          "distinct_sample": [
+            "0",
+            "1"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "QVERGLAS",
+          "description": "",
+          "empty": 1491,
+          "na_literal": 0,
+          "missing_total": 1491,
+          "completeness_pct": 7.96,
+          "examples": [
+            "9",
+            "1"
+          ],
+          "distinct_sample": [
+            "1",
+            "9"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "SOLNEIGE",
+          "description": "",
+          "empty": 1530,
+          "na_literal": 0,
+          "missing_total": 1530,
+          "completeness_pct": 5.56,
+          "examples": [
+            "0",
+            "1"
+          ],
+          "distinct_sample": [
+            "0",
+            "1"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "QSOLNEIGE",
+          "description": "",
+          "empty": 1530,
+          "na_literal": 0,
+          "missing_total": 1530,
+          "completeness_pct": 5.56,
+          "examples": [
+            "9"
+          ],
+          "distinct_sample": [
+            "9"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "GELEE",
+          "description": "",
+          "empty": 1480,
+          "na_literal": 0,
+          "missing_total": 1480,
+          "completeness_pct": 8.64,
+          "examples": [
+            "1",
+            "0"
+          ],
+          "distinct_sample": [
+            "0",
+            "1"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "QGELEE",
+          "description": "",
+          "empty": 1480,
+          "na_literal": 0,
+          "missing_total": 1480,
+          "completeness_pct": 8.64,
+          "examples": [
+            "9"
+          ],
+          "distinct_sample": [
+            "9"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "FUMEE",
+          "description": "",
+          "empty": 1442,
+          "na_literal": 0,
+          "missing_total": 1442,
+          "completeness_pct": 10.99,
+          "examples": [
+            "0"
+          ],
+          "distinct_sample": [
+            "0"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "QFUMEE",
+          "description": "",
+          "empty": 1442,
+          "na_literal": 0,
+          "missing_total": 1442,
+          "completeness_pct": 10.99,
+          "examples": [
+            "9"
+          ],
+          "distinct_sample": [
+            "9"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "BRUME",
+          "description": "",
+          "empty": 1442,
+          "na_literal": 0,
+          "missing_total": 1442,
+          "completeness_pct": 10.99,
+          "examples": [
+            "1",
+            "0"
+          ],
+          "distinct_sample": [
+            "0",
+            "1"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "QBRUME",
+          "description": "",
+          "empty": 1442,
+          "na_literal": 0,
+          "missing_total": 1442,
+          "completeness_pct": 10.99,
+          "examples": [
+            "9"
+          ],
+          "distinct_sample": [
+            "9"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "ECLAIR",
+          "description": "",
+          "empty": 1530,
+          "na_literal": 0,
+          "missing_total": 1530,
+          "completeness_pct": 5.56,
+          "examples": [
+            "0"
+          ],
+          "distinct_sample": [
+            "0"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "QECLAIR",
+          "description": "",
+          "empty": 1530,
+          "na_literal": 0,
+          "missing_total": 1530,
+          "completeness_pct": 5.56,
+          "examples": [
+            "9"
+          ],
+          "distinct_sample": [
+            "9"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "NB300",
+          "description": "",
+          "empty": 1602,
+          "na_literal": 0,
+          "missing_total": 1602,
+          "completeness_pct": 1.11,
+          "examples": [
+            "7",
+            "8",
+            "5"
+          ],
+          "distinct_sample": [
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "QNB300",
+          "description": "",
+          "empty": 1602,
+          "na_literal": 0,
+          "missing_total": 1602,
+          "completeness_pct": 1.11,
+          "examples": [
+            "9"
+          ],
+          "distinct_sample": [
+            "9"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "BA300",
+          "description": "",
+          "empty": 1602,
+          "na_literal": 0,
+          "missing_total": 1602,
+          "completeness_pct": 1.11,
+          "examples": [
+            "130",
+            "210",
+            "0"
+          ],
+          "distinct_sample": [
+            "0",
+            "130",
+            "150",
+            "180",
+            "20",
+            "210",
+            "220",
+            "250",
+            "270",
+            "30",
+            "60"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "QBA300",
+          "description": "",
+          "empty": 1602,
+          "na_literal": 0,
+          "missing_total": 1602,
+          "completeness_pct": 1.11,
+          "examples": [
+            "9"
+          ],
+          "distinct_sample": [
+            "9"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "TMERMIN",
+          "description": "",
+          "empty": 1620,
+          "na_literal": 0,
+          "missing_total": 1620,
+          "completeness_pct": 0.0,
+          "examples": [],
+          "distinct_sample": [],
+          "min_max": null
+        },
+        {
+          "field": "QTMERMIN",
+          "description": "",
+          "empty": 1620,
+          "na_literal": 0,
+          "missing_total": 1620,
+          "completeness_pct": 0.0,
+          "examples": [],
+          "distinct_sample": [],
+          "min_max": null
+        },
+        {
+          "field": "TMERMAX",
+          "description": "",
+          "empty": 1620,
+          "na_literal": 0,
+          "missing_total": 1620,
+          "completeness_pct": 0.0,
+          "examples": [],
+          "distinct_sample": [],
+          "min_max": null
+        },
+        {
+          "field": "QTMERMAX",
+          "description": "",
+          "empty": 1620,
+          "na_literal": 0,
+          "missing_total": 1620,
+          "completeness_pct": 0.0,
+          "examples": [],
+          "distinct_sample": [],
+          "min_max": null
+        }
+      ]
+    },
+    {
+      "name": "tarifs_taxi_rhone_2026_reference",
+      "rows": 4,
+      "columns": 7,
+      "fields": [
+        "tarif",
+        "periode",
+        "condition_retour",
+        "prix_km_eur",
+        "prise_en_charge_eur",
+        "course_minimum_eur",
+        "attente_marche_lente_eur_h"
+      ],
+      "duplicate_exact_rows": 0,
+      "duplicate_keys": {},
+      "invalid_counts": {},
+      "notes": [
+        "Reference saisie depuis la page tarifs maximum 2026 de la Metropole de Lyon."
+      ],
+      "columns_profile": [
+        {
+          "field": "tarif",
+          "description": "Code tarif officiel A, B, C ou D.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "A",
+            "B",
+            "C"
+          ],
+          "distinct_sample": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "periode",
+          "description": "Periode d'application du tarif.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "Jour 7h-19h",
+            "Nuit 19h-7h / dimanches / jours feries / routes enneigees"
+          ],
+          "distinct_sample": [
+            "Jour 7h-19h",
+            "Nuit 19h-7h / dimanches / jours feries / routes enneigees"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "condition_retour",
+          "description": "Condition aller-retour avec client ou retour a vide.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "Aller et retour avec un client",
+            "Aller avec un client et retour a vide"
+          ],
+          "distinct_sample": [
+            "Aller avec un client et retour a vide",
+            "Aller et retour avec un client"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "prix_km_eur",
+          "description": "Prix maximum par kilometre.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "1.00",
+            "1.50",
+            "2.00"
+          ],
+          "distinct_sample": [
+            "1.00",
+            "1.50",
+            "2.00",
+            "3.00"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "prise_en_charge_eur",
+          "description": "Montant de prise en charge.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "3.10"
+          ],
+          "distinct_sample": [
+            "3.10"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "course_minimum_eur",
+          "description": "Montant minimal d'une course.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "8.00"
+          ],
+          "distinct_sample": [
+            "8.00"
+          ],
+          "min_max": null
+        },
+        {
+          "field": "attente_marche_lente_eur_h",
+          "description": "Tarif horaire d'attente ou de marche lente.",
+          "empty": 0,
+          "na_literal": 0,
+          "missing_total": 0,
+          "completeness_pct": 100.0,
+          "examples": [
+            "41.30"
+          ],
+          "distinct_sample": [
+            "41.30"
+          ],
+          "min_max": null
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "rpc": {
+      "raw_counts_by_month": {
+        "2026-01": 937369,
+        "2026-02": 915542,
+        "2026-03": 1093455
+      },
+      "filtered_counts_by_month": {
+        "2026-01": 23854,
+        "2026-02": 22717,
+        "2026-03": 28260
+      },
+      "start_in_lyon_rows": 50565,
+      "end_in_lyon_rows": 51769,
+      "internal_lyon_rows": 27503,
+      "output_csv": "C:\\Users\\Utilisateur\\Documents\\New project\\data\\processed\\rpc_trajets_covoiturage_metropole_lyon_2026_01_03.csv"
+    },
+    "chantiers": {
+      "output_csv": "C:\\Users\\Utilisateur\\Documents\\New project\\data\\processed\\chantiers_perturbants_jan_mar_2026.csv"
+    },
+    "comptage_mesures": {
+      "distinct_channels": 723,
+      "distinct_counters": 154,
+      "rows_by_month": {
+        "2026-01": 407814,
+        "2026-02": 426299,
+        "2026-03": 526033
+      }
+    },
+    "meteo_rr_t_vent": {
+      "stations": {
+        "ANCY_SAPC": 90,
+        "BRINDAS": 90,
+        "LYON-BRON": 90,
+        "COURS LA VILLE_SAPC": 90,
+        "LIERGUES_SAPC": 90,
+        "LYON TETE D'OR": 90,
+        "MONSOLS": 90,
+        "MORNANT": 90,
+        "LES SAUVAGES": 90,
+        "ST-DIDIER-BEAUJ": 90,
+        "ST-GENIS-L'ARGENTIERE": 90,
+        "ST-GENIS-LAVAL": 90,
+        "ST-GEORGES-REN": 90,
+        "ST-SYMPHORIEN-C": 90,
+        "SAINT-VERAND": 90,
+        "VAUXRENARD": 90,
+        "VILLEFRANCHE": 90,
+        "LYON-ST EXUPERY": 90
+      },
+      "output_csv": "C:\\Users\\Utilisateur\\Documents\\New project\\data\\processed\\meteo_rr_t_vent_jan_mar_2026.csv"
+    },
+    "meteo_autres": {
+      "stations": {
+        "ANCY_SAPC": 90,
+        "BRINDAS": 90,
+        "LYON-BRON": 90,
+        "COURS LA VILLE_SAPC": 90,
+        "LIERGUES_SAPC": 90,
+        "LYON TETE D'OR": 90,
+        "MONSOLS": 90,
+        "MORNANT": 90,
+        "LES SAUVAGES": 90,
+        "ST-DIDIER-BEAUJ": 90,
+        "ST-GENIS-L'ARGENTIERE": 90,
+        "ST-GENIS-LAVAL": 90,
+        "ST-GEORGES-REN": 90,
+        "ST-SYMPHORIEN-C": 90,
+        "SAINT-VERAND": 90,
+        "VAUXRENARD": 90,
+        "VILLEFRANCHE": 90,
+        "LYON-ST EXUPERY": 90
+      },
+      "output_csv": "C:\\Users\\Utilisateur\\Documents\\New project\\data\\processed\\meteo_autres_jan_mar_2026.csv"
+    },
+    "runtime_seconds": 129.9,
+    "generated_at": "2026-04-25T18:32:58"
+  }
+}

@@ -1,0 +1,386 @@
+﻿commune_depart_id;code_insee;commune_nom;groupe_commune;departement;pays;sources
+INSEE_01004;01004;Ambérieu-en-Bugey;Communauté de communes de la Plaine de l'Ain;01;France;rpc_arrivee, rpc_depart
+INSEE_01005;01005;Ambérieux-en-Dombes;Communauté de communes Dombes Saône Vallée;01;France;rpc_arrivee, rpc_depart
+INSEE_01007;01007;Ambronay;Communauté de communes de la Plaine de l'Ain;01;France;rpc_arrivee, rpc_depart
+INSEE_01027;01027;Balan;Communauté de communes de la Côtière à Montluel;01;France;rpc_arrivee, rpc_depart
+INSEE_01031;01031;Bellignat;Communauté d'agglomération Haut - Bugey Agglomération;01;France;rpc_arrivee, rpc_depart
+INSEE_01032;01032;Béligneux;Communauté de communes de la Côtière à Montluel;01;France;rpc_arrivee, rpc_depart
+INSEE_01033;01033;Valserhône;Communauté de communes du Pays Bellegardien (CCPB);01;France;rpc_arrivee, rpc_depart
+INSEE_01034;01034;Belley;Communauté de communes Bugey Sud;01;France;rpc_arrivee, rpc_depart
+INSEE_01037;01037;Bénonces;Communauté de communes de la Plaine de l'Ain;01;France;rpc_depart
+INSEE_01043;01043;Beynost;Communauté de communes de Miribel et du Plateau;01;France;rpc_arrivee, rpc_depart
+INSEE_01045;01045;Birieux;Communauté de communes de la Dombes;01;France;rpc_arrivee
+INSEE_01047;01047;Blyes;Communauté de communes de la Plaine de l'Ain;01;France;rpc_arrivee, rpc_depart
+INSEE_01049;01049;La Boisse;Communauté de communes de la Côtière à Montluel;01;France;rpc_arrivee, rpc_depart
+INSEE_01053;01053;Bourg-en-Bresse;Communauté d'agglomération du Bassin de Bourg-en-Bresse;01;France;rpc_arrivee, rpc_depart
+INSEE_01064;01064;Briord;Communauté de communes de la Plaine de l'Ain;01;France;rpc_arrivee, rpc_depart
+INSEE_01074;01074;Chalamont;Communauté de communes de la Dombes;01;France;rpc_arrivee, rpc_depart
+INSEE_01075;01075;Chaleins;Communauté de communes Val de Saône Centre;01;France;rpc_arrivee, rpc_depart
+INSEE_01089;01089;Château-Gaillard;Communauté de communes de la Plaine de l'Ain;01;France;rpc_arrivee, rpc_depart
+INSEE_01093;01093;Châtillon-sur-Chalaronne;Communauté de communes de la Dombes;01;France;rpc_arrivee
+INSEE_01099;01099;Chazey-sur-Ain;Communauté de communes de la Plaine de l'Ain;01;France;rpc_arrivee
+INSEE_01105;01105;Civrieux;Communauté de communes Dombes Saône Vallée;01;France;rpc_arrivee, rpc_depart
+INSEE_01142;01142;Dagneux;Communauté de communes de la Côtière à Montluel;01;France;rpc_arrivee, rpc_depart
+INSEE_01151;01151;Druillat;Communauté d'agglomération du Bassin de Bourg-en-Bresse;01;France;rpc_arrivee, rpc_depart
+INSEE_01157;01157;Fareins;Communauté de communes Dombes Saône Vallée;01;France;rpc_arrivee, rpc_depart
+INSEE_01166;01166;Frans;Communauté de communes Dombes Saône Vallée;01;France;rpc_arrivee, rpc_depart
+INSEE_01183;01183;Guéreins;CC Val de Saône Centre;01;France;rpc_arrivee, rpc_depart
+INSEE_01194;01194;Jassans-Riottier;Communauté d'agglomération Villefranche Beaujolais Saône;01;France;rpc_arrivee, rpc_depart
+INSEE_01202;01202;Lagnieu;Communauté de communes de la Plaine de l'Ain;01;France;rpc_arrivee, rpc_depart
+INSEE_01213;01213;Leyment;Communauté de communes de la Plaine de l'Ain;01;France;rpc_arrivee, rpc_depart
+INSEE_01224;01224;Loyettes;Communauté de communes de la Plaine de l'Ain;01;France;rpc_arrivee, rpc_depart
+INSEE_01238;01238;Massieux;Communauté de communes Dombes Saône Vallée;01;France;rpc_arrivee, rpc_depart
+INSEE_01244;01244;Meximieux;Communauté de communes de la Plaine de l'Ain;01;France;rpc_arrivee, rpc_depart
+INSEE_01248;01248;Mionnay;Communauté de communes de la Dombes;01;France;rpc_arrivee, rpc_depart
+INSEE_01249;01249;Miribel;Communauté de communes de Miribel et du Plateau;01;France;rpc_arrivee, rpc_depart
+INSEE_01250;01250;Misérieux;Communauté de communes Dombes Saône Vallée;01;France;rpc_arrivee, rpc_depart
+INSEE_01255;01255;Montagnieu;Communauté de communes de la Plaine de l'Ain;01;France;rpc_arrivee, rpc_depart
+INSEE_01260;01260;Le Montellier;Communauté de communes de la Plaine de l'Ain;01;France;rpc_depart
+INSEE_01262;01262;Montluel;Communauté de communes de la Côtière à Montluel;01;France;rpc_arrivee, rpc_depart
+INSEE_01269;01269;Nantua;CA Haut - Bugey Agglomération;01;France;rpc_depart
+INSEE_01276;01276;Niévroz;Communauté de communes de la Côtière à Montluel;01;France;rpc_arrivee
+INSEE_01283;01283;Oyonnax;Communauté d'agglomération Haut - Bugey Agglomération;01;France;rpc_arrivee, rpc_depart
+INSEE_01290;01290;Pérouges;Communauté de communes de la Plaine de l'Ain;01;France;rpc_arrivee, rpc_depart
+INSEE_01304;01304;Pont-d'Ain;Communauté de communes Rives de l'Ain - Pays du Cerdon;01;France;rpc_depart
+INSEE_01318;01318;Rancé;Communauté de communes Dombes Saône Vallée;01;France;rpc_depart
+INSEE_01322;01322;Reyrieux;Communauté de communes Dombes Saône Vallée;01;France;rpc_arrivee, rpc_depart
+INSEE_01333;01333;Saint-André-de-Corcy;Communauté de communes de la Dombes;01;France;rpc_arrivee, rpc_depart
+INSEE_01339;01339;Saint-Bernard;Communauté de communes Dombes Saône Vallée;01;France;rpc_arrivee
+INSEE_01347;01347;Saint-Didier-de-Formans;CC Dombes Saône Vallée;01;France;rpc_depart
+INSEE_01353;01353;Sainte-Euphémie;Communauté de communes Dombes Saône Vallée;01;France;rpc_arrivee, rpc_depart
+INSEE_01361;01361;Saint-Jean-de-Niost;Communauté de communes de la Plaine de l'Ain;01;France;rpc_arrivee, rpc_depart
+INSEE_01363;01363;Saint-Jean-le-Vieux;Communauté de communes Rives de l'Ain - Pays du Cerdon;01;France;rpc_depart
+INSEE_01366;01366;Sainte-Julie;Communauté de communes de la Plaine de l'Ain;01;France;rpc_arrivee, rpc_depart
+INSEE_01371;01371;Saint-Marcel;Communauté de communes de la Dombes;01;France;rpc_arrivee
+INSEE_01373;01373;Saint-Martin-du-Frêne;CA Haut - Bugey Agglomération;01;France;rpc_arrivee
+INSEE_01374;01374;Saint-Martin-du-Mont;Communauté d'agglomération du Bassin de Bourg-en-Bresse;01;France;rpc_arrivee
+INSEE_01376;01376;Saint-Maurice-de-Beynost;Communauté de communes de Miribel et du Plateau;01;France;rpc_arrivee, rpc_depart
+INSEE_01378;01378;Saint-Maurice-de-Gourdans;Communauté de communes de la Plaine de l'Ain;01;France;rpc_arrivee, rpc_depart
+INSEE_01386;01386;Saint-Sorlin-en-Bugey;Communauté de communes de la Plaine de l'Ain;01;France;rpc_arrivee
+INSEE_01390;01390;Saint-Vulbas;Communauté de communes de la Plaine de l'Ain;01;France;rpc_arrivee, rpc_depart
+INSEE_01419;01419;Thoiry;Communauté d'agglomération du Pays de Gex;01;France;rpc_depart
+INSEE_01424;01424;Tramoyes;Communauté de communes de Miribel et du Plateau;01;France;rpc_arrivee, rpc_depart
+INSEE_01427;01427;Trévoux;Communauté de communes Dombes Saône Vallée;01;France;rpc_arrivee, rpc_depart
+INSEE_01443;01443;Villars-les-Dombes;Communauté de communes de la Dombes;01;France;rpc_arrivee
+INSEE_01446;01446;Villeneuve;Communauté de communes Dombes Saône Vallée;01;France;rpc_arrivee, rpc_depart
+INSEE_01450;01450;Villieu-Loyes-Mollon;Communauté de communes de la Plaine de l'Ain;01;France;rpc_arrivee, rpc_depart
+INSEE_07010;07010;Annonay;Communauté d'agglomération Annonay Rhône Agglo;07;France;rpc_arrivee, rpc_depart
+INSEE_07015;07015;Arras-sur-Rhône;CC Porte de DrômArdèche;07;France;rpc_arrivee, rpc_depart
+INSEE_07078;07078;Davézieux;Communauté d'agglomération Annonay Rhône Agglo;07;France;rpc_arrivee, rpc_depart
+INSEE_24322;24322;Périgueux;Communauté d'agglomération Le Grand Périgueux;24;France;rpc_depart
+INSEE_26002;26002;Albon;Communauté de communes Porte de DrômArdèche;26;France;rpc_arrivee
+INSEE_26004;26004;Alixan;CA Valence Romans Agglo;26;France;rpc_arrivee
+INSEE_26009;26009;Andancette;Communauté de communes Porte de DrômArdèche;26;France;rpc_arrivee, rpc_depart
+INSEE_26010;26010;Anneyron;Communauté de communes Porte de DrômArdèche;26;France;rpc_arrivee, rpc_depart
+INSEE_26041;26041;Beausemblant;Communauté de communes Porte de DrômArdèche;26;France;rpc_arrivee, rpc_depart
+INSEE_26058;26058;Bourg-lès-Valence;Communauté d'agglomération Valence Romans Agglo;26;France;rpc_arrivee, rpc_depart
+INSEE_26072;26072;Chantemerle-les-Blés;Communauté d'agglomération Arche Agglo;26;France;rpc_depart
+INSEE_26083;26083;Châteauneuf-de-Galaure;Communauté de communes Porte de DrômArdèche;26;France;rpc_arrivee, rpc_depart
+INSEE_26118;26118;Épinouze;CC Porte de DrômArdèche;26;France;rpc_arrivee
+INSEE_26247;26247;Ponsas;Communauté de communes Porte de DrômArdèche;26;France;rpc_arrivee
+INSEE_26313;26313;Saint-Marcel-lès-Valence;Communauté d'agglomération Valence Romans Agglo;26;France;rpc_depart
+INSEE_26325;26325;Saint-Rambert-d'Albon;Communauté de communes Porte de DrômArdèche;26;France;rpc_arrivee, rpc_depart
+INSEE_26330;26330;Saint-Sorlin-en-Valloire;Communauté de communes Porte de DrômArdèche;26;France;rpc_arrivee, rpc_depart
+INSEE_26333;26333;Saint-Vallier;Communauté de communes Porte de DrômArdèche;26;France;rpc_arrivee, rpc_depart
+INSEE_26341;26341;Serves-sur-Rhône;Communauté d'agglomération Arche Agglo;26;France;rpc_arrivee, rpc_depart
+INSEE_26362;26362;Valence;Communauté d'agglomération Valence Romans Agglo;26;France;rpc_arrivee, rpc_depart
+INSEE_38012;38012;Aoste;Communauté de communes Les Vals du Dauphiné;38;France;rpc_depart
+INSEE_38017;38017;Assieu;Communauté de communes Entre Bièvre et Rhône;38;France;rpc_arrivee, rpc_depart
+INSEE_38019;38019;Auberives-sur-Varèze;Communauté de communes Entre Bièvre et Rhône;38;France;rpc_depart
+INSEE_38022;38022;Les Avenières Veyrins-Thuellin;Communauté de communes Les Balcons du Dauphiné;38;France;rpc_arrivee, rpc_depart
+INSEE_38026;38026;La Balme-les-Grottes;Communauté de communes Les Balcons du Dauphiné;38;France;rpc_arrivee, rpc_depart
+INSEE_38035;38035;Beauvoir-de-Marc;Communauté de communes Bièvre Isère;38;France;rpc_arrivee, rpc_depart
+INSEE_38048;38048;Bonnefamille;Communauté de communes Collines Isère Nord Communauté;38;France;rpc_depart
+INSEE_38053;38053;Bourgoin-Jallieu;Communauté d'agglomération Porte de l'Isère (CAPI);38;France;rpc_arrivee, rpc_depart
+INSEE_38058;38058;Brézins;Communauté de communes Bièvre Isère;38;France;rpc_arrivee, rpc_depart
+INSEE_38064;38064;Cessieu;Communauté de communes Les Vals du Dauphiné;38;France;rpc_arrivee, rpc_depart
+INSEE_38067;38067;Chamagnieu;Communauté de communes Les Balcons du Dauphiné;38;France;rpc_arrivee, rpc_depart
+INSEE_38072;38072;Chanas;Communauté de communes Entre Bièvre et Rhône;38;France;rpc_arrivee, rpc_depart
+INSEE_38085;38085;Charvieu-Chavagneux;Communauté de communes Lyon Saint Exupéry en Dauphiné;38;France;rpc_arrivee, rpc_depart
+INSEE_38087;38087;Chasse-sur-Rhône;Communauté d'agglomération Vienne Condrieu;38;France;rpc_arrivee, rpc_depart
+INSEE_38097;38097;Chavanoz;Communauté de communes Lyon Saint Exupéry en Dauphiné;38;France;rpc_arrivee, rpc_depart
+INSEE_38101;38101;Cheyssieu;Communauté de communes Entre Bièvre et Rhône;38;France;rpc_arrivee, rpc_depart
+INSEE_38104;38104;Chimilin;Communauté de communes Les Vals du Dauphiné;38;France;rpc_arrivee, rpc_depart
+INSEE_38107;38107;Chonas-l'Amballan;Communauté d'agglomération Vienne Condrieu;38;France;rpc_arrivee, rpc_depart
+INSEE_38109;38109;Chozeau;Communauté de communes Les Balcons du Dauphiné;38;France;rpc_arrivee, rpc_depart
+INSEE_38110;38110;Chuzelles;Communauté d'agglomération Vienne Condrieu;38;France;rpc_arrivee, rpc_depart
+INSEE_38124;38124;Corbelin;Communauté de communes Les Balcons du Dauphiné;38;France;rpc_depart
+INSEE_38130;38130;La Côte-Saint-André;Communauté de communes Bièvre Isère;38;France;rpc_arrivee, rpc_depart
+INSEE_38131;38131;Les Côtes-d'Arey;Communauté d'agglomération Vienne Condrieu;38;France;rpc_arrivee, rpc_depart
+INSEE_38138;38138;Crémieu;Communauté de communes Les Balcons du Dauphiné;38;France;rpc_arrivee, rpc_depart
+INSEE_38144;38144;Diémoz;Communauté de communes Collines Isère Nord Communauté;38;France;rpc_arrivee, rpc_depart
+INSEE_38149;38149;Domarin;CA Porte de l'Isère (CAPI);38;France;rpc_arrivee
+INSEE_38156;38156;Les Éparres;Communauté d'agglomération Porte de l'Isère (CAPI);38;France;rpc_arrivee, rpc_depart
+INSEE_38157;38157;Estrablin;Communauté d'agglomération Vienne Condrieu;38;France;rpc_arrivee, rpc_depart
+INSEE_38160;38160;Eyzin-Pinet;Communauté d'agglomération Vienne Condrieu;38;France;rpc_arrivee, rpc_depart
+INSEE_38172;38172;Four;Communauté d'agglomération Porte de l'Isère (CAPI);38;France;rpc_arrivee, rpc_depart
+INSEE_38176;38176;Frontonas;Communauté de communes Les Balcons du Dauphiné;38;France;rpc_arrivee, rpc_depart
+INSEE_38184;38184;Grenay;CC Collines Isère Nord Communauté;38;France;rpc_arrivee, rpc_depart
+INSEE_38185;38185;Grenoble;Grenoble-Alpes-Métropole;38;France;rpc_arrivee, rpc_depart
+INSEE_38189;38189;Heyrieux;Communauté de communes Collines Isère Nord Communauté;38;France;rpc_arrivee, rpc_depart
+INSEE_38190;38190;Hières-sur-Amby;Communauté de communes Les Balcons du Dauphiné;38;France;rpc_arrivee, rpc_depart
+INSEE_38193;38193;L'Isle-d'Abeau;Communauté d'agglomération Porte de l'Isère (CAPI);38;France;rpc_arrivee, rpc_depart
+INSEE_38197;38197;Janneyrias;Communauté de communes Lyon Saint Exupéry en Dauphiné;38;France;rpc_arrivee, rpc_depart
+INSEE_38199;38199;Jardin;Communauté d'agglomération Vienne Condrieu;38;France;rpc_arrivee, rpc_depart
+INSEE_38210;38210;Leyrieu;Communauté de communes Les Balcons du Dauphiné;38;France;rpc_arrivee, rpc_depart
+INSEE_38215;38215;Luzinay;Communauté d'agglomération Vienne Condrieu;38;France;rpc_arrivee, rpc_depart
+INSEE_38238;38238;Moidieu-Détourbe;Communauté d'agglomération Vienne Condrieu;38;France;rpc_arrivee, rpc_depart
+INSEE_38239;38239;Moirans;Communauté d'agglomération du Pays Voironnais;38;France;rpc_arrivee, rpc_depart
+INSEE_38247;38247;Montalieu-Vercieu;CC Les Balcons du Dauphiné;38;France;rpc_arrivee
+INSEE_38261;38261;Morestel;Communauté de communes Les Balcons du Dauphiné;38;France;rpc_arrivee, rpc_depart
+INSEE_38276;38276;Nivolas-Vermelle;Communauté d'agglomération Porte de l'Isère (CAPI);38;France;rpc_arrivee, rpc_depart
+INSEE_38297;38297;Arandon-Passins;Communauté de communes Les Balcons du Dauphiné;38;France;rpc_arrivee, rpc_depart
+INSEE_38298;38298;Le Péage-de-Roussillon;Communauté de communes Entre Bièvre et Rhône;38;France;rpc_arrivee, rpc_depart
+INSEE_38316;38316;Pont-de-Chéruy;Communauté de communes Lyon Saint Exupéry en Dauphiné;38;France;rpc_arrivee, rpc_depart
+INSEE_38318;38318;Pont-Évêque;Communauté d'agglomération Vienne Condrieu;38;France;rpc_arrivee, rpc_depart
+INSEE_38336;38336;Reventin-Vaugris;Communauté d'agglomération Vienne Condrieu;38;France;rpc_arrivee, rpc_depart
+INSEE_38337;38337;Rives;Communauté d'agglomération du Pays Voironnais;38;France;rpc_arrivee, rpc_depart
+INSEE_38339;38339;Roche;Communauté de communes Collines Isère Nord Communauté;38;France;rpc_arrivee, rpc_depart
+INSEE_38340;38340;Les Roches-de-Condrieu;Communauté de communes Entre Bièvre et Rhône;38;France;rpc_arrivee
+INSEE_38344;38344;Roussillon;Communauté de communes Entre Bièvre et Rhône;38;France;rpc_depart
+INSEE_38346;38346;Royas;Communauté de communes Bièvre Isère;38;France;rpc_arrivee, rpc_depart
+INSEE_38348;38348;Ruy-Montceau;Communauté d'agglomération Porte de l'Isère (CAPI);38;France;rpc_arrivee, rpc_depart
+INSEE_38349;38349;Sablons;Communauté de communes Entre Bièvre et Rhône;38;France;rpc_depart
+INSEE_38352;38352;Saint-Alban-de-Roche;Communauté d'agglomération Porte de l'Isère (CAPI);38;France;rpc_arrivee, rpc_depart
+INSEE_38358;38358;Sainte-Anne-sur-Gervonde;CC Bièvre Isère;38;France;rpc_arrivee, rpc_depart
+INSEE_38374;38374;Saint-Chef;Communauté de communes Les Balcons du Dauphiné;38;France;rpc_arrivee
+INSEE_38377;38377;Saint-Clair-de-la-Tour;Communauté de communes Les Vals du Dauphiné;38;France;rpc_depart
+INSEE_38381;38381;Saint-Didier-de-la-Tour;Communauté de communes Les Vals du Dauphiné;38;France;rpc_arrivee, rpc_depart
+INSEE_38384;38384;Saint-Étienne-de-Saint-Geoirs;Communauté de communes Bièvre Isère;38;France;rpc_arrivee
+INSEE_38389;38389;Saint-Georges-d'Espéranche;Communauté de communes Collines Isère Nord Communauté;38;France;rpc_arrivee, rpc_depart
+INSEE_38399;38399;Saint-Jean-de-Bournay;Communauté de communes Bièvre Isère;38;France;rpc_arrivee, rpc_depart
+INSEE_38400;38400;Saint-Jean-de-Moirans;Communauté d'agglomération du Pays Voironnais;38;France;rpc_arrivee, rpc_depart
+INSEE_38401;38401;Saint-Jean-de-Soudain;Communauté de communes Les Vals du Dauphiné;38;France;rpc_arrivee, rpc_depart
+INSEE_38408;38408;Saint-Just-Chaleyssin;Communauté de communes Collines Isère Nord Communauté;38;France;rpc_arrivee, rpc_depart
+INSEE_38415;38415;Saint-Marcel-Bel-Accueil;Communauté de communes Les Balcons du Dauphiné;38;France;rpc_arrivee, rpc_depart
+INSEE_38425;38425;Saint-Maurice-l'Exil;Communauté de communes Entre Bièvre et Rhône;38;France;rpc_arrivee, rpc_depart
+INSEE_38449;38449;Saint-Quentin-Fallavier;Communauté d'agglomération Porte de l'Isère (CAPI);38;France;rpc_arrivee, rpc_depart
+INSEE_38451;38451;Saint-Romain-de-Jalionas;Communauté de communes Les Balcons du Dauphiné;38;France;rpc_arrivee, rpc_depart
+INSEE_38455;38455;Saint-Savin;Communauté d'agglomération Porte de l'Isère (CAPI);38;France;rpc_arrivee, rpc_depart
+INSEE_38464;38464;Saint-Victor-de-Cessieu;Communauté de communes Les Vals du Dauphiné;38;France;rpc_arrivee, rpc_depart
+INSEE_38465;38465;Saint-Victor-de-Morestel;CC Les Balcons du Dauphiné;38;France;rpc_arrivee, rpc_depart
+INSEE_38467;38467;Salagnon;Communauté de communes Les Balcons du Dauphiné;38;France;rpc_depart
+INSEE_38468;38468;Salaise-sur-Sanne;Communauté de communes Entre Bièvre et Rhône;38;France;rpc_arrivee, rpc_depart
+INSEE_38475;38475;Satolas-et-Bonce;Communauté d'agglomération Porte de l'Isère (CAPI);38;France;rpc_arrivee, rpc_depart
+INSEE_38480;38480;Septème;Communauté d'agglomération Vienne Condrieu;38;France;rpc_arrivee, rpc_depart
+INSEE_38481;38481;Sérézin-de-la-Tour;Communauté d'agglomération Porte de l'Isère (CAPI);38;France;rpc_arrivee, rpc_depart
+INSEE_38484;38484;Serpaize;Communauté d'agglomération Vienne Condrieu;38;France;rpc_arrivee, rpc_depart
+INSEE_38487;38487;Seyssuel;Communauté d'agglomération Vienne Condrieu;38;France;rpc_arrivee, rpc_depart
+INSEE_38507;38507;Tignieu-Jameyzieu;Communauté de communes Les Balcons du Dauphiné;38;France;rpc_arrivee, rpc_depart
+INSEE_38509;38509;La Tour-du-Pin;Communauté de communes Les Vals du Dauphiné;38;France;rpc_arrivee, rpc_depart
+INSEE_38515;38515;Trept;Communauté de communes Les Balcons du Dauphiné;38;France;rpc_arrivee, rpc_depart
+INSEE_38519;38519;Valencin;Communauté de communes Collines Isère Nord Communauté;38;France;rpc_arrivee, rpc_depart
+INSEE_38530;38530;Vaulx-Milieu;Communauté d'agglomération Porte de l'Isère (CAPI);38;France;rpc_arrivee, rpc_depart
+INSEE_38537;38537;La Verpillière;Communauté d'agglomération Porte de l'Isère (CAPI);38;France;rpc_arrivee, rpc_depart
+INSEE_38540;38540;Veurey-Voroize;Grenoble-Alpes-Métropole;38;France;rpc_arrivee, rpc_depart
+INSEE_38544;38544;Vienne;Communauté d'agglomération Vienne Condrieu;38;France;rpc_arrivee, rpc_depart
+INSEE_38553;38553;Villefontaine;Communauté d'agglomération Porte de l'Isère (CAPI);38;France;rpc_arrivee, rpc_depart
+INSEE_38554;38554;Villemoirieu;Communauté de communes Les Balcons du Dauphiné;38;France;rpc_arrivee, rpc_depart
+INSEE_38555;38555;Villeneuve-de-Marc;Communauté de communes Bièvre Isère;38;France;rpc_depart
+INSEE_38557;38557;Villette-d'Anthon;Communauté de communes Lyon Saint Exupéry en Dauphiné;38;France;rpc_arrivee, rpc_depart
+INSEE_38558;38558;Villette-de-Vienne;Communauté d'agglomération Vienne Condrieu;38;France;rpc_arrivee, rpc_depart
+INSEE_38563;38563;Voiron;Communauté d'agglomération du Pays Voironnais;38;France;rpc_arrivee, rpc_depart
+INSEE_38565;38565;Voreppe;Communauté d'agglomération du Pays Voironnais;38;France;rpc_arrivee, rpc_depart
+INSEE_39333;39333;Moirans-en-Montagne;Communauté de communes Terre d'Émeraude Communauté;39;France;rpc_depart
+INSEE_42005;42005;Andrézieux-Bouthéon;Saint-Etienne Métropole;42;France;rpc_arrivee, rpc_depart
+INSEE_42011;42011;Balbigny;Communauté de communes de Forez-Est;42;France;rpc_arrivee, rpc_depart
+INSEE_42095;42095;Firminy;Saint-Etienne Métropole;42;France;rpc_arrivee, rpc_depart
+INSEE_42103;42103;La Grand-Croix;Saint-Etienne Métropole;42;France;rpc_arrivee, rpc_depart
+INSEE_42110;42110;L'Horme;Saint-Etienne Métropole;42;France;rpc_arrivee, rpc_depart
+INSEE_42123;42123;Lorette;Saint-Etienne Métropole;42;France;rpc_arrivee, rpc_depart
+INSEE_42186;42186;Rive-de-Gier;Saint-Etienne Métropole;42;France;rpc_arrivee, rpc_depart
+INSEE_42187;42187;Roanne;Communauté d'agglomération Roannais Agglomération;42;France;rpc_depart
+INSEE_42207;42207;Saint-Chamond;Saint-Etienne Métropole;42;France;rpc_arrivee, rpc_depart
+INSEE_42218;42218;Saint-Étienne;Saint-Etienne Métropole;42;France;rpc_arrivee, rpc_depart
+INSEE_42225;42225;Genilac;Saint-Etienne Métropole;42;France;rpc_arrivee, rpc_depart
+INSEE_42234;42234;Saint-Héand;Saint-Etienne Métropole;42;France;rpc_arrivee, rpc_depart
+INSEE_42275;42275;Saint-Priest-en-Jarez;Saint-Etienne Métropole;42;France;rpc_arrivee, rpc_depart
+INSEE_42302;42302;Sorbiers;Saint-Etienne Métropole;42;France;rpc_arrivee
+INSEE_42305;42305;La Talaudière;Saint-Etienne Métropole;42;France;rpc_arrivee, rpc_depart
+INSEE_43012;43012;Aurec-sur-Loire;Communauté de communes Loire et Semène;43;France;rpc_arrivee
+INSEE_69003;69003;Albigny-sur-Saône;Métropole de Lyon;69;France;rpc_arrivee, rpc_depart
+INSEE_69006;69006;Amplepuis;Communauté d'agglomération de l'Ouest Rhodanien;69;France;rpc_arrivee, rpc_depart
+INSEE_69007;69007;Ampuis;Communauté d'agglomération Vienne Condrieu;69;France;rpc_arrivee, rpc_depart
+INSEE_69009;69009;Anse;Communauté de communes Beaujolais Pierres Dorées;69;France;rpc_arrivee, rpc_depart
+INSEE_69010;69010;L'Arbresle;Communauté de communes du Pays de l'Arbresle (CCPA);69;France;rpc_arrivee, rpc_depart
+INSEE_69013;69013;Arnas;Communauté d'agglomération Villefranche Beaujolais Saône;69;France;rpc_arrivee, rpc_depart
+INSEE_69019;69019;Belleville-en-Beaujolais;Communauté de communes Saône-Beaujolais;69;France;rpc_arrivee, rpc_depart
+INSEE_69020;69020;Belmont-d'Azergues;Communauté de communes Beaujolais Pierres Dorées;69;France;rpc_arrivee, rpc_depart
+INSEE_69021;69021;Bessenay;Communauté de communes du Pays de l'Arbresle (CCPA);69;France;rpc_arrivee, rpc_depart
+INSEE_69023;69023;Blacé;Communauté d'agglomération Villefranche Beaujolais Saône;69;France;rpc_arrivee, rpc_depart
+INSEE_69024;69024;Val d'Oingt;Communauté de communes Beaujolais Pierres Dorées;69;France;rpc_arrivee, rpc_depart
+INSEE_69027;69027;Brignais;Communauté de communes de la Vallée du Garon (CCVG);69;France;rpc_arrivee, rpc_depart
+INSEE_69028;69028;Brindas;Communauté de communes des Vallons du Lyonnais (CCVL);69;France;rpc_arrivee, rpc_depart
+INSEE_69029;69029;Bron;Métropole de Lyon;69;France;chantiers, comptage_sites, rpc_arrivee, rpc_depart, stations_taxi
+INSEE_69031;69031;Brussieu;Communauté de communes des Monts du Lyonnais;69;France;rpc_arrivee, rpc_depart
+INSEE_69032;69032;Bully;Communauté de communes du Pays de l'Arbresle (CCPA);69;France;rpc_arrivee, rpc_depart
+INSEE_69033;69033;Cailloux-sur-Fontaines;Métropole de Lyon;69;France;rpc_depart
+INSEE_69034;69034;Caluire-et-Cuire;Métropole de Lyon;69;France;chantiers, comptage_sites, rpc_arrivee, rpc_depart, stations_taxi
+INSEE_69040;69040;Champagne-au-Mont-d'Or;Métropole de Lyon;69;France;comptage_sites, rpc_arrivee, rpc_depart, stations_taxi
+INSEE_69043;69043;Chaponost;Communauté de communes de la Vallée du Garon (CCVG);69;France;rpc_arrivee, rpc_depart
+INSEE_69044;69044;Charbonnières-les-Bains;Métropole de Lyon;69;France;rpc_arrivee, rpc_depart, stations_taxi
+INSEE_69046;69046;Charly;Métropole de Lyon;69;France;rpc_arrivee, rpc_depart
+INSEE_69049;69049;Chasselay;Communauté de communes Beaujolais Pierres Dorées;69;France;rpc_arrivee, rpc_depart
+INSEE_69050;69050;Châtillon;Communauté de communes Beaujolais Pierres Dorées;69;France;rpc_arrivee, rpc_depart
+INSEE_69051;69051;Chaussan;Communauté de communes du Pays Mornantais (COPAMO);69;France;rpc_depart
+INSEE_69052;69052;Chazay-d'Azergues;Communauté de communes Beaujolais Pierres Dorées;69;France;rpc_arrivee, rpc_depart
+INSEE_69057;69057;Chevinay;Communauté de communes du Pays de l'Arbresle (CCPA);69;France;rpc_arrivee, rpc_depart
+INSEE_69058;69058;Chiroubles;Communauté de communes Saône-Beaujolais;69;France;rpc_arrivee, rpc_depart
+INSEE_69059;69059;Civrieux-d'Azergues;Communauté de communes Beaujolais Pierres Dorées;69;France;rpc_arrivee, rpc_depart
+INSEE_69063;69063;Collonges-au-Mont-d'Or;Métropole de Lyon;69;France;rpc_arrivee, rpc_depart
+INSEE_69064;69064;Condrieu;Communauté d'agglomération Vienne Condrieu;69;France;rpc_arrivee, rpc_depart
+INSEE_69069;69069;Craponne;Métropole de Lyon;69;France;comptage_sites, rpc_arrivee, rpc_depart
+INSEE_69070;69070;Cublize;Communauté d'agglomération de l'Ouest Rhodanien;69;France;rpc_arrivee
+INSEE_69071;69071;Curis-au-Mont-d'Or;Métropole de Lyon;69;France;rpc_arrivee, rpc_depart
+INSEE_69072;69072;Dardilly;Métropole de Lyon;69;France;chantiers, comptage_sites, rpc_arrivee, rpc_depart, stations_taxi
+INSEE_69076;69076;Dommartin;Communauté de communes du Pays de l'Arbresle (CCPA);69;France;rpc_arrivee, rpc_depart
+INSEE_69077;69077;Dracé;Communauté de communes Saône-Beaujolais;69;France;rpc_arrivee, rpc_depart
+INSEE_69080;69080;Échalas;Communauté d'agglomération Vienne Condrieu;69;France;rpc_arrivee, rpc_depart
+INSEE_69081;69081;Écully;Métropole de Lyon;69;France;rpc_arrivee, rpc_depart, stations_taxi
+INSEE_69085;69085;Fleurieu-sur-Saône;Métropole de Lyon;69;France;comptage_sites, rpc_arrivee, rpc_depart, stations_taxi
+INSEE_69086;69086;Fleurieux-sur-l'Arbresle;Communauté de communes du Pays de l'Arbresle (CCPA);69;France;rpc_arrivee, rpc_depart
+INSEE_69088;69088;Fontaines-sur-Saône;Métropole de Lyon;69;France;chantiers, rpc_arrivee, rpc_depart, stations_taxi
+INSEE_69089;69089;Francheville;Métropole de Lyon;69;France;rpc_arrivee, rpc_depart
+INSEE_69090;69090;Frontenas;CC Beaujolais Pierres Dorées;69;France;rpc_arrivee, rpc_depart
+INSEE_69091;69091;Givors;Métropole de Lyon;69;France;comptage_sites, rpc_arrivee, rpc_depart, stations_taxi
+INSEE_69092;69092;Gleizé;Communauté d'agglomération Villefranche Beaujolais Saône;69;France;rpc_arrivee, rpc_depart
+INSEE_69093;69093;Grandris;Communauté d'agglomération de l'Ouest Rhodanien;69;France;rpc_arrivee, rpc_depart
+INSEE_69094;69094;Grézieu-la-Varenne;Communauté de communes des Vallons du Lyonnais (CCVL);69;France;rpc_arrivee, rpc_depart
+INSEE_69096;69096;Grigny;Métropole de Lyon;69;France;rpc_arrivee, rpc_depart
+INSEE_69097;69097;Les Haies;Communauté d'agglomération Vienne Condrieu;69;France;rpc_arrivee, rpc_depart
+INSEE_69100;69100;Irigny;Métropole de Lyon;69;France;comptage_sites, rpc_arrivee, rpc_depart
+INSEE_69106;69106;Lachassagne;Communauté de communes Beaujolais Pierres Dorées;69;France;rpc_arrivee, rpc_depart
+INSEE_69109;69109;Lantignié;CC Saône-Beaujolais;69;France;rpc_depart
+INSEE_69111;69111;Légny;Communauté de communes Beaujolais Pierres Dorées;69;France;rpc_arrivee, rpc_depart
+INSEE_69112;69112;Lentilly;Communauté de communes du Pays de l'Arbresle (CCPA);69;France;rpc_arrivee, rpc_depart
+INSEE_69115;69115;Limas;Communauté d'agglomération Villefranche Beaujolais Saône;69;France;rpc_arrivee, rpc_depart
+INSEE_69116;69116;Limonest;Métropole de Lyon;69;France;rpc_arrivee, rpc_depart, stations_taxi
+INSEE_69117;69117;Lissieu;Métropole de Lyon;69;France;chantiers, rpc_arrivee, rpc_depart, stations_taxi
+INSEE_69118;69118;Loire-sur-Rhône;Communauté d'agglomération Vienne Condrieu;69;France;rpc_arrivee, rpc_depart
+INSEE_69120;69120;69120;;69;France;comptage_sites
+INSEE_69121;69121;Lozanne;Communauté de communes Beaujolais Pierres Dorées;69;France;rpc_arrivee, rpc_depart
+INSEE_69122;69122;Lucenay;Communauté de communes Beaujolais Pierres Dorées;69;France;rpc_arrivee, rpc_depart
+INSEE_69123;69123;69123;;69;France;comptage_sites
+INSEE_69126;69126;Marcy;Communauté de communes Beaujolais Pierres Dorées;69;France;rpc_arrivee, rpc_depart
+INSEE_69127;69127;Marcy-l'Étoile;Métropole de Lyon;69;France;comptage_sites, rpc_arrivee, rpc_depart
+INSEE_69131;69131;Messimy;Communauté de communes des Vallons du Lyonnais (CCVL);69;France;rpc_arrivee, rpc_depart
+INSEE_69133;69133;Millery;Communauté de communes de la Vallée du Garon (CCVG);69;France;rpc_arrivee, rpc_depart
+INSEE_69136;69136;Montagny;Communauté de communes de la Vallée du Garon (CCVG);69;France;rpc_arrivee, rpc_depart
+INSEE_69140;69140;Morancé;CC Beaujolais Pierres Dorées;69;France;rpc_arrivee
+INSEE_69141;69141;Mornant;Communauté de communes du Pays Mornantais (COPAMO);69;France;rpc_arrivee, rpc_depart
+INSEE_69142;69142;La Mulatière;Métropole de Lyon;69;France;rpc_arrivee, rpc_depart
+INSEE_69143;69143;Neuville-sur-Saône;Métropole de Lyon;69;France;rpc_arrivee, rpc_depart, stations_taxi
+INSEE_69148;69148;Orliénas;Communauté de communes du Pays Mornantais (COPAMO);69;France;rpc_arrivee, rpc_depart
+INSEE_69149;69149;Oullins-Pierre-Bénite;Métropole de Lyon;69;France;rpc_arrivee, rpc_depart, stations_taxi
+INSEE_69151;69151;Le Perréon;CA Villefranche Beaujolais Saône;69;France;rpc_arrivee, rpc_depart
+INSEE_69153;69153;Poleymieux-au-Mont-d'Or;Métropole de Lyon;69;France;rpc_arrivee, rpc_depart
+INSEE_69154;69154;Pollionnay;Communauté de communes des Vallons du Lyonnais (CCVL);69;France;rpc_arrivee, rpc_depart
+INSEE_69156;69156;Pommiers;Communauté de communes Beaujolais Pierres Dorées;69;France;rpc_arrivee, rpc_depart
+INSEE_69157;69157;Vindry-sur-Turdine;Communauté d'agglomération de l'Ouest Rhodanien;69;France;rpc_arrivee, rpc_depart
+INSEE_69163;69163;Quincieux;Métropole de Lyon;69;France;rpc_arrivee, rpc_depart
+INSEE_69168;69168;Rochetaillée-sur-Saône;;69;France;stations_taxi
+INSEE_69171;69171;Sain-Bel;Communauté de communes du Pays de l'Arbresle (CCPA);69;France;rpc_arrivee, rpc_depart
+INSEE_69174;69174;Les Sauvages;CA de l'Ouest Rhodanien;69;France;rpc_depart
+INSEE_69175;69175;Savigny;Communauté de communes du Pays de l'Arbresle (CCPA);69;France;rpc_arrivee, rpc_depart
+INSEE_69176;69176;Soucieu-en-Jarrest;Communauté de communes du Pays Mornantais (COPAMO);69;France;rpc_arrivee, rpc_depart
+INSEE_69177;69177;Sourcieux-les-Mines;Communauté de communes du Pays de l'Arbresle (CCPA);69;France;rpc_arrivee, rpc_depart
+INSEE_69178;69178;Souzy;Communauté de communes des Monts du Lyonnais;69;France;rpc_arrivee, rpc_depart
+INSEE_69179;69179;Beauvallon;Communauté de communes du Pays Mornantais (COPAMO);69;France;rpc_arrivee, rpc_depart
+INSEE_69188;69188;Saint-Clément-sur-Valsonne;Communauté d'agglomération de l'Ouest Rhodanien;69;France;rpc_arrivee, rpc_depart
+INSEE_69189;69189;Sainte-Colombe;Communauté d'agglomération Vienne Condrieu;69;France;rpc_arrivee, rpc_depart
+INSEE_69190;69190;Sainte-Consorce;Communauté de communes des Vallons du Lyonnais (CCVL);69;France;rpc_arrivee, rpc_depart
+INSEE_69191;69191;Saint-Cyr-au-Mont-d'Or;Métropole de Lyon;69;France;comptage_sites, rpc_arrivee, rpc_depart
+INSEE_69194;69194;Saint-Didier-au-Mont-d'Or;Métropole de Lyon;69;France;chantiers, rpc_arrivee, rpc_depart, stations_taxi
+INSEE_69199;69199;Saint-Fons;Métropole de Lyon;69;France;chantiers, comptage_sites, rpc_arrivee, rpc_depart, stations_taxi
+INSEE_69201;69201;Sainte-Foy-l'Argentière;Communauté de communes des Monts du Lyonnais;69;France;rpc_arrivee, rpc_depart
+INSEE_69202;69202;Sainte-Foy-lès-Lyon;Métropole de Lyon;69;France;chantiers, rpc_arrivee, rpc_depart, stations_taxi
+INSEE_69203;69203;Saint-Genis-l'Argentière;Communauté de communes des Monts du Lyonnais;69;France;rpc_arrivee, rpc_depart
+INSEE_69204;69204;Saint-Genis-Laval;Métropole de Lyon;69;France;comptage_sites, rpc_arrivee, rpc_depart, stations_taxi
+INSEE_69205;69205;Saint-Genis-les-Ollières;Métropole de Lyon;69;France;rpc_arrivee, rpc_depart
+INSEE_69206;69206;Saint-Georges-de-Reneins;Communauté de communes Saône-Beaujolais;69;France;rpc_arrivee, rpc_depart
+INSEE_69207;69207;Saint-Germain-au-Mont-d'Or;Métropole de Lyon;69;France;rpc_arrivee, rpc_depart, stations_taxi
+INSEE_69208;69208;Saint-Germain-Nuelles;Communauté de communes du Pays de l'Arbresle (CCPA);69;France;rpc_arrivee, rpc_depart
+INSEE_69219;69219;Saint-Laurent-d'Agny;Communauté de communes du Pays Mornantais (COPAMO);69;France;rpc_arrivee, rpc_depart
+INSEE_69220;69220;Saint-Laurent-de-Chamousset;Communauté de communes des Monts du Lyonnais;69;France;rpc_arrivee, rpc_depart
+INSEE_69227;69227;Saint-Martin-en-Haut;Communauté de communes des Monts du Lyonnais;69;France;rpc_arrivee, rpc_depart
+INSEE_69228;69228;Chabanière;Communauté de communes du Pays Mornantais (COPAMO);69;France;rpc_arrivee, rpc_depart
+INSEE_69231;69231;Saint-Pierre-la-Palud;Communauté de communes du Pays de l'Arbresle (CCPA);69;France;rpc_arrivee, rpc_depart
+INSEE_69233;69233;Saint-Romain-au-Mont-d'Or;Métropole de Lyon;69;France;rpc_arrivee
+INSEE_69235;69235;Saint-Romain-en-Gal;Communauté d'agglomération Vienne Condrieu;69;France;rpc_arrivee, rpc_depart
+INSEE_69236;69236;Saint-Romain-en-Gier;Communauté d'agglomération Vienne Condrieu;69;France;rpc_arrivee
+INSEE_69238;69238;Saint-Symphorien-sur-Coise;Communauté de communes des Monts du Lyonnais;69;France;rpc_arrivee, rpc_depart
+INSEE_69242;69242;Taponas;CC Saône-Beaujolais;69;France;rpc_arrivee
+INSEE_69243;69243;Tarare;Communauté d'agglomération de l'Ouest Rhodanien;69;France;rpc_arrivee, rpc_depart
+INSEE_69244;69244;Tassin-la-Demi-Lune;Métropole de Lyon;69;France;chantiers, comptage_sites, rpc_arrivee, rpc_depart, stations_taxi
+INSEE_69246;69246;Theizé;Communauté de communes Beaujolais Pierres Dorées;69;France;rpc_arrivee, rpc_depart
+INSEE_69249;69249;Thurins;Communauté de communes des Vallons du Lyonnais (CCVL);69;France;rpc_arrivee, rpc_depart
+INSEE_69250;69250;La Tour-de-Salvagny;Métropole de Lyon;69;France;comptage_sites, rpc_arrivee, rpc_depart, stations_taxi
+INSEE_69252;69252;Trèves;Communauté d'agglomération Vienne Condrieu;69;France;rpc_arrivee, rpc_depart
+INSEE_69253;69253;Tupin-et-Semons;Communauté d'agglomération Vienne Condrieu;69;France;rpc_arrivee
+INSEE_69255;69255;Vaugneray;Communauté de communes des Vallons du Lyonnais (CCVL);69;France;rpc_arrivee, rpc_depart
+INSEE_69256;69256;Vaulx-en-Velin;Métropole de Lyon;69;France;chantiers, comptage_sites, rpc_arrivee, rpc_depart, stations_taxi
+INSEE_69259;69259;Vénissieux;Métropole de Lyon;69;France;chantiers, comptage_sites, rpc_arrivee, rpc_depart, stations_taxi
+INSEE_69260;69260;Vernaison;Métropole de Lyon;69;France;rpc_arrivee, rpc_depart, stations_taxi
+INSEE_69264;69264;Villefranche-sur-Saône;Communauté d'agglomération Villefranche Beaujolais Saône;69;France;rpc_arrivee, rpc_depart
+INSEE_69266;69266;Villeurbanne;Métropole de Lyon;69;France;chantiers, comptage_sites, rpc_arrivee, rpc_depart, stations_taxi
+INSEE_69268;69268;Vourles;Communauté de communes de la Vallée du Garon (CCVG);69;France;rpc_arrivee, rpc_depart
+INSEE_69270;69270;Chaponnay;Communauté de communes du Pays de l'Ozon;69;France;rpc_arrivee, rpc_depart
+INSEE_69271;69271;Chassieu;Métropole de Lyon;69;France;chantiers, comptage_sites, rpc_arrivee, rpc_depart, stations_taxi
+INSEE_69272;69272;Communay;Communauté de communes du Pays de l'Ozon;69;France;rpc_arrivee, rpc_depart
+INSEE_69273;69273;Corbas;Métropole de Lyon;69;France;comptage_sites, rpc_arrivee, rpc_depart, stations_taxi
+INSEE_69275;69275;Décines-Charpieu;Métropole de Lyon;69;France;comptage_sites, rpc_arrivee, rpc_depart, stations_taxi
+INSEE_69276;69276;Feyzin;Métropole de Lyon;69;France;comptage_sites, rpc_arrivee, rpc_depart
+INSEE_69277;69277;Genas;Communauté de communes de l'Est Lyonnais (CCEL);69;France;rpc_arrivee, rpc_depart
+INSEE_69278;69278;Genay;Métropole de Lyon;69;France;rpc_arrivee, rpc_depart, stations_taxi
+INSEE_69279;69279;Jonage;Métropole de Lyon;69;France;rpc_arrivee, rpc_depart
+INSEE_69281;69281;Marennes;CC du Pays de l'Ozon;69;France;rpc_depart
+INSEE_69282;69282;Meyzieu;Métropole de Lyon;69;France;comptage_sites, rpc_arrivee, rpc_depart, stations_taxi
+INSEE_69283;69283;Mions;Métropole de Lyon;69;France;rpc_arrivee, rpc_depart, stations_taxi
+INSEE_69284;69284;Montanay;Métropole de Lyon;69;France;comptage_sites, rpc_arrivee, rpc_depart
+INSEE_69285;69285;Pusignan;Communauté de communes de l'Est Lyonnais (CCEL);69;France;rpc_arrivee, rpc_depart
+INSEE_69286;69286;Rillieux-la-Pape;Métropole de Lyon;69;France;chantiers, comptage_sites, rpc_arrivee, rpc_depart, stations_taxi
+INSEE_69287;69287;Saint-Bonnet-de-Mure;Communauté de communes de l'Est Lyonnais (CCEL);69;France;rpc_arrivee, rpc_depart
+INSEE_69288;69288;Saint-Laurent-de-Mure;Communauté de communes de l'Est Lyonnais (CCEL);69;France;rpc_arrivee, rpc_depart
+INSEE_69289;69289;Saint-Pierre-de-Chandieu;Communauté de communes de l'Est Lyonnais (CCEL);69;France;rpc_arrivee, rpc_depart
+INSEE_69290;69290;Saint-Priest;Métropole de Lyon;69;France;comptage_sites, rpc_arrivee, rpc_depart, stations_taxi
+INSEE_69291;69291;Saint-Symphorien-d'Ozon;Communauté de communes du Pays de l'Ozon;69;France;rpc_arrivee, rpc_depart
+INSEE_69293;69293;Sathonay-Village;Métropole de Lyon;69;France;rpc_arrivee, rpc_depart
+INSEE_69294;69294;Sérézin-du-Rhône;Communauté de communes du Pays de l'Ozon;69;France;rpc_arrivee, rpc_depart
+INSEE_69295;69295;Simandres;Communauté de communes du Pays de l'Ozon;69;France;rpc_arrivee, rpc_depart
+INSEE_69296;69296;Solaize;Métropole de Lyon;69;France;comptage_sites, rpc_arrivee, rpc_depart
+INSEE_69297;69297;Ternay;Communauté de communes du Pays de l'Ozon;69;France;rpc_arrivee, rpc_depart
+INSEE_69298;69298;Toussieu;Communauté de communes de l'Est Lyonnais (CCEL);69;France;rpc_arrivee, rpc_depart
+INSEE_69299;69299;Colombier-Saugnieu;Communauté de communes de l'Est Lyonnais (CCEL);69;France;rpc_arrivee, rpc_depart
+INSEE_69370;69370;69370;;69;France;comptage_sites
+INSEE_69381;69381;Lyon 1er Arrondissement;Métropole de Lyon;69;France;chantiers, comptage_sites, rpc_arrivee, rpc_depart, stations_taxi
+INSEE_69382;69382;Lyon 2e Arrondissement;Métropole de Lyon;69;France;chantiers, comptage_sites, rpc_arrivee, rpc_depart, stations_taxi
+INSEE_69383;69383;Lyon 3e Arrondissement;Métropole de Lyon;69;France;chantiers, comptage_sites, rpc_arrivee, rpc_depart, stations_taxi
+INSEE_69384;69384;Lyon 4e Arrondissement;Métropole de Lyon;69;France;comptage_sites, rpc_arrivee, rpc_depart, stations_taxi
+INSEE_69385;69385;Lyon 5e Arrondissement;Métropole de Lyon;69;France;chantiers, comptage_sites, rpc_arrivee, rpc_depart, stations_taxi
+INSEE_69386;69386;Lyon 6e Arrondissement;Métropole de Lyon;69;France;chantiers, comptage_sites, rpc_arrivee, rpc_depart, stations_taxi
+INSEE_69387;69387;Lyon 7e Arrondissement;Métropole de Lyon;69;France;chantiers, comptage_sites, rpc_arrivee, rpc_depart, stations_taxi
+INSEE_69388;69388;Lyon 8e Arrondissement;Métropole de Lyon;69;France;chantiers, rpc_arrivee, rpc_depart, stations_taxi
+INSEE_69389;69389;Lyon 9e Arrondissement;Métropole de Lyon;69;France;chantiers, comptage_sites, rpc_arrivee, rpc_depart, stations_taxi
+INSEE_69600;69600;69600;;69;France;comptage_sites
+INSEE_69700;69700;69700;;69;France;comptage_sites
+INSEE_71072;71072;Cersot;CC Sud Côte Chalonnaise;71;France;rpc_depart
+INSEE_71090;71090;La Chapelle-de-Guinchay;Communauté d'agglomération Mâconnais Beaujolais Agglomération;71;France;rpc_arrivee, rpc_depart
+INSEE_71105;71105;Charnay-lès-Mâcon;Communauté d'agglomération Mâconnais Beaujolais Agglomération;71;France;rpc_arrivee, rpc_depart
+INSEE_71270;71270;Mâcon;Communauté d'agglomération Mâconnais Beaujolais Agglomération;71;France;rpc_arrivee, rpc_depart
+INSEE_71360;71360;Prissé;Communauté d'agglomération Mâconnais Beaujolais Agglomération;71;France;rpc_arrivee
+INSEE_71383;71383;Saint-Albain;Communauté de communes Mâconnais - Tournugeois;71;France;rpc_arrivee
+INSEE_71520;71520;Sevrey;Communauté d'agglomération Le Grand Chalon;71;France;rpc_arrivee, rpc_depart
+INSEE_71543;71543;Tournus;Communauté de communes Mâconnais - Tournugeois;71;France;rpc_arrivee
+INSEE_73008;73008;Aix-les-Bains;Communauté d'agglomération Grand Lac;73;France;rpc_depart
+INSEE_73029;73029;Barberaz;Communauté d'agglomération du Grand Chambéry;73;France;rpc_arrivee, rpc_depart
+INSEE_73065;73065;Chambéry;Communauté d'agglomération du Grand Chambéry;73;France;rpc_arrivee, rpc_depart
+INSEE_73103;73103;Drumettaz-Clarafond;CA Grand Lac;73;France;rpc_arrivee
+INSEE_73179;73179;La Motte-Servolex;Communauté d'agglomération du Grand Chambéry;73;France;rpc_arrivee, rpc_depart
+INSEE_73182;73182;Mouxy;CA Grand Lac;73;France;rpc_depart
+INSEE_73184;73184;Nances;Communauté de communes du Lac d'Aiguebelette (CCLA);73;France;rpc_arrivee, rpc_depart
+INSEE_73213;73213;La Ravoire;Communauté d'agglomération du Grand Chambéry;73;France;rpc_arrivee, rpc_depart
+INSEE_73219;73219;Saint-Alban-de-Montbel;Communauté de communes du Lac d'Aiguebelette (CCLA);73;France;rpc_depart
+INSEE_73222;73222;Saint-Alban-Leysse;Communauté d'agglomération du Grand Chambéry;73;France;rpc_arrivee
+INSEE_74002;74002;Alby-sur-Chéran;Communauté d'agglomération du Grand Annecy;74;France;rpc_arrivee, rpc_depart
+INSEE_74010;74010;Annecy;Communauté d'agglomération du Grand Annecy;74;France;rpc_depart
+INSEE_74016;74016;Archamps;CC du Genevois;74;France;rpc_depart

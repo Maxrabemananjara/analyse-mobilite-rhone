@@ -1,0 +1,1317 @@
+{
+  "vue_ensemble": {
+    "lignes_fact_trajets": 74795,
+    "journey_id_distincts": 74790,
+    "distance_moyenne_km": 23.22,
+    "distance_mediane_km": 20.98,
+    "duree_moyenne_min": 23.37,
+    "duree_mediane_min": 22.0,
+    "revenu_moyen_estime_eur": 28.45,
+    "revenu_median_estime_eur": 25.3,
+    "revenu_total_estime_eur": 2127583.7,
+    "par_mois": {
+      "Janvier": 23845,
+      "Fevrier": 22710,
+      "Mars": 28240
+    }
+  },
+  "demande_temporelle": {
+    "depart_par_jour": [
+      {
+        "key": "Mardi",
+        "value": 17116
+      },
+      {
+        "key": "Lundi",
+        "value": 16076
+      },
+      {
+        "key": "Jeudi",
+        "value": 13886
+      },
+      {
+        "key": "Mercredi",
+        "value": 12581
+      },
+      {
+        "key": "Vendredi",
+        "value": 9605
+      },
+      {
+        "key": "Samedi",
+        "value": 3130
+      },
+      {
+        "key": "Dimanche",
+        "value": 2401
+      }
+    ],
+    "depart_par_tranche": [
+      {
+        "key": "08h-12h",
+        "value": 29866
+      },
+      {
+        "key": "16h-20h",
+        "value": 26994
+      },
+      {
+        "key": "12h-16h",
+        "value": 6052
+      },
+      {
+        "key": "04h-08h",
+        "value": 5753
+      },
+      {
+        "key": "20h-00h",
+        "value": 5333
+      },
+      {
+        "key": "00h-04h",
+        "value": 797
+      }
+    ],
+    "arrivee_par_jour": [
+      {
+        "key": "Mardi",
+        "value": 17119
+      },
+      {
+        "key": "Lundi",
+        "value": 16062
+      },
+      {
+        "key": "Jeudi",
+        "value": 13896
+      },
+      {
+        "key": "Mercredi",
+        "value": 12577
+      },
+      {
+        "key": "Vendredi",
+        "value": 9606
+      },
+      {
+        "key": "Samedi",
+        "value": 3114
+      },
+      {
+        "key": "Dimanche",
+        "value": 2421
+      }
+    ],
+    "arrivee_par_tranche": [
+      {
+        "key": "08h-12h",
+        "value": 32493
+      },
+      {
+        "key": "16h-20h",
+        "value": 26199
+      },
+      {
+        "key": "20h-00h",
+        "value": 6308
+      },
+      {
+        "key": "12h-16h",
+        "value": 5933
+      },
+      {
+        "key": "04h-08h",
+        "value": 2970
+      },
+      {
+        "key": "00h-04h",
+        "value": 892
+      }
+    ],
+    "top_heatmap_depart": [
+      {
+        "jour": "Mardi",
+        "tranche": "08h-12h",
+        "trajets": 7442
+      },
+      {
+        "jour": "Lundi",
+        "tranche": "08h-12h",
+        "trajets": 6821
+      },
+      {
+        "jour": "Mardi",
+        "tranche": "16h-20h",
+        "trajets": 6371
+      },
+      {
+        "jour": "Lundi",
+        "tranche": "16h-20h",
+        "trajets": 6082
+      },
+      {
+        "jour": "Jeudi",
+        "tranche": "08h-12h",
+        "trajets": 5752
+      },
+      {
+        "jour": "Mercredi",
+        "tranche": "08h-12h",
+        "trajets": 5258
+      },
+      {
+        "jour": "Jeudi",
+        "tranche": "16h-20h",
+        "trajets": 5112
+      },
+      {
+        "jour": "Mercredi",
+        "tranche": "16h-20h",
+        "trajets": 4642
+      },
+      {
+        "jour": "Vendredi",
+        "tranche": "08h-12h",
+        "trajets": 3705
+      },
+      {
+        "jour": "Vendredi",
+        "tranche": "16h-20h",
+        "trajets": 3148
+      },
+      {
+        "jour": "Mardi",
+        "tranche": "04h-08h",
+        "trajets": 1297
+      },
+      {
+        "jour": "Lundi",
+        "tranche": "04h-08h",
+        "trajets": 1253
+      }
+    ],
+    "top_heatmap_arrivee": [
+      {
+        "jour": "Mardi",
+        "tranche": "08h-12h",
+        "trajets": 8144
+      },
+      {
+        "jour": "Lundi",
+        "tranche": "08h-12h",
+        "trajets": 7493
+      },
+      {
+        "jour": "Jeudi",
+        "tranche": "08h-12h",
+        "trajets": 6294
+      },
+      {
+        "jour": "Mardi",
+        "tranche": "16h-20h",
+        "trajets": 6124
+      },
+      {
+        "jour": "Lundi",
+        "tranche": "16h-20h",
+        "trajets": 5829
+      },
+      {
+        "jour": "Mercredi",
+        "tranche": "08h-12h",
+        "trajets": 5663
+      },
+      {
+        "jour": "Jeudi",
+        "tranche": "16h-20h",
+        "trajets": 4979
+      },
+      {
+        "jour": "Mercredi",
+        "tranche": "16h-20h",
+        "trajets": 4548
+      },
+      {
+        "jour": "Vendredi",
+        "tranche": "08h-12h",
+        "trajets": 4051
+      },
+      {
+        "jour": "Vendredi",
+        "tranche": "16h-20h",
+        "trajets": 3136
+      },
+      {
+        "jour": "Mardi",
+        "tranche": "20h-00h",
+        "trajets": 1300
+      },
+      {
+        "jour": "Lundi",
+        "tranche": "20h-00h",
+        "trajets": 1278
+      }
+    ]
+  },
+  "demande_geographique": {
+    "top_depart_global": [
+      {
+        "key": "Villeurbanne",
+        "value": 5081
+      },
+      {
+        "key": "Bron",
+        "value": 4621
+      },
+      {
+        "key": "Saint-Priest",
+        "value": 4318
+      },
+      {
+        "key": "Bourgoin-Jallieu",
+        "value": 3620
+      },
+      {
+        "key": "Écully",
+        "value": 3233
+      },
+      {
+        "key": "Lyon 7e Arrondissement",
+        "value": 2702
+      },
+      {
+        "key": "Marcy-l'Étoile",
+        "value": 2695
+      },
+      {
+        "key": "Lyon 2e Arrondissement",
+        "value": 2159
+      },
+      {
+        "key": "Lyon 8e Arrondissement",
+        "value": 2127
+      },
+      {
+        "key": "Vénissieux",
+        "value": 1636
+      },
+      {
+        "key": "Lyon 9e Arrondissement",
+        "value": 1588
+      },
+      {
+        "key": "Lyon 3e Arrondissement",
+        "value": 1565
+      },
+      {
+        "key": "Villefontaine",
+        "value": 1433
+      },
+      {
+        "key": "Vaulx-en-Velin",
+        "value": 1367
+      },
+      {
+        "key": "Meyzieu",
+        "value": 1314
+      }
+    ],
+    "top_arrivee_global": [
+      {
+        "key": "Bron",
+        "value": 5088
+      },
+      {
+        "key": "Saint-Priest",
+        "value": 4784
+      },
+      {
+        "key": "Villeurbanne",
+        "value": 4659
+      },
+      {
+        "key": "Écully",
+        "value": 4381
+      },
+      {
+        "key": "Bourgoin-Jallieu",
+        "value": 3196
+      },
+      {
+        "key": "Marcy-l'Étoile",
+        "value": 3066
+      },
+      {
+        "key": "Lyon 7e Arrondissement",
+        "value": 2439
+      },
+      {
+        "key": "Lyon 2e Arrondissement",
+        "value": 1906
+      },
+      {
+        "key": "Lyon 8e Arrondissement",
+        "value": 1788
+      },
+      {
+        "key": "Lyon 9e Arrondissement",
+        "value": 1572
+      },
+      {
+        "key": "Vénissieux",
+        "value": 1511
+      },
+      {
+        "key": "Vaulx-en-Velin",
+        "value": 1445
+      },
+      {
+        "key": "Meyzieu",
+        "value": 1404
+      },
+      {
+        "key": "Villefontaine",
+        "value": 1366
+      },
+      {
+        "key": "Lyon 3e Arrondissement",
+        "value": 1346
+      }
+    ],
+    "top_depart_metropole_lyon": [
+      {
+        "key": "Villeurbanne",
+        "value": 5081
+      },
+      {
+        "key": "Bron",
+        "value": 4621
+      },
+      {
+        "key": "Saint-Priest",
+        "value": 4318
+      },
+      {
+        "key": "Écully",
+        "value": 3233
+      },
+      {
+        "key": "Lyon 7e Arrondissement",
+        "value": 2702
+      },
+      {
+        "key": "Marcy-l'Étoile",
+        "value": 2695
+      },
+      {
+        "key": "Lyon 2e Arrondissement",
+        "value": 2159
+      },
+      {
+        "key": "Lyon 8e Arrondissement",
+        "value": 2127
+      },
+      {
+        "key": "Vénissieux",
+        "value": 1636
+      },
+      {
+        "key": "Lyon 9e Arrondissement",
+        "value": 1588
+      },
+      {
+        "key": "Lyon 3e Arrondissement",
+        "value": 1565
+      },
+      {
+        "key": "Vaulx-en-Velin",
+        "value": 1367
+      },
+      {
+        "key": "Meyzieu",
+        "value": 1314
+      },
+      {
+        "key": "Givors",
+        "value": 1020
+      },
+      {
+        "key": "Oullins-Pierre-Bénite",
+        "value": 962
+      }
+    ],
+    "top_arrivee_metropole_lyon": [
+      {
+        "key": "Bron",
+        "value": 5088
+      },
+      {
+        "key": "Saint-Priest",
+        "value": 4784
+      },
+      {
+        "key": "Villeurbanne",
+        "value": 4659
+      },
+      {
+        "key": "Écully",
+        "value": 4381
+      },
+      {
+        "key": "Marcy-l'Étoile",
+        "value": 3066
+      },
+      {
+        "key": "Lyon 7e Arrondissement",
+        "value": 2439
+      },
+      {
+        "key": "Lyon 2e Arrondissement",
+        "value": 1906
+      },
+      {
+        "key": "Lyon 8e Arrondissement",
+        "value": 1788
+      },
+      {
+        "key": "Lyon 9e Arrondissement",
+        "value": 1572
+      },
+      {
+        "key": "Vénissieux",
+        "value": 1511
+      },
+      {
+        "key": "Vaulx-en-Velin",
+        "value": 1445
+      },
+      {
+        "key": "Meyzieu",
+        "value": 1404
+      },
+      {
+        "key": "Lyon 3e Arrondissement",
+        "value": 1346
+      },
+      {
+        "key": "Solaize",
+        "value": 1305
+      },
+      {
+        "key": "Givors",
+        "value": 1018
+      }
+    ],
+    "communes_excedent_depart": [
+      {
+        "commune": "Villeurbanne",
+        "depart_moins_arrivee": 422
+      },
+      {
+        "commune": "Lyon 8e Arrondissement",
+        "depart_moins_arrivee": 339
+      },
+      {
+        "commune": "Lyon 5e Arrondissement",
+        "depart_moins_arrivee": 291
+      },
+      {
+        "commune": "Lyon 7e Arrondissement",
+        "depart_moins_arrivee": 263
+      },
+      {
+        "commune": "Lyon 2e Arrondissement",
+        "depart_moins_arrivee": 253
+      },
+      {
+        "commune": "Lyon 1er Arrondissement",
+        "depart_moins_arrivee": 231
+      },
+      {
+        "commune": "Lyon 3e Arrondissement",
+        "depart_moins_arrivee": 219
+      },
+      {
+        "commune": "Vénissieux",
+        "depart_moins_arrivee": 125
+      },
+      {
+        "commune": "Sainte-Foy-lès-Lyon",
+        "depart_moins_arrivee": 122
+      },
+      {
+        "commune": "Tassin-la-Demi-Lune",
+        "depart_moins_arrivee": 96
+      },
+      {
+        "commune": "Fontaines-sur-Saône",
+        "depart_moins_arrivee": 78
+      },
+      {
+        "commune": "La Tour-de-Salvagny",
+        "depart_moins_arrivee": 67
+      },
+      {
+        "commune": "Mions",
+        "depart_moins_arrivee": 66
+      },
+      {
+        "commune": "Rillieux-la-Pape",
+        "depart_moins_arrivee": 63
+      },
+      {
+        "commune": "Caluire-et-Cuire",
+        "depart_moins_arrivee": 59
+      }
+    ],
+    "communes_excedent_arrivee": [
+      {
+        "commune": "Écully",
+        "arrivee_moins_depart": 1148
+      },
+      {
+        "commune": "Bron",
+        "arrivee_moins_depart": 467
+      },
+      {
+        "commune": "Saint-Priest",
+        "arrivee_moins_depart": 466
+      },
+      {
+        "commune": "Marcy-l'Étoile",
+        "arrivee_moins_depart": 371
+      },
+      {
+        "commune": "Solaize",
+        "arrivee_moins_depart": 359
+      },
+      {
+        "commune": "Corbas",
+        "arrivee_moins_depart": 234
+      },
+      {
+        "commune": "Chassieu",
+        "arrivee_moins_depart": 201
+      },
+      {
+        "commune": "Jonage",
+        "arrivee_moins_depart": 94
+      },
+      {
+        "commune": "Saint-Genis-Laval",
+        "arrivee_moins_depart": 91
+      },
+      {
+        "commune": "Meyzieu",
+        "arrivee_moins_depart": 90
+      },
+      {
+        "commune": "Saint-Fons",
+        "arrivee_moins_depart": 86
+      },
+      {
+        "commune": "Champagne-au-Mont-d'Or",
+        "arrivee_moins_depart": 83
+      },
+      {
+        "commune": "Vaulx-en-Velin",
+        "arrivee_moins_depart": 78
+      },
+      {
+        "commune": "Décines-Charpieu",
+        "arrivee_moins_depart": 73
+      },
+      {
+        "commune": "Dardilly",
+        "arrivee_moins_depart": 58
+      }
+    ]
+  },
+  "origine_destination": {
+    "top_od": [
+      {
+        "od": "Bourgoin-Jallieu -> Bron",
+        "trajets": 2164
+      },
+      {
+        "od": "Bron -> Bourgoin-Jallieu",
+        "trajets": 1851
+      },
+      {
+        "od": "Villefontaine -> Bron",
+        "trajets": 1083
+      },
+      {
+        "od": "Bron -> Villefontaine",
+        "trajets": 1004
+      },
+      {
+        "od": "Lyon 2e Arrondissement -> Écully",
+        "trajets": 978
+      },
+      {
+        "od": "Bourgoin-Jallieu -> Saint-Priest",
+        "trajets": 939
+      },
+      {
+        "od": "Saint-Priest -> Bourgoin-Jallieu",
+        "trajets": 875
+      },
+      {
+        "od": "Écully -> Lyon 2e Arrondissement",
+        "trajets": 805
+      },
+      {
+        "od": "Lyon 5e Arrondissement -> Écully",
+        "trajets": 452
+      },
+      {
+        "od": "Lyon 9e Arrondissement -> Écully",
+        "trajets": 444
+      },
+      {
+        "od": "Villeurbanne -> Saint-Priest",
+        "trajets": 420
+      },
+      {
+        "od": "Saint-Priest -> Bron",
+        "trajets": 382
+      },
+      {
+        "od": "Lyon 1er Arrondissement -> Écully",
+        "trajets": 361
+      },
+      {
+        "od": "Lyon 7e Arrondissement -> Écully",
+        "trajets": 361
+      },
+      {
+        "od": "Villeurbanne -> Sainte-Julie",
+        "trajets": 308
+      },
+      {
+        "od": "Lyon 3e Arrondissement -> Écully",
+        "trajets": 305
+      },
+      {
+        "od": "Sainte-Julie -> Villeurbanne",
+        "trajets": 290
+      },
+      {
+        "od": "Lyon 7e Arrondissement -> Solaize",
+        "trajets": 288
+      },
+      {
+        "od": "Tassin-la-Demi-Lune -> Marcy-l'Étoile",
+        "trajets": 285
+      },
+      {
+        "od": "Saint-Étienne -> Saint-Priest",
+        "trajets": 271
+      }
+    ]
+  },
+  "rentabilite": {
+    "top_od_revenu_moyen_min_50_trajets": [
+      {
+        "od": "Saint-Priest -> Saint-Étienne",
+        "trajets": 267,
+        "revenu_moyen": 74.38,
+        "distance_moyenne_km": 66.01,
+        "duree_moyenne_min": 55.99,
+        "revenu_total": 19858.62
+      },
+      {
+        "od": "Saint-Étienne -> Saint-Priest",
+        "trajets": 271,
+        "revenu_moyen": 70.3,
+        "distance_moyenne_km": 66.43,
+        "duree_moyenne_min": 54.69,
+        "revenu_total": 19050.13
+      },
+      {
+        "od": "Gleizé -> Lyon 2e Arrondissement",
+        "trajets": 87,
+        "revenu_moyen": 60.25,
+        "distance_moyenne_km": 40.43,
+        "duree_moyenne_min": 33.49,
+        "revenu_total": 5241.54
+      },
+      {
+        "od": "Gleizé -> Lyon 7e Arrondissement",
+        "trajets": 66,
+        "revenu_moyen": 60.07,
+        "distance_moyenne_km": 40.63,
+        "duree_moyenne_min": 31.36,
+        "revenu_total": 3964.89
+      },
+      {
+        "od": "Écully -> Balan",
+        "trajets": 59,
+        "revenu_moyen": 59.08,
+        "distance_moyenne_km": 38.2,
+        "duree_moyenne_min": 34.22,
+        "revenu_total": 3486.0
+      },
+      {
+        "od": "Saint-Priest -> Chanas",
+        "trajets": 61,
+        "revenu_moyen": 58.5,
+        "distance_moyenne_km": 54.54,
+        "duree_moyenne_min": 41.48,
+        "revenu_total": 3568.72
+      },
+      {
+        "od": "Satolas-et-Bonce -> Craponne",
+        "trajets": 75,
+        "revenu_moyen": 57.93,
+        "distance_moyenne_km": 36.71,
+        "duree_moyenne_min": 46.0,
+        "revenu_total": 4344.58
+      },
+      {
+        "od": "Chanas -> Saint-Priest",
+        "trajets": 60,
+        "revenu_moyen": 57.64,
+        "distance_moyenne_km": 54.54,
+        "duree_moyenne_min": 40.88,
+        "revenu_total": 3458.62
+      },
+      {
+        "od": "Janneyrias -> Feyzin",
+        "trajets": 60,
+        "revenu_moyen": 56.73,
+        "distance_moyenne_km": 40.46,
+        "duree_moyenne_min": 27.7,
+        "revenu_total": 3403.84
+      },
+      {
+        "od": "Lyon 6e Arrondissement -> La Balme-les-Grottes",
+        "trajets": 67,
+        "revenu_moyen": 55.79,
+        "distance_moyenne_km": 51.93,
+        "duree_moyenne_min": 42.19,
+        "revenu_total": 3737.9
+      }
+    ],
+    "top_od_revenu_total_min_50_trajets": [
+      {
+        "od": "Bron -> Bourgoin-Jallieu",
+        "trajets": 1851,
+        "revenu_moyen": 46.43,
+        "distance_moyenne_km": 36.58,
+        "duree_moyenne_min": 31.49,
+        "revenu_total": 85941.71
+      },
+      {
+        "od": "Bourgoin-Jallieu -> Bron",
+        "trajets": 2164,
+        "revenu_moyen": 39.24,
+        "distance_moyenne_km": 35.97,
+        "duree_moyenne_min": 34.27,
+        "revenu_total": 84926.06
+      },
+      {
+        "od": "Bron -> Villefontaine",
+        "trajets": 1004,
+        "revenu_moyen": 35.43,
+        "distance_moyenne_km": 28.59,
+        "duree_moyenne_min": 24.6,
+        "revenu_total": 35568.98
+      },
+      {
+        "od": "Villefontaine -> Bron",
+        "trajets": 1083,
+        "revenu_moyen": 32.03,
+        "distance_moyenne_km": 28.83,
+        "duree_moyenne_min": 27.43,
+        "revenu_total": 34685.75
+      },
+      {
+        "od": "Bourgoin-Jallieu -> Saint-Priest",
+        "trajets": 939,
+        "revenu_moyen": 33.94,
+        "distance_moyenne_km": 30.36,
+        "duree_moyenne_min": 23.78,
+        "revenu_total": 31872.51
+      },
+      {
+        "od": "Saint-Priest -> Bourgoin-Jallieu",
+        "trajets": 875,
+        "revenu_moyen": 36.28,
+        "distance_moyenne_km": 30.38,
+        "duree_moyenne_min": 21.83,
+        "revenu_total": 31744.92
+      },
+      {
+        "od": "Saint-Priest -> Saint-Étienne",
+        "trajets": 267,
+        "revenu_moyen": 74.38,
+        "distance_moyenne_km": 66.01,
+        "duree_moyenne_min": 55.99,
+        "revenu_total": 19858.62
+      },
+      {
+        "od": "Saint-Étienne -> Saint-Priest",
+        "trajets": 271,
+        "revenu_moyen": 70.3,
+        "distance_moyenne_km": 66.43,
+        "duree_moyenne_min": 54.69,
+        "revenu_total": 19050.13
+      },
+      {
+        "od": "La Balme-les-Grottes -> Villeurbanne",
+        "trajets": 241,
+        "revenu_moyen": 52.41,
+        "distance_moyenne_km": 48.83,
+        "duree_moyenne_min": 40.92,
+        "revenu_total": 12630.86
+      },
+      {
+        "od": "Lyon 2e Arrondissement -> Écully",
+        "trajets": 978,
+        "revenu_moyen": 12.58,
+        "distance_moyenne_km": 9.05,
+        "duree_moyenne_min": 13.05,
+        "revenu_total": 12303.4
+      }
+    ],
+    "top_communes_depart_revenu_moyen_min_200_trajets": [
+      {
+        "commune": "Saint-Étienne",
+        "trajets": 466,
+        "revenu_moyen": 63.65,
+        "revenu_total": 29659.98
+      },
+      {
+        "commune": "Gleizé",
+        "trajets": 241,
+        "revenu_moyen": 60.46,
+        "revenu_total": 14570.69
+      },
+      {
+        "commune": "La Balme-les-Grottes",
+        "trajets": 498,
+        "revenu_moyen": 55.06,
+        "revenu_total": 27419.6
+      },
+      {
+        "commune": "Saint-Vulbas",
+        "trajets": 210,
+        "revenu_moyen": 45.75,
+        "revenu_total": 9608.36
+      },
+      {
+        "commune": "Tarare",
+        "trajets": 249,
+        "revenu_moyen": 44.62,
+        "revenu_total": 11111.49
+      },
+      {
+        "commune": "Sainte-Julie",
+        "trajets": 459,
+        "revenu_moyen": 43.61,
+        "revenu_total": 20017.85
+      },
+      {
+        "commune": "Blyes",
+        "trajets": 204,
+        "revenu_moyen": 41.83,
+        "revenu_total": 8534.06
+      },
+      {
+        "commune": "Chassieu",
+        "trajets": 372,
+        "revenu_moyen": 38.58,
+        "revenu_total": 14351.2
+      },
+      {
+        "commune": "Bourgoin-Jallieu",
+        "trajets": 3620,
+        "revenu_moyen": 38.57,
+        "revenu_total": 139627.09
+      },
+      {
+        "commune": "Vienne",
+        "trajets": 806,
+        "revenu_moyen": 36.23,
+        "revenu_total": 29201.18
+      },
+      {
+        "commune": "Villefranche-sur-Saône",
+        "trajets": 544,
+        "revenu_moyen": 36.18,
+        "revenu_total": 19683.24
+      },
+      {
+        "commune": "Bron",
+        "trajets": 4621,
+        "revenu_moyen": 35.67,
+        "revenu_total": 164844.92
+      },
+      {
+        "commune": "Colombier-Saugnieu",
+        "trajets": 231,
+        "revenu_moyen": 34.3,
+        "revenu_total": 7923.77
+      },
+      {
+        "commune": "Pont-Évêque",
+        "trajets": 350,
+        "revenu_moyen": 34.23,
+        "revenu_total": 11981.08
+      },
+      {
+        "commune": "Jonage",
+        "trajets": 535,
+        "revenu_moyen": 33.26,
+        "revenu_total": 17792.36
+      }
+    ]
+  },
+  "meteo": {
+    "pluie_rr_vs_trajets": 0.17762103840436938,
+    "temperature_moyenne_vs_trajets": 0.3122864803037799,
+    "vent_rafale_fxy_vs_trajets": 0.22755159791070867,
+    "nb_jours_avec_meteo_bron": 90,
+    "trajets_moyen_jour_pluie": 838.4878048780488,
+    "trajets_moyen_jour_sec": 824.8367346938776,
+    "nb_jours_pluie": 41,
+    "nb_jours_secs": 49,
+    "trajets_moyen_jour_froid_tm_lt_5": 602.1428571428571,
+    "trajets_moyen_jour_tm_gte_5": 900.7246376811594,
+    "nb_jours_froids": 21
+  },
+  "travaux": {
+    "trajets_depart_avec_chantier_commune_jour": 24794,
+    "trajets_depart_sans_chantier_commune_jour": 50001,
+    "duree_moyenne_avec_chantier": 21.98,
+    "duree_moyenne_sans_chantier": 24.06,
+    "distance_moyenne_avec_chantier": 21.01,
+    "distance_moyenne_sans_chantier": 24.31,
+    "revenu_moyen_avec_chantier": 26.11,
+    "revenu_moyen_sans_chantier": 29.6,
+    "top_communes_jours_chantiers_actifs": [
+      {
+        "key": "INSEE_69266",
+        "value": 780
+      },
+      {
+        "key": "INSEE_69256",
+        "value": 545
+      },
+      {
+        "key": "INSEE_69387",
+        "value": 366
+      },
+      {
+        "key": "INSEE_69259",
+        "value": 340
+      },
+      {
+        "key": "INSEE_69383",
+        "value": 305
+      },
+      {
+        "key": "INSEE_69029",
+        "value": 222
+      },
+      {
+        "key": "INSEE_69389",
+        "value": 186
+      },
+      {
+        "key": "INSEE_69385",
+        "value": 180
+      },
+      {
+        "key": "INSEE_69194",
+        "value": 180
+      },
+      {
+        "key": "INSEE_69286",
+        "value": 145
+      },
+      {
+        "key": "INSEE_69388",
+        "value": 144
+      },
+      {
+        "key": "INSEE_69271",
+        "value": 141
+      },
+      {
+        "key": "INSEE_69381",
+        "value": 120
+      },
+      {
+        "key": "INSEE_69382",
+        "value": 99
+      },
+      {
+        "key": "INSEE_69386",
+        "value": 96
+      }
+    ]
+  },
+  "offre_taxi": {
+    "top_communes_sans_station_par_demande_depart_mdl": [
+      {
+        "commune": "Marcy-l'Étoile",
+        "trajets_depart": 2695,
+        "stations": 0,
+        "emplacements": 0,
+        "trajets_par_emplacement": null
+      },
+      {
+        "commune": "Solaize",
+        "trajets_depart": 946,
+        "stations": 0,
+        "emplacements": 0,
+        "trajets_par_emplacement": null
+      },
+      {
+        "commune": "Craponne",
+        "trajets_depart": 699,
+        "stations": 0,
+        "emplacements": 0,
+        "trajets_par_emplacement": null
+      },
+      {
+        "commune": "Jonage",
+        "trajets_depart": 535,
+        "stations": 0,
+        "emplacements": 0,
+        "trajets_par_emplacement": null
+      },
+      {
+        "commune": "Feyzin",
+        "trajets_depart": 380,
+        "stations": 0,
+        "emplacements": 0,
+        "trajets_par_emplacement": null
+      },
+      {
+        "commune": "Irigny",
+        "trajets_depart": 207,
+        "stations": 0,
+        "emplacements": 0,
+        "trajets_par_emplacement": null
+      },
+      {
+        "commune": "Albigny-sur-Saône",
+        "trajets_depart": 145,
+        "stations": 0,
+        "emplacements": 0,
+        "trajets_par_emplacement": null
+      },
+      {
+        "commune": "Francheville",
+        "trajets_depart": 139,
+        "stations": 0,
+        "emplacements": 0,
+        "trajets_par_emplacement": null
+      },
+      {
+        "commune": "Grigny-sur-Rhône",
+        "trajets_depart": 102,
+        "stations": 0,
+        "emplacements": 0,
+        "trajets_par_emplacement": null
+      },
+      {
+        "commune": "Saint-Genis-les-Ollières",
+        "trajets_depart": 92,
+        "stations": 0,
+        "emplacements": 0,
+        "trajets_par_emplacement": null
+      },
+      {
+        "commune": "Saint-Cyr-au-Mont-d'Or",
+        "trajets_depart": 82,
+        "stations": 0,
+        "emplacements": 0,
+        "trajets_par_emplacement": null
+      },
+      {
+        "commune": "La Mulatière",
+        "trajets_depart": 74,
+        "stations": 0,
+        "emplacements": 0,
+        "trajets_par_emplacement": null
+      },
+      {
+        "commune": "Montanay",
+        "trajets_depart": 64,
+        "stations": 0,
+        "emplacements": 0,
+        "trajets_par_emplacement": null
+      },
+      {
+        "commune": "Charly",
+        "trajets_depart": 51,
+        "stations": 0,
+        "emplacements": 0,
+        "trajets_par_emplacement": null
+      },
+      {
+        "commune": "Sathonay-Village",
+        "trajets_depart": 32,
+        "stations": 0,
+        "emplacements": 0,
+        "trajets_par_emplacement": null
+      }
+    ],
+    "top_pression_trajets_par_emplacement": [
+      {
+        "commune": "Saint-Priest",
+        "trajets_depart": 4318,
+        "stations": 1,
+        "emplacements": 2,
+        "trajets_par_emplacement": 2159.0
+      },
+      {
+        "commune": "Givors",
+        "trajets_depart": 1020,
+        "stations": 1,
+        "emplacements": 1,
+        "trajets_par_emplacement": 1020.0
+      },
+      {
+        "commune": "Limonest",
+        "trajets_depart": 833,
+        "stations": 1,
+        "emplacements": 1,
+        "trajets_par_emplacement": 833.0
+      },
+      {
+        "commune": "Écully",
+        "trajets_depart": 3233,
+        "stations": 1,
+        "emplacements": 6,
+        "trajets_par_emplacement": 538.83
+      },
+      {
+        "commune": "Meyzieu",
+        "trajets_depart": 1314,
+        "stations": 1,
+        "emplacements": 3,
+        "trajets_par_emplacement": 438.0
+      },
+      {
+        "commune": "Dardilly",
+        "trajets_depart": 746,
+        "stations": 1,
+        "emplacements": 2,
+        "trajets_par_emplacement": 373.0
+      },
+      {
+        "commune": "Corbas",
+        "trajets_depart": 355,
+        "stations": 1,
+        "emplacements": 1,
+        "trajets_par_emplacement": 355.0
+      },
+      {
+        "commune": "Vaulx-en-Velin",
+        "trajets_depart": 1367,
+        "stations": 2,
+        "emplacements": 4,
+        "trajets_par_emplacement": 341.75
+      },
+      {
+        "commune": "Vénissieux",
+        "trajets_depart": 1636,
+        "stations": 1,
+        "emplacements": 5,
+        "trajets_par_emplacement": 327.2
+      },
+      {
+        "commune": "Fontaines-sur-Saône",
+        "trajets_depart": 264,
+        "stations": 1,
+        "emplacements": 1,
+        "trajets_par_emplacement": 264.0
+      },
+      {
+        "commune": "Mions",
+        "trajets_depart": 222,
+        "stations": 1,
+        "emplacements": 1,
+        "trajets_par_emplacement": 222.0
+      },
+      {
+        "commune": "Sainte-Foy-lès-Lyon",
+        "trajets_depart": 423,
+        "stations": 1,
+        "emplacements": 2,
+        "trajets_par_emplacement": 211.5
+      },
+      {
+        "commune": "Décines-Charpieu",
+        "trajets_depart": 634,
+        "stations": 1,
+        "emplacements": 3,
+        "trajets_par_emplacement": 211.33
+      },
+      {
+        "commune": "Bron",
+        "trajets_depart": 4621,
+        "stations": 8,
+        "emplacements": 26,
+        "trajets_par_emplacement": 177.73
+      },
+      {
+        "commune": "Saint-Genis-Laval",
+        "trajets_depart": 502,
+        "stations": 1,
+        "emplacements": 3,
+        "trajets_par_emplacement": 167.33
+      }
+    ]
+  },
+  "comptages": {
+    "volume_par_mobility_type": [
+      {
+        "key": "BIKE",
+        "value": 12499686
+      },
+      {
+        "key": "PEDESTRIAN",
+        "value": 8365529
+      },
+      {
+        "key": "E-SCOOTER",
+        "value": 1717787
+      },
+      {
+        "key": "CAR",
+        "value": 598287
+      },
+      {
+        "key": "UNDEFINED",
+        "value": 37970
+      },
+      {
+        "key": "TWO WHEELS MOTORIZED",
+        "value": 21918
+      },
+      {
+        "key": "TRUCK",
+        "value": 9023
+      },
+      {
+        "key": "BUS",
+        "value": 8158
+      }
+    ],
+    "volume_par_tranche_horaire_id": {
+      "1": 825003,
+      "6": 2657594,
+      "5": 7354974,
+      "4": 5523815,
+      "3": 5293386,
+      "2": 1603586
+    }
+  }
+}

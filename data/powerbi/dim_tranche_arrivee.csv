@@ -1,0 +1,7 @@
+﻿tranche_arrivee_id;tranche_horaire_libelle;heure_debut;heure_fin;ordre_tranche
+1;00h-04h;0;4;1
+2;04h-08h;4;8;2
+3;08h-12h;8;12;3
+4;12h-16h;12;16;4
+5;16h-20h;16;20;5
+6;20h-00h;20;24;6
